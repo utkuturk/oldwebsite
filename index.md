@@ -1,14 +1,17 @@
 ---
 layout: page
-title: About
+title: Hi there 👋
 permalink: /
 ---
 
-{% include image.html url="images/utkuPhoto.jpg" caption="Sept 2016" width="300px" align="right" %}
+{% include image.html url="images/utkuPhoto.png" caption="Sept 2016" width="300px" align="right" %}
 
-### Hi there 👋
+- 🔭 I’m currently working on *Agreement attraction in Turkish*
+- 🌱 I’m currently learning *Stan and MPTs*
+- 📫 How to reach me: [utku.turk@boun.edu.tr]
+- 😄 Pronouns: he/him
 
-Hi, I am Utku Türk (he/him). I am an MA student in [the Department of Linguistics][dept], [Boğaziçi University][uni] under the supervision of [Pavel Logačev][pavel]. I mainly work in agrement attraction in Turkish. Currently, I focus on the effects of response bias in agreement attraction and whether or not everyone is affected uniformly by the bias-related manipulations. You can also check my [CV][cv] and [Google Scholar][gsoc]!
+I am Utku Türk. I am an MA student in [the Department of Linguistics][dept], [Boğaziçi University][uni] under the supervision of [Pavel Logačev][pavel]. I mainly work in agrement attraction in Turkish. Currently, I focus on the effects of response bias in agreement attraction and whether or not everyone is affected uniformly by the bias-related manipulations. You can also check my [CV][cv] and [Google Scholar][gsoc]!
   
 In my department, I also work as a Research/Teaching assistant. My responsibilities included TA'ing classes, working in projects within the department, and help the department in administrative issues.
   

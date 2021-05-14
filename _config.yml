@@ -1,6 +1,6 @@
-title: Gaurav Chaurasia
-description: Gaurav Chaurasia's webpage
-sourcecode: "https://github.com/gchauras/gchauras.github.io"
+title: Utku Turk
+description: Utku Turk's webpage
+sourcecode: "https://github.com/utkuturk/utkuturk.github.io"
 
 permalink: blog/:year/:month/:day/:title
 exclude: ["Makefile", "README.md"]
@@ -11,9 +11,8 @@ baseurl: ""                     # the subpath of your site, e.g. /blog
 # baseurl: ""
 
 author:
-    name: Gaurav Chaurasia
-    facebook: gchauras
-    scholar: pBaL_DgAAAAJ
+    name: Utku Türk
+    scholar: wa7LG9gAAAAJ
 
 # Build settings
 markdown: kramdown
@@ -24,12 +23,7 @@ highlighter: rouge
 # Set 'provider' to false to turn analytics off globally.
 #
 analytics:
-    provider: statcounter
-    statcounter:
-        sc_project  : 5896371
-        sc_security : a84acdc5
-        sc_invisible: 1
-        sc_text     : 2
+    provider: false
     google:
         tracking_id: ''
     getclicky:
@@ -45,7 +39,7 @@ analytics:
 # Set 'provider' to false to turn commenting off globally.
 #
 comments:
-    provider:
+    provider: false
     disqus:
       short_name:
     livefyre:

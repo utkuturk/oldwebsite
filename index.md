@@ -4,7 +4,7 @@ title: Hi there 👋
 permalink: /
 ---
 
-{% include image.html url="images/utkuPhoto.png" caption="Sept 2016" width="300px" align="right" %}
+{% include image.html url="images/utkuPhoto.png" caption="Nov 2020" width="300px" align="right" %}
 
 - 🔭 I’m currently working on *Agreement attraction in Turkish*
 - 🌱 I’m currently learning *Stan and MPTs*

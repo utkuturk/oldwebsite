@@ -1,14 +1,18 @@
-- title: "Research"
+- title: "research"
   href: "/research/"
 
-- title: "CV"
+- title: "teaching"
+  href: "/blog/"
+
+
+- title: "cv"
   href: "/cv/"
 
-- title: "Misc"
-  href: "/misc/"
+- title: "blog"
+  href: "/blog/"
 
-  # - title: "Blog"
-  #   href: "/blog/"
+- title: "misc"
+  href: "/misc/"
 
   # subcategories:
   #  - subtitle: "Item 1"

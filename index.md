@@ -4,33 +4,46 @@ title: About
 permalink: /
 ---
 
-{% include image.html url="images/profile_1.jpg" caption="Sept 2016" width="300px" align="right" %}
+{% include image.html url="images/utkuPhoto.jpg" caption="Sept 2016" width="300px" align="right" %}
 
-I work at [Oculus] on VR and related problems.
-I was a postdoc first at [MIT] with [Fredo Durand] and [Sylvain Paris],
-and then in the vision and robotics group at [Disney Research Zurich]. I completed
-my PhD under the guidance of [George Drettakis] at [INRIA] in the beautiful French
-Riviera. I obtained my Masters degree in computer science at [ENSIMAG]. In an
-earlier life, I used to be an undergrad at [Indian Institute of Technology Delhi].
+### Hi there 👋
 
-Email: [gchauras@fb.com] (Facebook related communication) <br />
-Email: [gchauras@csail.mit.edu] (others)
+Hi, I am Utku Türk (he/him). I am an MA student in [the Department of Linguistics][dept], [Boğaziçi University][uni] under the supervision of [Pavel Logačev][pavel]. I mainly work in agrement attraction in Turkish. Currently, I focus on the effects of response bias in agreement attraction and whether or not everyone is affected uniformly by the bias-related manipulations. You can also check my [CV][cv] and [Google Scholar][gsoc]!
+  
+In my department, I also work as a Research/Teaching assistant. My responsibilities included TA'ing classes, working in projects within the department, and help the department in administrative issues.
+  
+I am interested in morphology and its interaction with semantics and phonology. I was lucky to join [Pavel Caha][caha] at [Masaryk University][mas] to work on various topics including Turkish case syncretism, augmentatives, and suspended affixation.
+  
+I am an [Universal Dependencies][ud] enthusiast. I participated in the creation Turkish and Laz treebanks. I am currently working on a Romeyka and Ladino treebanks.
+  
+In my freetime, I usually play games on [Steam][steam] or take amateur [photographs][flickr]. My favorite food is [gata][gata] with koritz and my favorite icecream flavor is [saffron and rose][rose].
+  
+  [gsoc]:   https://scholar.google.com/citations?hl=tr&user=wa7LG9gAAAAJ
+  [dept]:   http://linguistics.boun.edu.tr
+  [uni]:    http://www.boun.edu.tr
+  [pavel]:  http://plogacev.github.io
+  [gata]:   https://en.wikipedia.org/wiki/Gata_(food)
+  [rose]:   https://www.nytimes.com/2016/04/06/dining/saffron-and-rose-persian-ice-cream-shop-los-angeles.html
+  [steam]:  https://steamcommunity.com/id/lecagot
+  [flickr]: https://flickr.com/photos/97029582@N03/albums
+  [caha]:   https://www.muni.cz/en/people/53172-pavel-caha/cv
+  [mas]:    https://www.muni.cz/en
+  [ud]:     https://www.universaldependencies.org
+  [cv]:     files/cv.pdf
 
-You can find some professional details about me on [Google Scholar].
 
-My [academic lineage](files/GauravChaurasia_academic_lineage.pdf)
-includes some Gods (courtesy [Peter Vangorp]).
 
-[Disney Research Zurich]: http://www.disneyresearch.com/research-labs/disney-research-zurich/
-[INRIA]: https://team.inria.fr/graphdeco/
-[Indian Institute of Technology Delhi]: http://www.cse.iitd.ac.in
-[George Drettakis]: http://www-sop.inria.fr/members/George.Drettakis
-[ENSIMAG]: http://ensimag.grenoble-inp.fr
-[Fredo Durand]: http://people.csail.mit.edu/fredo/
-[Sylvain Paris]: http://people.csail.mit.edu/sparis/
-[MIT]: http://www.csail.mit.edu/
-[Oculus]: https://www.oculus.com/
-[Google Scholar]: http://scholar.google.com/citations?user={{site.author.scholar}}&hl=en&oi=ao
-[gchauras@csail.mit.edu]: mailto:gchauras@csail.mit.edu
-[gchauras@fb.com]: mailto:gchauras@fb.com
-[Peter Vangorp]: http://users.telenet.be/pvangorp/
+<!--
+**utkuturk/utkuturk** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+
+Here are some ideas to get you started:
+
+- 🔭 I’m currently working on ...
+- 🌱 I’m currently learning ...
+- 👯 I’m looking to collaborate on ...
+- 🤔 I’m looking for help with ...
+- 💬 Ask me about ...
+- 📫 How to reach me: ...
+- 😄 Pronouns: ...
+- ⚡ Fun fact: ...
+-->

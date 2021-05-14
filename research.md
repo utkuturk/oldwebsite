@@ -26,9 +26,9 @@ Jump to [Publications](#peer-reviewed-publications), [Talks](#talks), [Reviewing
 
 -----
 
-## Talks
 
-{% assign thumbnail="right" %}
+## Talks
+
 
 {% for talk in site.data.cv.conferences %}
 <!-- {% if pub.image %}

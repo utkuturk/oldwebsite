@@ -87,6 +87,7 @@ teaching:
       popul:  15
       school: Linguistics Dept, Bogazici University
       syl:    /files/syli/202_s20.pdf
+      notes:  with Furkan Dikmen
     - date:   Fall 2020
       title:  'Ling 203: Syntax'
       prof:   Balkız Öztürk
@@ -99,6 +100,7 @@ teaching:
       prof:   Metin Bağrıaçık
       role:   Teaching assistant
       popul:  15
+      notes:  'contributed minimally'
       school: Linguistics Dept, Bogazici University
       syl:    /files/syli/206_s20.pdf
     - date:   Fall 2018
@@ -115,6 +117,14 @@ teaching:
       popul:  15
       school: Linguistics Dept, Bogazici University
       syl:    /files/syli/313_f19.pdf
+    - date:   Fall 2020
+      title:  'Ling 313: Phonology & Morphology of Modern Turkish'
+      prof:   Metin Bağrıaçık
+      role:   Teaching assistant
+      popul:  15
+      school: Linguistics Dept, Bogazici University
+      syl:    /files/syli/313_f20.pdf
+      notes:  shared courseload with Furkan Dikmen & Muhammed İleri
     - date:   Spring 2019
       title:  'Ling 314: Syntax & Semantics of Modern Turkish'
       prof:   Balkız Öztürk

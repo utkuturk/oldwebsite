@@ -39,8 +39,16 @@ analytics:
 # Set 'provider' to the comment provider you want to use.
 # Set 'provider' to false to turn commenting off globally.
 #
+gitalk:
+  client_id: 39da24c11eeca47d9313
+  client_secret: f50623fc453e8bfc0acce506b9bd2e100c585d73
+  owner: utkuturk
+  repo: utkuturk.github.io
+  admin: utkuturk
+
+
 comments:
-    provider: disqus
+    provider: false
     disqus:
       short_name: utkuturk
     livefyre:

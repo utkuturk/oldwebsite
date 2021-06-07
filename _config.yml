@@ -47,16 +47,16 @@ gitalk:
   admin: utkuturk
 
 
-comments:
-    provider: false
-    disqus:
-      short_name: utkuturk
-    livefyre:
-      site_id:
-    intensedebate:
-      account:
-    facebook:
-      appid:
-      num_posts: 5
-      width: 580
-      colorscheme: light
+# comments:
+#     provider: false
+#     disqus:
+#       short_name: utkuturk
+#     livefyre:
+#       site_id:
+#     intensedebate:
+#       account:
+#     facebook:
+#       appid:
+#       num_posts: 5
+#       width: 580
+#       colorscheme: light

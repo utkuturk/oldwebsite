@@ -34,20 +34,23 @@ analytics:
         baseURL: '' # Piwik installation address (without protocol)
         idsite: ''  # the id of the site on Piwik
 
+
+disqus:
+  shortname: utkuturk
 # Settings for comments helper
 # Set 'provider' to the comment provider you want to use.
 # Set 'provider' to false to turn commenting off globally.
 #
-comments:
-    provider: disqus
-    disqus:
-      short_name: utkuturk
-    livefyre:
-      site_id:
-    intensedebate:
-      account:
-    facebook:
-      appid:
-      num_posts: 5
-      width: 580
-      colorscheme: light
+# comments:
+#     provider: disqus
+#     disqus:
+#       short_name: utkuturk
+#     livefyre:
+#       site_id:
+#     intensedebate:
+#       account:
+#     facebook:
+#       appid:
+#       num_posts: 5
+#       width: 580
+#       colorscheme: light

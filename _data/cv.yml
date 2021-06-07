@@ -146,7 +146,7 @@ teaching:
       popul:  15
       school: Linguistics Dept, Bogazici University
       syl:    /files/syli/414_f20.pdf
-      notes:  'contributed to [Class Notes](http://plogacev.github.io/lecture_notes/R/index.html) ([github](https://github.com/plogacev/ling411_lecture_notes_R))as well as holding PS sessions for data wrangling and visualization in R'
+      notes:  'contributed to [Class Notes](http://plogacev.github.io/lecture_notes/R/index.html) ([github](https://github.com/plogacev/ling411_lecture_notes_R)) as well as holding PS sessions for data wrangling and visualization in R'
     - date:   Spring 2021
       title:  'Ling 484: Computational Methods in Linguistics'
       prof:   Ümit Atlamaz

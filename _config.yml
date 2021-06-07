@@ -41,7 +41,7 @@ analytics:
 comments:
     provider: disqus
     disqus:
-      short_name: disqus_39n24e44QB
+      short_name: utkuturk
     livefyre:
       site_id:
     intensedebate:

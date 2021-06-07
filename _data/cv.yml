@@ -38,21 +38,122 @@ visiting_positions:
       mentor:       Pavel Caha
 
 teaching:
-    - date:   Autumn 2016
-      title:  Advanced Topics in Computer Graphics and Vision Seminar
-      url:    https://graphics.ethz.ch/teaching/seminarAS16/home.php
-      number: 252-5701-00L
-      school: ETH Zurich
-    - date:   Spring 2016
-      title:  Advanced Topics in Computer Graphics Seminar
-      url:    https://graphics.ethz.ch/teaching/seminarSS16/home.php
-      number: 252-5704-00L
-      school: ETH Zurich
-    - date:   Spring 2015
-      title:  Digital and Computational Photography
-      url:    https://stellar.mit.edu/S/course/6/sp15/6.815/index.html
-      number: 6.815/6.865
-      school: MIT
+    - date:   Spring 2018
+      title:  'Ling 101: Introduction to Linguistics I'
+      prof:   Pavel Logacev
+      role:   Teaching assistant
+      popul:  15
+      school: Linguistics Dept, Bogazici University
+      syl:    /files/syli/101_s18.pdf
+    - date:   Spring 2019
+      title:  'Ling 101: Introduction to Linguistics I'
+      prof:   Elena Guerzoni
+      role:   Teaching assistant
+      popul:  15
+      school: Linguistics Dept, Bogazici University
+      syl:    /files/syli/101_s19.pdf
+    - date:   Fall 2019
+      title:  'Ling 101: Introduction to Linguistics I'
+      prof:   Meltem Kelepir
+      role:   Teaching assistant
+      popul:  15
+      school: Linguistics Dept, Bogazici University
+      syl:    /files/syli/101_f19.pdf
+    - date:   Fall 2020
+      title:  'Ling 101: Introduction to Linguistics I'
+      prof:   Ömer Demirok
+      role:   Teaching assistant
+      popul:  15
+      school: Linguistics Dept, Bogazici University
+      syl:    /files/syli/101_f20.pdf
+    - date:   Spring 2021
+      title:  'Ling 101: Introduction to Linguistics I'
+      prof:   Pavel Logacev
+      role:   Teaching assistant
+      popul:  15
+      school: Linguistics Dept, Bogazici University
+      syl:    /files/syli/101_s21.pdf
+    - date:   Spring 2018
+      title:  'Ling 102: Introduction to Linguistics II'
+      prof:   Mine Nakipoğlu
+      role:   Teaching assistant
+      popul:  15
+      school: Linguistics Dept, Bogazici University
+      syl:    /files/syli/102_s18.pdf
+    - date:   Spring 2020
+      title:  'Ling 202: Morphology'
+      prof:   Aslı Göksel
+      role:   Teaching assistant
+      popul:  15
+      school: Linguistics Dept, Bogazici University
+      syl:    /files/syli/202_s20.pdf
+    - date:   Fall 2020
+      title:  'Ling 203: Syntax'
+      prof:   Balkız Öztürk
+      role:   Teaching assistant
+      popul:  15
+      school: Linguistics Dept, Bogazici University
+      syl:    /files/syli/203_f20.pdf
+    - date:   Spring 2020
+      title:  'Ling 206: Language Typology'
+      prof:   Metin Bağrıaçık
+      role:   Teaching assistant
+      popul:  15
+      school: Linguistics Dept, Bogazici University
+      syl:    /files/syli/206_s20.pdf
+    - date:   Fall 2018
+      title:  'Ling 313: Phonology & Morphology of Modern Turkish'
+      prof:   Kadir Gökgöz
+      role:   Teaching assistant
+      popul:  15
+      school: Linguistics Dept, Bogazici University
+      syl:    /files/syli/313_f18.pdf
+    - date:   Fall 2019
+      title:  'Ling 313: Phonology & Morphology of Modern Turkish'
+      prof:   Aslı Göksel
+      role:   Teaching assistant
+      popul:  15
+      school: Linguistics Dept, Bogazici University
+      syl:    /files/syli/313_f19.pdf
+    - date:   Spring 2019
+      title:  'Ling 314: Syntax & Semantics of Modern Turkish'
+      prof:   Balkız Öztürk
+      role:   Teaching assistant
+      popul:  15
+      school: Linguistics Dept, Bogazici University
+      syl:    /files/syli/314_s19.pdf
+    - date:   Spring 2021
+      title:  'Ling 314: Syntax & Semantics of Modern Turkish'
+      prof:   Balkız Öztürk
+      role:   Teaching assistant
+      popul:  15
+      school: Linguistics Dept, Bogazici University
+      syl:    /files/syli/314_s21.pdf
+    - date:   Fall 2020
+      title:  'Ling 414: Linguistic Methodology'
+      prof:   Pavel Logacev
+      role:   Teaching assistant
+      popul:  15
+      school: Linguistics Dept, Bogazici University
+      syl:    /files/syli/414_f20.pdf
+    - date:   Spring 2021
+      title:  'Ling 484: Computational Methods in Linguistics'
+      prof:   Ümit Atlamaz
+      role:   Teaching assistant
+      popul:  15
+      school: Linguistics Dept, Bogazici University
+      syl:    /files/syli/484_s21.pdf
+    - date:   Summer 2018
+      title:  'S30: Advanced Turkish'
+      role:   Class assistant
+      popul:  10
+      school: Turkish Language and Culture Program, Bogazici University
+    - date:   Summer 2019
+      title:  'S25: Upper Indermediate Turkish'
+      role:   Class assistant
+      popul:  16
+      school: Turkish Language and Culture Program, Bogazici University
+
 
 technical_skills:
     - R
@@ -196,31 +297,8 @@ reviews:
               url:  https://busctel18.weebly.com/
 
 references:
-    - name:  Dr. George Drettakis
-      title: Senior Researcher, INRIA Sophia Antipolis, France
-      www:   http://www-sop.inria.fr/members/George.Drettakis/
-      mail:  george.drettakis@inria.fr
-    - name:  Prof. Fr{\'e}do Durand
-      title: Professor, Massachusetts Institute of Technology, Cambridge MA, USA
-      www:   http://people.csail.mit.edu/fredo/
-      mail:  fredo@mit.edu
-    - name:  Dr. Sylvain Paris
-      title: Senior Researcher, Adobe Research, Cambridge MA, USA
-      www:   http://people.csail.mit.edu/sparis/
-      mail:  sparis@adobe.com
-    - name:  Ryan Brown
-      title: Site Lead, Oculus Zurich
-      www:   https://www.linkedin.com/in/ryanhbrown
-      mail:
-    - name:  Dr. Alexander Sorkine-Hornung
-      title: Technical Lead, Oculus Zurich
-      www:   http://www.ahornung.net/
-      mail:
-    - name:  Prof. Dr. Markus Gross
-      title: Professor, ETH Zurich and Vice President, Disney Research, Zurich, Switzerland
-      www:   https://www.disneyresearch.com/people/markus-gross/
-      mail:  markus.gross@disneyresearch.com
-    - name:  Dr. Paul Beardsley
-      title: Principal Research Scientist, Disney Research, Zurich, Switzerland
-      www:   https://www.disneyresearch.com/people/paul-beardsley/
-      mail:  pab@disneyresearch.com
+#    - name:  Dr. George Drettakis
+#      title: Senior Researcher, INRIA Sophia Antipolis, France
+#      www:   http://www-sop.inria.fr/members/George.Drettakis/
+#      mail:  george.drettakis@inria.fr
+

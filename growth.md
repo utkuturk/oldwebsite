@@ -1,50 +1,19 @@
 ---
-title:  "Example 3: Five Columns"
-layout: page
-permalink: /growth/
-
-
-col1:
-- name: Aaa
-  to: 2015-03-01
-
-col2:
-- name: Bee
-  to: 2015-10-01
-
-col3:
-- name: Cee
-  to: now
-
-col4:
-- name: Dee
-  to: 2015-01-01
-
-col5:
-- name: Eee
-  from: 2014-01-01
-  to: now
-
+title:  "Example 2: Star Trek TV and Movies"
+layout: base
 ---
 
 # {{ page.title }}
 
+This demonstrates a two column timeline. TV Series use a timespan, but movies only have one date, so they demonstrate timeline events used without a `from` specified.
+
 {% include jekyll-timeline.html
-   startYear=2014
-   timelineHeight=400
-
-   col1Title="A"
-   col1Events=page.col1
-
-   col2Title="B"
-   col2Events=page.col2
-
-   col3Title="C"
-   col3Events=page.col3
-
-   col4Title="D"
-   col4Events=page.col4
-
-   col5Title="E"
-   col5Events=page.col5
+   startYear=1966
+   timelineHeight=2500
+   
+   col1Title="Star Trek TV"
+   col1Events=site.data.starTrekTV
+   
+   col2Title="Star Trek Films"
+   col2Events=site.data.starTrekFilms
 %}

@@ -1,6 +1,7 @@
 ---
 title:  "Example 3: Five Columns"
-layout: base
+layout: page
+permalink: /growth/
 
 
 col1:

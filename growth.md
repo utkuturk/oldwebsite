@@ -1,6 +1,7 @@
 ---
 title:  "Example 2: Star Trek TV and Movies"
-layout: base
+layout: page
+permalink: /growth/
 ---
 
 # {{ page.title }}

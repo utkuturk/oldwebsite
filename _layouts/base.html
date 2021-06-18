@@ -1,11 +1,24 @@
 <!DOCTYPE html>
-<title>{{ page.title }} - {{ site.title }}</title>
-<meta name="viewport" content="width=device-width">
 
 <link rel="stylesheet" href="{{ site.baseurl }}/css/all.css">
 
+<html>
 
-{{ content }}
+  {% include head.html %}
+
+  <body>
+  <div class="page">
+    {% include header.html %}
+
+    {{ content }}
+
+    {% include footer.html %}
+
+    {% include analytics.html %}
+    </div>
+  </body>
+
+</html>
 
 <!-- 
 

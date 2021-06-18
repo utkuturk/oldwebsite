@@ -1,6 +1,6 @@
 ---
 title:  "Example 2: Star Trek TV and Movies"
-layout: page
+layout: base
 permalink: /growth/
 ---
 

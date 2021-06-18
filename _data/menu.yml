@@ -11,8 +11,8 @@
 - title: "blog"
   href: "/blog/"
 
-#- title: "misc"
-#  href: "/misc/"
+- title: "growth"
+  href: "/growth/"
 
   # subcategories:
   #  - subtitle: "Item 1"

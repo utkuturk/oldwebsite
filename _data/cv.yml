@@ -185,28 +185,36 @@ awards:
     - date:   Jun 2012
       detail: All Turkey Rank 2 in LYS 2012 (entrance examination for Bogazici University) amongst more than 2 million students.
 
+
 publications:
+      - title:   Tackling the Augmentative Puzzle in Turkish
+        author:  U. Türk
+        journal: Proceedings of TU+5
+        url:     http://journals.linguisticsociety.org/proceedings/index.php/tu/article/view/4771
+        doi:     https://doi.org/10.3765/ptu.v5i1.4771
+        year:    "2020"
+
+proceedings:
     - title:   Hypothetical Comparison in Turkish
       author:  U. Türk, Ö. Demirok
       journal: to appear in Proceedings of TU+6
       year:    2021 (expected)
-      url:     
+      url:     https://ling.auf.net/lingbuzz/005956
     - title:   Nanosyntactic Analysis of Turkish Case System
       author:  U. Türk, P. Caha
       journal: to appear in Proceedings of TU+6
       year:    2021 (expected)
-      url:     
+      url:     https://ling.auf.net/lingbuzz/005946
     - title:   "Resources for Turkish Dependency Parsing: Introducing the BOUN Treebank and the BoAT Annotation Tool"
       author:  U. Türk, F. Atmaca, Ş.B. Özateş, G. Berk, S.T. Bedir, A. Köksal, B. Öztürk, T. Güngör, A. Özgür
       journal: Language Resource and Evaluation
       year:    2021 (expected)
       url:     https://arxiv.org/abs/2002.10416v1
-    - title:   Tackling the Augmentative Puzzle in Turkish
-      author:  U. Türk
-      journal: Proceedings of TU+5
-      url:     http://journals.linguisticsociety.org/proceedings/index.php/tu/article/view/4771
-      doi:     https://doi.org/10.3765/ptu.v5i1.4771
-      year:    "2020"
+    - title:   First steps towards Universal Dependencies for Laz
+      author:  U. Türk, K. Bayar, A.D. Özercan, Ş.B. Özateş
+      conf:    Universal Dependencies Workshop, COLING 2020
+      year:    "2020"    
+      url:     https://www.aclweb.org/anthology/2020.udw-1.21/ 
     - title:   "Turkish Treebanking: Unifying and Constructing Efforts"
       author:  U. Türk, F. Atmaca, Ş.B. Özateş, A. Köksal, B. Öztürk, T. Güngör, A. Özgür
       journal: Proceedings of the 13th Linguistic Annotation Workshop
@@ -228,21 +236,29 @@ conferences:
       conf:    "PLC45 & TU+6" 
       year:    March 2021
       place:   UPenn & University of Toronto 
+      abs:     /files/abstracts/hypocomparison2021.pdf
+      ho:      /files/handouts/hypocomparison2021.pdf
     - title:   Nanosyntactic Analysis of Turkish Cases
       author:  U. Türk, P. Caha
       conf:    TU+6 
       year:    Feb 2021
       place:   University of Toronto
+      abs:     /files/abstracts/nanocase2021.pdf
+      ho:      /files/handouts/nanocase2021.pdf
     - title:   When vowel harmony has a say in morpho-syntax
       author:  U. Türk
       conf:    ConSOLE29
       year:    Jan 2021
       place:   University of Leiden
+      abs:     /files/abstracts/vh_suspaffix.pdf
+      slide:   /files/slides/vh_suspaffix.pdf
     - title:   When glides are obstruents, or Turkish [j]
       author:  S. Canalis, S. Özdemir, U. Türk, Ü.C. Tunçer
       conf:    18th Old World Phonology Conference
       year:    Jan 2021
       place:   University of the Balearic Islands
+      abs:     /files/abstracts/glide2021.pdf
+      slide:   /files/slides/glidesocp.pdf
     - title:   First steps towards Universal Dependencies for Laz
       author:  U. Türk, K. Bayar, A.D. Özercan, Ş.B. Özateş
       conf:    Universal Dependencies Workshop, COLING 2020
@@ -252,21 +268,25 @@ conferences:
       conf:    33rd CUNY
       year:    Feb 2020
       place:   University of Massachusetts
+      abs:     /files/abstracts/cuny_shallow.pdf
     - title:   The role of shallow processing in agreement attraction
       author:  U. Türk, P. Logacev
       conf:    Linguistic Evidence
       year:    Feb 2020
       place:   Universität Tübingen
+      abs:     /files/abstracts/le2020_shallow.pdf
     - title:   An investigation into the nature of Turkish glide [j]
       author:  S. Özdemir, U. Türk
       conf:    TU+5
       year:    Feb 2020
       place:   University of Delaware
+      abs:     /files/abstracts/glide2020.pdf
     - title:   Tackling the augmentative puzzle in Turkish
       author:  U. Türk
       conf:    TU+5
       year:    Feb 2020
       place:   University of Delaware
+      abs:     /files/abstracts/augmentative_tuplus.pdf
     - title:   Improving the annotations in the Turkish Universal Dependency Treebank
       author:  U. Türk, F. Atmaca, Ş.B. Özateş, B. Öztürk, T. Güngör, A. Özgür
       conf:    Universal Dependencies Workshop, SyntaxFest2019

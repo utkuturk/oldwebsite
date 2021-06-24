@@ -9,7 +9,8 @@ Jump to [Publications](#peer-reviewed-publications), [Proceedings](#proceedings)
 ---
 
 
-## Publications
+
+##  Publications
 
 {% assign thumbnail="right" %}
 
@@ -24,6 +25,7 @@ Jump to [Publications](#peer-reviewed-publications), [Proceedings](#proceedings)
 {% endif %} *{{pub.year}}*  [[web]({% if pub.internal %}{{pub.url | prepend: site.baseurl}}{% else %}{{pub.url}}{% endif %})] {% if pub.doi %}[[doi]({{pub.doi}})]{% endif %}
 
 {% endfor %}
+
 
 ## Peer Reviewed Proceedings
 
@@ -53,7 +55,7 @@ Jump to [Publications](#peer-reviewed-publications), [Proceedings](#proceedings)
 **{{talk.title}}**<br />
 *{{talk.conf}}*
 {% if talk.note %} *({{talk.note}})*
-{% endif %} *{{talk.year}}*  {% if pub.abs %}[[abstract]({{pub.abs}})]{% endif %} {% if pub.ho %}| [[handout]({{pub.ho}})]{% endif %} {% if pub.slide %}| [[slides]({{pub.slide}})]{% endif %} {% if talk.poster %}| [[poster]({{talk.poster}})]{% endif %} 
+{% endif %} *{{talk.year}}*  {% if talk.abs %}[[abstract]({{talk.abs}})]{% endif %} {% if talk.ho %}| [[handout]({{talk.ho}})]{% endif %} {% if talk.slide %}| [[slides]({{talk.slide}})]{% endif %} {% if talk.poster %}| [[poster]({{talk.poster}})]{% endif %} 
 
 {% endfor %}
 

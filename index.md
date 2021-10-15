@@ -6,16 +6,16 @@ permalink: /
 
 {% include image.html url="images/utkuPhoto.png" caption="Nov 2020" width="300px" align="right" %}
 
-- 🔭 I’m currently working on *Agreement attraction in Turkish*
+- 🔭 I’m currently working on *Response Bias Manipulation in Turkish Agreement Attraction*
 - 🌱 I’m currently learning *Stan and MPTs*
 - 📫 How to reach me: [utku.turk@boun.edu.tr]
-- 😄 Pronouns: he/him
+- 🏳️‍🌈 Pronouns: he/him
 
-I am Utku Türk. I am an MA student in [the Department of Linguistics][dept], [Boğaziçi University][uni] under the supervision of [Pavel Logačev][pavel]. I mainly work in agrement attraction in Turkish. Currently, I focus on the effects of response bias in agreement attraction and whether or not everyone is affected uniformly by the bias-related manipulations. You can also check my [CV][cv] and [Google Scholar][gsoc]!
+I am Utku Türk. I am an MA student in [the Department of Linguistics][dept], [Boğaziçi University][uni] under the supervision of [Pavel Logačev][pavel]. I mainly work in agreement attraction in Turkish. Currently, I focus on the effects of response bias in agreement attraction and whether or not everyone is affected uniformly by the bias-related manipulations. You can also check my [CV][cv] and [Google Scholar][gsoc]!
   
-In my department, I also work as a Research/Teaching assistant. My responsibilities included TA'ing classes, working in projects within the department, and help the department in administrative issues.
+In my department, I also work as a Research/Teaching assistant. My responsibilities include TA'ing classes, working in projects within the department, and help the department in administrative issues.
   
-I am interested in morphology and its interaction with semantics and phonology. I was lucky to join [Pavel Caha][caha] at [Masaryk University][mas] to work on various topics including Turkish case syncretism, augmentatives, and suspended affixation.
+I am interested in morphology and its interaction with semantics and phonology. I was lucky to join [Pavel Caha][caha] at [Masaryk University][mas] to work on various topics including Turkish case syncretism, augmentatives, and suspended affixation. Moreover, I also worked on the semantic interpration of the formative _-mışcasına_, a hypothetical comparative marker similar to _as if_ in Turkish. 
   
 I am an [Universal Dependencies][ud] enthusiast. I participated in the creation Turkish and Laz treebanks. I am currently working on a Romeyka and Ladino treebanks.
   

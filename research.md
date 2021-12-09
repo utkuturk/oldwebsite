@@ -22,7 +22,7 @@ Jump to [Publications](#peer-reviewed-publications), [Proceedings](#proceedings)
 **{{pub.title}}**<br />
 *{{pub.journal}}*
 {% if pub.note %} *({{pub.note}})*
-{% endif %} *{{pub.year}}*  [[web]({% if pub.internal %}{{pub.url | prepend: site.baseurl}}{% else %}{{pub.url}}{% endif %})] {% if pub.doi %}[[doi]({{pub.doi}})]{% endif %}
+{% endif %} *{{pub.year}}*  [[web]({% if pub.internal %}{{pub.url | prepend: site.baseurl}}{% else %}{{pub.url}}{% endif %})] {% if pub.doi %}[[doi]({{pub.doi}})]{% endif %} {% if pub.psyarxiv %}[[arxiv]({{pub.psyarxiv}})]{% endif %}
 
 {% endfor %}
 

@@ -1,20 +1,19 @@
 ---
-title:  "Example 2: Star Trek TV and Movies"
+title:  "Academic Growth"
 layout: base
 permalink: /growth/
 ---
 
 # {{ page.title }}
 
+This page shows the additional schools and seminars I have attended.
+
 This demonstrates a two column timeline. TV Series use a timespan, but movies only have one date, so they demonstrate timeline events used without a `from` specified.
 
 {% include jekyll-timeline.html
-   startYear=1966
+   startYear=2017
    timelineHeight=2500
    
-   col1Title="Star Trek TV"
-   col1Events=site.data.starTrekTV
-   
-   col2Title="Star Trek Films"
-   col2Events=site.data.starTrekFilms
+   col1Title=""
+   col1Events=site.data.growth
 %}

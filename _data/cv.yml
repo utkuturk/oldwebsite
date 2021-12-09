@@ -203,22 +203,24 @@ publications:
     - title:   "Resources for Turkish Dependency Parsing: Introducing the BOUN Treebank and the BoAT Annotation Tool"
       author:  U. Türk, F. Atmaca, Ş.B. Özateş, G. Berk, S.T. Bedir, A. Köksal, B. Öztürk, T. Güngör, A. Özgür
       journal: Language Resource and Evaluation
-      year:    2021 (expected)
-      url:     https://arxiv.org/abs/2002.10416v2
+      year:    2021
+      url:     https://link.springer.com/article/10.1007/s10579-021-09558-0
+      doi:     https://doi.org/10.1007/s10579-021-09558-0
     - title:   "Agreement Attraction in Turkish: The case of genitive attractors"
       author:  U. Türk, P. Logacev
-      journal: In resubmission process.
+      journal: submitted to Language, Cognition and Neuroscience
+      psyarxiv: https://psyarxiv.com/5rmvu/     
 
 proceedings:
     - title:   Hypothetical Comparison in Turkish
       author:  U. Türk, Ö. Demirok
       journal: to appear in Proceedings of TU+6
-      year:    2021 (expected)
+      year:    2021 (inpress)
       url:     https://ling.auf.net/lingbuzz/005956
     - title:   Nanosyntactic Analysis of Turkish Case System
       author:  U. Türk, P. Caha
       journal: to appear in Proceedings of TU+6
-      year:    2021 (expected)
+      year:    2021 (inpress)
       url:     https://ling.auf.net/lingbuzz/005946
     - title:   First steps towards Universal Dependencies for Laz
       author:  U. Türk, K. Bayar, A.D. Özercan, Ş.B. Özateş
@@ -247,6 +249,11 @@ proceedings:
       doi:     http://dx.doi.org/10.18653/v1/W19-8013
 
 conferences:
+    - title:   "Defining borrowing hierarchies in the light of sociolinguistic and geodemographic causation: contact-induced morphosyntactic change in Asia Minor Greek"
+      author:  K. Sampanis, U. Türk, U. Gülsün
+      conf:    "AMLAP 2021" 
+      year:    September 2021
+      place:   Online 
     - title:   Response Bias Manipulation in Turkish Agreement Attraction
       author:  U. Türk, P. Logacev
       conf:    "AMLAP 2021" 

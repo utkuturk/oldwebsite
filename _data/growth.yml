@@ -1,0 +1,31 @@
+- name: XPrag
+  from: 2019-08-05
+  to: 2019-08-16
+  description: |
+    [DGfS Summer School 2019 - Experimental Pragmatics: Theory, Methods, Interfaces](https://summerschool.xprag.de/)
+
+    Classes I took:
+      - Presupposition, by Philippe Schlenker
+      - Probabilistic Pragmatics, by Judith Degen
+      - Processing at the syntax-discourse interface, by Lyn Frazier
+
+- name: SMLP2021
+  from: 2021-09-06
+  to: 2021-09-10
+  description: Advanced Bayesian data analysis, by Bruno Nicenboim
+
+
+- name: SMLP2020
+  from: 2020-09-07
+  to: 2020-09-11
+  description: Advanced Bayesian data analysis, by Bruno Nicenboim
+
+- name: Nanoseminar 2021 Spring
+  from: 2021-02-23
+  to: 2021-05-28
+  description: Seminars on Nanosyntax in Verbal/Aspectual/Phi-domain, by Michal Starke
+
+- name: Nanolab 2021 Fall
+  from: 2021-10-22
+  to: 2021-12-10
+  description: Presentations on Nanosyntax by various researchers

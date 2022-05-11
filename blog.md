@@ -4,7 +4,8 @@ title: Blog
 permalink: /blog/
 ---
 
-This is a very informal blog. I use here basically to remind myself stuff I did or to take notes the interesting stuff I found online and tried. Do not take anything here seriously.
+{% include image.html url="../images/station_izmir.jpg" caption="view of a station in izmir, aug 18, photo by me" width="800px" align="middle" %}
+
 
 <ul class="listing">
 {% for post in site.posts %}

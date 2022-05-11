@@ -1,18 +1,17 @@
 title: Utku Turk
 description: Utku Turk's webpage
 sourcecode: "https://github.com/utkuturk/utkuturk.github.io"
-
-permalink: blog/:year/:month/:day/:title
+permalink: ordinal
 exclude: ["Makefile", "README.md"]
 
-url: ""                         # the base hostname & protocol for your site
-baseurl: ""                     # the subpath of your site, e.g. /blog
+url:                          # the base hostname & protocol for your site
+#baseurl:                      # the subpath of your site, e.g. /blog
 # url: "localhost"              # for local testing
 # baseurl: ""
 
 author:
     name: Utku Türk
-    scholar: wa7LG9gAAAAJ
+    scholar: wa7LG9gAAAAJ  
 
 # Build settings
 markdown: kramdown
@@ -38,13 +37,6 @@ analytics:
 # Settings for comments helper
 # Set 'provider' to the comment provider you want to use.
 # Set 'provider' to false to turn commenting off globally.
-#
-gitalk:
-  client_id: 39da24c11eeca47d9313
-  client_secret: f50623fc453e8bfc0acce506b9bd2e100c585d73
-  owner: utkuturk
-  repo: utkuturk.github.io
-  admin: utkuturk
 
 
 # comments:

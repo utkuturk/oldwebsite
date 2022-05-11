@@ -3,15 +3,16 @@
 ---
 @charset "utf-8";
 
-$font-weight-normal: 200;
+$font-weight-normal: 350;
 $font-weight-bold:   600;
 
-$base-font-family: "Source Sans Pro", "Lato", -apple-system, "San Francisco", "Helvetica Neue", Helvetica, Roboto, "Segoe UI", "Segoe WP", Arial, Ubuntu, sans-serif;
+$base-font-family:  "Source Sans Pro", "Lato", -apple-system, "San Francisco", "Helvetica Neue", Helvetica, Roboto, "Segoe UI", "Segoe WP", Arial, Ubuntu, sans-serif;
 $base-font-size:   13pt;
 $base-line-height: 1.5;
 
 $heading-font-family: $base-font-family;
 $heading-font-size:   16pt;
+$heading-menu-font-size: 12pt;
 $heading-line-height: 1.5;
 
 $small-font-size:  0.875em;

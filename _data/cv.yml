@@ -38,6 +38,20 @@ visiting_positions:
       mentor:       Pavel Caha
 
 teaching:
+    - date:   Spring 2022
+      title:  'Ling 360: Computational Methods in Linguistics'
+      prof:   Ümit Atlamaz
+      role:   Teaching assistant
+      popul:  ~40
+      school: Linguistics Dept, Bogazici University
+      syl:    /files/syli/360_s22.pdf
+    - date:   Spring 2022
+      title:  'Ling 314: Syntax & Semantics of Modern Turkish'
+      prof:   Ümit Atlamaz
+      role:   Teaching assistant
+      popul:  ~40
+      school: Linguistics Dept, Bogazici University
+      syl:    /files/syli/314_s22.pdf
     - date:   Fall 2021
       title:  'Ling 101: Introduction to Linguistics I'
       prof:   Mine Nakipoğlu

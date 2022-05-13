@@ -13,11 +13,11 @@ permalink: /
   - *stan & multinomial processing trees*
   - *horseshoe priors and sparsity*<br><br>
 - 👾 <span style="text-decoration: underline">me irl</span>
-  - [flickr][flickr] & [art-station][cal] & [steam][steam]<br><br>
+  - [photography][flickr] & [calligraphy][cal] & [games][steam]<br><br>
 - 📫 <span style="text-decoration: underline">socials</span>
   - [twitter][twitter] & [gscholar][gsoc] & [orcid][orcid] & [github][gh] & [utkuturk@umd.edu][mail]<br><br>
 
-I am an upcoming Ph.D. student in [linguistics][umdling] at University of Maryland, my advisors are [Colin Phillips][colin] and TBA. I will complete my MA thesis under the supervision of [Pavel Logacev][pavel] in [linguistics][dept] at Boğaziçi university this june. my MA thesis is about *agreement attraction* in Turkish. I investigated how (i) case syncretism, (ii) form heuristics, and (iii) response bias interacts with agreement attraction.
+I am an upcoming Ph.D. student in [linguistics][umdling] at University of Maryland. I will complete my MA thesis under the supervision of [Pavel Logacev][pavel] in [linguistics][dept] at Boğaziçi university this june. my MA thesis is about *agreement attraction* in Turkish. I investigated how (i) case syncretism, (ii) form heuristics, and (iii) response bias interacts with agreement attraction.
 
 the places my mind wondered around:
 - semantics of [hypothetical comparisons][hc],
@@ -31,7 +31,7 @@ the places my mind wondered around:
 {% include image.html url="images/bosphorous.jpg" caption="view of bosphrous and kennedy lodge, photo by me, aug 18" width="800px" align="middle" %}
 
 
-my favorite food is [gata][gata] with koritz and my favorite icecream flavor is [saffron and rose][rose]. I am the co-founder of [translate for justice][tfj], which started as a collaborative effort to let the world know about [gezi park protests][gezi].
+my favorite food is [gata][gata] with koritz and my favorite icecream flavor is [saffron and rose][rose]. <!--I am the co-founder of [translate for justice][tfj], which started as a collaborative effort to let the world know about [gezi park protests][gezi]. --> 
 
   [cal]:   https://www.artstation.com/kaosperver
   [glide]:  2022/130/glide.html

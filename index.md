@@ -5,7 +5,7 @@ permalink: /
 ---
 
 
-{% include image.html url="images/utkuPhoto.png" caption="nov 2020" width="250px" align="right" %}
+{% include image.html url="images/utkuPhotoJune22.jpeg" caption="june 2020" width="250px" align="right" %}
 
 - 🧭 <span style="text-decoration: underline">focus</span>
   - *psycholinguistics, morphology, formal semantics* <br><br>
@@ -13,11 +13,13 @@ permalink: /
   - *stan & multinomial processing trees*
   - *horseshoe priors and sparsity*<br><br>
 - 👾 <span style="text-decoration: underline">me irl</span>
-  - [photography][flickr] & [calligraphy][cal] & [games][steam]<br><br>
+  - [photography][flickr] & [games][steam]<br><br>
 - 📫 <span style="text-decoration: underline">socials</span>
   - [twitter][twitter] & [gscholar][gsoc] & [orcid][orcid] & [github][gh] & [utkuturk@umd.edu][mail]<br><br>
 
-I am an upcoming Ph.D. student in [linguistics][umdling] at University of Maryland. I will complete my MA thesis under the supervision of [Pavel Logacev][pavel] in [linguistics][dept] at Boğaziçi university this june. my MA thesis is about *agreement attraction* in Turkish. I investigated how (i) case syncretism, (ii) form heuristics, and (iii) response bias interacts with agreement attraction.
+I am an upcoming Ph.D. student in [linguistics][umdling] at University of Maryland, advised by [Colin Phillips][colin] and [Ellen Lau][ellen]. I am also a [Language Science Fellow][langsci] in University of Maryland’s Language Science Center. 
+
+I will defend my Master's Thesis titled ["Agreement Attraction in Turkish"][thesis] under the supervision of [Pavel Logacev][pavel] in [the Department of Linguistics][dept] at Boğaziçi University on June 15. I investigated how (i) case syncretism, (ii) form heuristics, (iii) response bias, and (iv) register interacted with agreement attraction.
 
 the places my mind wondered around:
 - semantics of [hypothetical comparisons][hc],
@@ -31,9 +33,10 @@ the places my mind wondered around:
 {% include image.html url="images/bosphorous.jpg" caption="view of bosphrous and kennedy lodge, photo by me, aug 18" width="800px" align="middle" %}
 
 
-my favorite food is [gata][gata] with koritz and my favorite icecream flavor is [saffron and rose][rose]. <!--I am the co-founder of [translate for justice][tfj], which started as a collaborative effort to let the world know about [gezi park protests][gezi]. --> 
+my favorite food is [gata][gata] with koritz and my favorite icecream flavor is [saffron and rose][rose]. I am the co-founder of [translate for justice][tfj], which started as a collaborative effort to let the world know about [gezi park protests][gezi]. 
 
   [cal]:   https://www.artstation.com/kaosperver
+  [thesis]: ma/
   [glide]:  2022/130/glide.html
   [sa]:     research/sa/
   [case]:   research/case/
@@ -46,6 +49,8 @@ my favorite food is [gata][gata] with koritz and my favorite icecream flavor is 
   [gsoc]:   https://scholar.google.com/citations?hl=tr&user=wa7LG9gAAAAJ
   [dept]:   https://linguistics.boun.edu.tr
   [umdling]: https://linguistics.umd.edu/
+  [langsci]: http://languagescience.umd.edu
+  [ellen]: https://ellenlau.net/
   [uni]:    http://www.boun.edu.tr
   [pavel]:  https://plogacev.github.io
   [colin]:  https://www.colinphillips.net/

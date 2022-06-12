@@ -9,10 +9,6 @@ permalink: /
 
 - 🧭 <span style="text-decoration: underline">focus</span>
   - *psycholinguistics, morphology, formal semantics* <br><br>
-<!-- - 🌱 <span style="text-decoration: underline">learning</span>
-  - *stan & multinomial processing trees*
-  - *horseshoe priors and sparsity*<br><br>
--->
 - 👾 <span style="text-decoration: underline">me irl</span>
   - [photography][flickr] & [games][steam]<br><br>
 - 📫 <span style="text-decoration: underline">socials</span>
@@ -74,6 +70,12 @@ my favorite food is [gata][gata] with koritz and my favorite icecream flavor is 
 
 
 <!--
+
+- 🌱 <span style="text-decoration: underline">learning</span>
+  - *stan & multinomial processing trees*
+  - *horseshoe priors and sparsity*<br><br>
+
+
 **utkuturk/utkuturk** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:

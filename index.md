@@ -9,9 +9,10 @@ permalink: /
 
 - 🧭 <span style="text-decoration: underline">focus</span>
   - *psycholinguistics, morphology, formal semantics* <br><br>
-- 🌱 <span style="text-decoration: underline">learning</span>
+<!-- - 🌱 <span style="text-decoration: underline">learning</span>
   - *stan & multinomial processing trees*
   - *horseshoe priors and sparsity*<br><br>
+-->
 - 👾 <span style="text-decoration: underline">me irl</span>
   - [photography][flickr] & [games][steam]<br><br>
 - 📫 <span style="text-decoration: underline">socials</span>

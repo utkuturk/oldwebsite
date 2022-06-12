@@ -18,7 +18,7 @@ permalink: /
 - 📫 <span style="text-decoration: underline">socials</span>
   - [twitter][twitter] & [gscholar][gsoc] & [orcid][orcid] & [github][gh] & [utkuturk@umd.edu][mail]<br><br>
 
-I am an upcoming Ph.D. student in [linguistics][umdling] at University of Maryland, advised by [Colin Phillips][colin] and [Ellen Lau][ellen]. I am also a [Language Science Fellow][langsci] in University of Maryland’s Language Science Center. 
+I am an upcoming Ph.D. student in [linguistics][umdling] at University of Maryland, advised by [Colin Phillips][colin] and [Ellen Lau][ellen]. <!-- I am also a [Language Science Fellow][langsci] in University of Maryland’s Language Science Center. -->
 
 I will defend my Master's Thesis titled ["Agreement Attraction in Turkish"][thesis] under the supervision of [Pavel Logacev][pavel] in [the Department of Linguistics][dept] at Boğaziçi University on June 15. I investigated how (i) case syncretism, (ii) form heuristics, (iii) response bias, and (iv) register interacted with agreement attraction.
 

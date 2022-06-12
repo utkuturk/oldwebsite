@@ -5,7 +5,7 @@ permalink: /
 ---
 
 
-{% include image.html url="images/June22_utkuPhoto.jpeg" caption="june 2020, photo of Merve Aydar" width="250px" align="right" %}
+{% include image.html url="images/June22_utkuPhoto.jpeg" caption="june 2020, photo by Merve Aydar" width="250px" align="right" %}
 
 - 🧭 <span style="text-decoration: underline">focus</span>
   - *psycholinguistics, morphology, formal semantics* <br><br>

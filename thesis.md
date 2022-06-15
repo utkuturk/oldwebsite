@@ -5,7 +5,7 @@ title: "Agreement Attraction in Turkish"
 ---
 The term agreement attraction is used to describe either increased acceptability of ungrammatical sentences or reduced difficulty in reading ungrammatical sentences. This was made possible by an illusionary element which matches with the features of the verb, thus attracting the probe of the agreement from the head noun to itself. 
 <br> <br> 
-Consider the following sentence: "The keys to the cabinets are rusty." Even though it is ungrammatical, people systematically accepted these sentences more often than the ones with the word "attractor." They also spend less time when there is a plural nominal like "cabinets" rather than the word "cabinet."
+Consider the following sentence: "*The key to the cabinets are rusty." Even though it is ungrammatical, people systematically accepted these sentences more often than the ones with the word "attractor." They also spend less time when there is a plural nominal like "cabinets" rather than the word "cabinet."
 <br> <br> 
 This thesis tries to explore how the attraction phenomenon interacts with issues like case syncretism, form heuristics, response bias, and register, all of which are rarely investigated in the literature. This thesis also provides an extensive, but not exhaustive, picture of attraction effects in Turkish, an understudied language in psycholinguistics.
 

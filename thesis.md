@@ -102,6 +102,7 @@ This thesis tries to explore how the attraction phenomenon interacts with issues
 ----
 
 ## Supplementary links
+  * [Github Repo](https://github.com/utkuturk/ma-thesis)
   * [All Code (Grouped according to the chapters)](https://github.com/utkuturk/ma-thesis/tree/main/scripts)
   * [Experiment Raw Data](https://github.com/utkuturk/ma-thesis/tree/main/resources/raw)
   * [Lago et al.'s (2019) work](https://www.ingentaconnect.com/content/jbp/lab/2019/00000009/00000003/art00003?crawler=true&mimetype=application/pdf&casa_token=nL8v53m5GmsAAAAA:qI0dAbPjR7h42vijbp23x8myaJ1izLo1xWmPAtpGHlp5s2Uys7DUgJzmYffdbnknagUYS9mJhEmLQSRANIU)

@@ -21,7 +21,7 @@ This thesis tries to explore how the attraction phenomenon interacts with issues
 </details>
 ----
 <details>
-  <summary>Thesis PDF</summary>
+  <summary>Thesis Draft</summary>
   <iframe src="../files/ma_defense/thesis.pdf" width="100%" height="800px"></iframe>
 </details>
 ----
@@ -63,7 +63,15 @@ This thesis tries to explore how the attraction phenomenon interacts with issues
     </details>
     <details>
       <summary>Hammerly et al. (2019) Averages</summary>
-      <img src="../files/ma_defense/plots/hsdA.png" width="85%" />
+      <img src="../files/ma_defense/plots/hamavgs.png" width="85%" />
+    </details>
+    <details>
+      <summary>Hammerly et al. (2019) Bias Informed Averages</summary>
+      <img src="../files/ma_defense/plots/hamavgs_bias_informed.png" width="85%" />
+    </details>
+    <details>
+      <summary>Hammerly et al. (2019) Bias Informed Model</summary>
+      <img src="../files/ma_defense/plots/hM2.png" width="85%" />
     </details>
     <details>
       <summary>Exp3 Bias-Related</summary>
@@ -99,8 +107,8 @@ This thesis tries to explore how the attraction phenomenon interacts with issues
   * [Lago et al.'s (2019) work](https://www.ingentaconnect.com/content/jbp/lab/2019/00000009/00000003/art00003?crawler=true&mimetype=application/pdf&casa_token=nL8v53m5GmsAAAAA:qI0dAbPjR7h42vijbp23x8myaJ1izLo1xWmPAtpGHlp5s2Uys7DUgJzmYffdbnknagUYS9mJhEmLQSRANIU)
   * [Hammerly et al.'s (2019) work](https://www.sciencedirect.com/science/article/pii/S0010028518303049?casa_token=XGe6pUW_ws0AAAAA:OzPmvvHWS7vN7_BWawGfdSeOy1fPoHiDKiKk667oAqULZ16tU-ZXVj97pc9IriqC6GJT0ru29K4)
   * [Code for nicer plots from the defense](https://github.com/utkuturk/ma-thesis/tree/main/defense-plots)
-  * [Experiment 1](https://google.com)
-  * [Experiment 2A](https://google.com)
-  * [Experiment 2B](https://google.com)
-  * [Experiment 3](https://google.com)
-  * [Experiment 4](https://google.com)
+  * [Experiment 1](https://farm.pcibex.net/p/HIekVL/)
+  * [Experiment 2A](https://farm.pcibex.net/p/gpVrBy/)
+  * [Experiment 2B](https://farm.pcibex.net/p/cVZVuY/)
+  * [Experiment 3](https://farm.pcibex.net/p/yUyVON/)
+  * [Experiment 4](https://farm.pcibex.net/p/xFMjLC/)

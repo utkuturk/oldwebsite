@@ -4,19 +4,20 @@ title:
 permalink: /
 ---
 
+<link rel="stylesheet" href="/css/fontawesome/css/all.css" >
+<link rel="stylesheet" href="css/academicons/css/academicons.min.css"/>
 
 {% include image.html url="images/June22_utkuPhoto.jpeg" caption="june 2020, photo by Merve Aydar" width="250px" align="right" %}
 
 - 🧭 <span style="text-decoration: underline">focus</span>
-  - *psycholinguistics, morphology, formal semantics* <br><br>
+  - *psycholinguistics, (nano)syntax, formal semantics* <br><br>
 - 👾 <span style="text-decoration: underline">me irl</span>
   - [photography][flickr] & [games][steam]<br><br>
-- 📫 <span style="text-decoration: underline">socials</span>
-  - [twitter][twitter] & [gscholar][gsoc] & [orcid][orcid] & [github][gh] & [utkuturk@umd.edu][mail]<br><br>
+- 📫 <span style="text-decoration: underline">socials</span>: <a href="https://twitter.com/UtkuTurkLing"><i class="fa-brands fa-square-twitter" style='font-size:24px'></i></a>  <a href="https://scholar.google.com/citations?hl=tr&user=wa7LG9gAAAAJ"><i class="ai ai-google-scholar-square ai-3x" style='font-size:24px'></i></a>  <a href="https://orcid.org/0000-0001-8011-1541"><i class="ai ai-orcid-square ai-3x" style='font-size:24px'></i></a>  <a href="https://github.com/utkuturk"><i class="fab fa-github" style='font-size:24px'></i></a>  <a href="mailto:utkuturk@umd.edu"><i class="fa-solid fa-envelope" style='font-size:24px'></i></a>
 
 I am an upcoming Ph.D. student in [linguistics][umdling] at University of Maryland, advised by [Colin Phillips][colin] and [Ellen Lau][ellen]. <!-- I am also a [Language Science Fellow][langsci] in University of Maryland’s Language Science Center. -->
 
-I will defend my Master's Thesis titled ["Agreement Attraction in Turkish"][thesis] under the supervision of [Pavel Logacev][pavel] in [the Department of Linguistics][dept] at Boğaziçi University on June 15. I investigated how (i) case syncretism, (ii) form heuristics, (iii) response bias, and (iv) register interacted with agreement attraction.
+I defended my Master's Thesis titled ["Agreement Attraction in Turkish"][thesis] under the supervision of [Pavel Logacev][pavel] in [the Department of Linguistics][dept] at Boğaziçi University on June 15. I investigated how (i) case syncretism, (ii) form heuristics, (iii) response bias, and (iv) register interacted with agreement attraction.
 
 the places my mind wondered around:
 - semantics of [hypothetical comparisons][hc],
@@ -32,6 +33,8 @@ the places my mind wondered around:
 
 my favorite food is [gata][gata] with koritz and my favorite icecream flavor is [saffron and rose][rose]. I am the co-founder of [translate for justice][tfj], which started as a collaborative effort to let the world know about [gezi park protests][gezi]. 
 
+
+
   [cal]:   https://www.artstation.com/kaosperver
   [thesis]: ma/
   [glide]:  2022/130/glide.html
@@ -43,7 +46,6 @@ my favorite food is [gata][gata] with koritz and my favorite icecream flavor is 
   [grtr]:   research/grtr/
   [deepl]:  research/deepl/
   [taship]: teaching.md
-  [gsoc]:   https://scholar.google.com/citations?hl=tr&user=wa7LG9gAAAAJ
   [dept]:   https://linguistics.boun.edu.tr
   [umdling]: https://linguistics.umd.edu/
   [langsci]: http://languagescience.umd.edu
@@ -62,11 +64,8 @@ my favorite food is [gata][gata] with koritz and my favorite icecream flavor is 
   [manu]:   https://github.com/utkuturk/tr_bias/blob/master/paper/draft/manuscript.pdf
   [o]:      https://en.wikipedia.org/wiki/Gender_neutrality_in_genderless_languages#Turkish
   [twitter]:https://www.twitter.com/utkuturkling
-  [orcid]:  https://orcid.org/0000-0001-8011-1541
-  [gh]:     https://github.com/utkuturk
   [tfj]:    https://translateforjustice.com/
   [gezi]:   https://en.wikipedia.org/wiki/Gezi_Park_protests
-  [mail]:   mailto:utkuturk@umd.edu
 
 
 <!--

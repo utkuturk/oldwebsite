@@ -7,7 +7,7 @@ permalink: /
 <link rel="stylesheet" href="/css/fontawesome/css/all.css" >
 <link rel="stylesheet" href="css/academicons/css/academicons.min.css"/>
 
-{% include image.html url="images/June22_utkuPhoto.jpeg" caption="june 2020" width="250px" align="right" %}
+{% include image.html url="images/June22_utkuPhoto.jpeg" caption="june 2020, photo by Merve Aydar" width="250px" align="right" %}
 
 - 🧭 <span style="text-decoration: underline">focus</span>
   - *psycholinguistics, (nano)syntax, formal semantics* <br><br>

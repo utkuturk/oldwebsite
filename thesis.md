@@ -21,8 +21,8 @@ This thesis tries to explore how the attraction phenomenon interacts with issues
 </details>
 ----
 <details>
-  <summary>Thesis Draft</summary>
-  <iframe src="../files/ma_defense/thesis.pdf" width="100%" height="800px"></iframe>
+  <summary>Thesis</summary>
+  <iframe src="https://github.com/utkuturk/ma-thesis/raw/main/ma_thesis_aug10.pdf" width="100%" height="800px"></iframe>
 </details>
 ----
 <details>
@@ -102,6 +102,7 @@ This thesis tries to explore how the attraction phenomenon interacts with issues
 ----
 
 ## Supplementary links
+  * [Full Thesis](https://github.com/utkuturk/ma-thesis/raw/main/ma_thesis_aug10.pdf)
   * [Github Repo](https://github.com/utkuturk/ma-thesis)
   * [All Code (Grouped according to the chapters)](https://github.com/utkuturk/ma-thesis/tree/main/scripts)
   * [Experiment Raw Data](https://github.com/utkuturk/ma-thesis/tree/main/resources/raw)

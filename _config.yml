@@ -1,5 +1,5 @@
-title: Utku Turk
-description: Utku Turk's webpage
+title: utkuturk
+description: utkuturk
 sourcecode: "https://github.com/utkuturk/utkuturk.github.io"
 permalink: ordinal
 exclude: ["Makefile", "README.md"]
@@ -10,7 +10,7 @@ url:                          # the base hostname & protocol for your site
 # baseurl: ""
 
 author:
-    name: Utku Türk
+    name: Utku Turk
     scholar: wa7LG9gAAAAJ  
 
 # Build settings

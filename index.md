@@ -1,37 +1,46 @@
 ---
 layout: page
-title:
+title: 
 permalink: /
 ---
+<!-- change font color -->
 
 <link rel="stylesheet" href="/css/fontawesome/css/all.css" >
 <link rel="stylesheet" href="css/academicons/css/academicons.min.css"/>
 
-{% include image.html url="images/June22_utkuPhoto.jpeg" caption="june 2020, photo by Merve Aydar" width="250px" align="right" %}
+{% 
+  include image.html 
+  url="images/June22_utkuPhoto.jpeg" 
+  caption="june 2022, photo by Merve Aydar<br>e-mail: utkuturk@umd.edu<br><a href='https://twitter.com/UtkuTurkLing'><i class='fa-brands fa-twitter' style='font-size:24px'></i></a> <a href='https://scholar.google.com/citations?hl=tr&user=wa7LG9gAAAAJ'><i class='ai ai-google-scholar ai-3x' style='font-size:24px'></i></a> <a href='https://orcid.org/0000-0001-8011-1541'><i class='ai ai-orcid ai-3x' style='font-size:24px'></i></a> <a href='https://github.com/utkuturk'><i class='fab fa-github' style='font-size:24px'></i></a> <a href='http://bayes.club/@utkuturk'><i class='fa-brands fa-mastodon' style='font-size:24px'></i></a>" 
+  href="https://twitter.com/UtkuTurkLing"
+  href="https://scholar.google.com/citations?hl=tr&user=wa7LG9gAAAAJ"
+  href="https://orcid.org/0000-0001-8011-1541"
+  href="https://github.com/utkuturk"
+  href="http://bayes.club/@utkuturk"
+  width="250px" 
+  align="right" 
+%}
 
-- 🧭 <span style="text-decoration: underline">focus</span>
-  - *psycholinguistics, (nano)syntax, formal semantics* <br><br>
-- 👾 <span style="text-decoration: underline">me irl</span>
-  - [photography][flickr] & [games][steam]<br><br>
-- 📫 <span style="text-decoration: underline">socials</span>: <a href="https://twitter.com/UtkuTurkLing"><i class="fa-brands fa-square-twitter" style='font-size:24px'></i></a>  <a href="https://scholar.google.com/citations?hl=tr&user=wa7LG9gAAAAJ"><i class="ai ai-google-scholar-square ai-3x" style='font-size:24px'></i></a>  <a href="https://orcid.org/0000-0001-8011-1541"><i class="ai ai-orcid-square ai-3x" style='font-size:24px'></i></a>  <a href="https://github.com/utkuturk"><i class="fab fa-github" style='font-size:24px'></i></a>  <a href="mailto:utkuturk@umd.edu"><i class="fa-solid fa-envelope" style='font-size:24px'></i></a>
+I am a first year Ph.D. student in [linguistics][umdling] at University of Maryland, working mainly with [Colin Phillips][colin] and [Ellen Lau][ellen]. I am mostly interested in morpho-syntax and psycholinguistics. I am especially interested in why morpho-syntactic manipulations have irregular effects in various languages. 
 
-I am an upcoming Ph.D. student in [linguistics][umdling] at University of Maryland, advised by [Colin Phillips][colin] and [Ellen Lau][ellen]. <!-- I am also a [Language Science Fellow][langsci] in University of Maryland’s Language Science Center. -->
+In June 2022, I defended my MA thesis titled ["Agreement Attraction in Turkish"][thesis] in Bogazici University, where I worked with [Pavel Logacev][pavel]. 
 
-I defended my Master's Thesis titled ["Agreement Attraction in Turkish"][thesis] under the supervision of [Pavel Logacev][pavel] in [the Department of Linguistics][dept] at Boğaziçi University on June 15. I investigated how (i) case syncretism, (ii) form heuristics, (iii) response bias, and (iv) register interacted with agreement attraction.
-
-the places my mind wondered around:
-- semantics of [hypothetical comparisons][hc],
-- morphosyntax of augmentatives,<!-- [augmentatives][aug], -->
-- syntax-phonology interface of Turkish cases, <!--[Turkish cases][case],-->
-- influence of vowel harmony on suspended affixation, <!--[suspended affixation][sa],-->
+In the meantime, I focused on many different topics, including: 
+- shallow processing in agreement attraction,
+- response bias estimation,
+- case-driven local ambiguity in agreement attraction,  
+- semantics of [hypothetical comparisons][hc], 
+- morphosyntax of augmentatives,<!-- [augmentatives][aug], --> 
+- syntax-phonology interface of Turkish cases, <!--[Turkish cases][case],--> 
+- influence of vowel harmony on suspended affixation, <!--[suspended affixation][sa],--> 
 - the phonemic status of ["glide" [ j ]][glide], 
-- formation of Turkish and Laz treebanks, <!--[Turkish and Laz treebanks][trlazud],-->
-- language contact between Greek and Turkish, <!-- [Greek and Turkish][grtr] in Asia Minor.-->
-
+- formation of Turkish and Laz treebanks, <!--[Turkish and Laz treebanks][trlazud],--> 
+- language contact between Greek and Turkish. <!-- [Greek and Turkish][grtr] in Asia Minor.-->
+<br><br>
 {% include image.html url="images/bosphorous.jpg" caption="view of bosphrous and kennedy lodge, photo by me, aug 18" width="800px" align="middle" %}
 
 
-my favorite food is [gata][gata] with koritz and my favorite icecream flavor is [saffron and rose][rose]. I am the co-founder of [translate for justice][tfj], which started as a collaborative effort to let the world know about [gezi park protests][gezi]. 
+In my freetime, I usually play games on [Steam][steam] or take amateur [photographs][flickr]. My favorite food is [gata][gata] with koritz and my favorite icecream flavor is [saffron and rose][rose].
 
 
 

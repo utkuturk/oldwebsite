@@ -12,6 +12,7 @@
 .site-header a {
     color: $header-text-color;
     border-bottom: 0px;
+    text-decoration: none;
 }
 .site-header a:hover {
     color: $header-hover-color;
@@ -42,7 +43,7 @@
     display: inline-block;
     margin: 1em 0 0 0.75em;
     padding: 0;
-    position: relative;
+    //position: relative;
     vertical-align: middle;
 }
 
@@ -55,15 +56,15 @@
     display: block;
     line-height: 1.2em;
     padding: 4px 10px;
-    color: $header-hover-color;
+    color: $header-text-color;
 }
 
 .site-nav .sub-menu a:hover {
-    color: $header-hover-url;
+    color: $header-hover-color;
 }
 .site-nav .sub-menu {
     border-color: $line-color;
-    min-width: 265px;
+    //min-width: 265px;
     z-index:2147483647;
 }
 .site-nav .sub-menu li.current-menu-item > a {
@@ -72,16 +73,18 @@
 }
 
 .sub-menu {
-    border: 1px solid $line-color;
-    display: none;
-    right: -10px;
-    padding: 4px 0 3px 0;
     position: absolute;
-    text-align: left;
-    text-transform: none;
-    top: 28px;
-    min-width: 265px;
-    z-index:999;
+    right: -10px;
+    left: auto;
+    box-shadow: 0 10px 15px -3px rgba(46, 41, 51, 0.08),
+    0 4px 6px -2px rgba(71, 63, 79, 0.16);
+    z-index: 999;
+    min-width: max-content;
+    padding: 4px 0 3px 0;
+    display: none;
+    background-color: $grey-vlight;
+    border-radius: 0 0 0.5rem 0.5rem; 
+    //border: 1px solid $line-color;
 }
 
 .sub-menu li {
@@ -90,7 +93,7 @@
     height: auto;
     margin: 3px 0;
     padding: 0;
-    text-align: left;
+    text-align: right;
 }
 
 .site-nav li:hover > .sub-menu {
@@ -127,7 +130,7 @@
         text-align: right;
 
         a.menu-icon::before {
-            content: url("data:image/svg+xml; utf8, <svg xmlns='http://www.w3.org/2000/svg' style='fill:#{$grey-dark}' width='1.25em' height='1.5em' viewBox='0 0 18 15'><g><path d='M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z'/><path d='M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z'/><path d='M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z'/></g></svg>");
+            content: url("../images/menu-icon.png");
         }
 
         .menu-icon {

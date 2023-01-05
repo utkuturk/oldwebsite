@@ -3,15 +3,20 @@
 ---
 @charset "utf-8";
 
-$font-weight-normal: 350;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Nunito+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&display=swap');
+
+$font-weight-normal: 300;
 $font-weight-bold:   600;
 
-$base-font-family:  "Source Sans Pro", "Lato", -apple-system, "San Francisco", "Helvetica Neue", Helvetica, Roboto, "Segoe UI", "Segoe WP", Arial, Ubuntu, sans-serif;
-$base-font-size:   13pt;
+$base-font-family: "Inter";
+$base-font-size:   12pt;
 $base-line-height: 1.5;
+$monospace-font: 'Fira Code';
 
-$heading-font-family: $base-font-family;
-$heading-font-size:   16pt;
+$heading-font-family: "Nunito Sans";
+$heading-font-size:   12pt;
 $heading-menu-font-size: 12pt;
 $heading-line-height: 1.5;
 
@@ -27,15 +32,19 @@ $grey-vdark: #222;
 $blue:       #0091ed;
 $orange:     #ca6c18;
 $red:        #b6321c;
+$myblack:    #192832ea;
+$exe:        #2d4555ea;
+$purple:     #a759a7;
+$slate:      #708090;
 
 $background:        $grey-vlight;
 $dark-background:   darken($background, 5%);
-$text-color:        $grey-vdark;
+$text-color:        darken($grey-vlight, 50%);
 $text-light-color:  $grey;
-$url-color:         $red;
-$url-hover-color:   $orange;
+$url-color:         $purple;
+$url-hover-color:   cornflowerblue;
 $header-text-color: $text-light-color;
-$header-hover-color:$text-color;
+$header-hover-color:darken($text-color, 100%);
 $header-hover-url:  $url-color;
 $line-color:        $grey-light;
 

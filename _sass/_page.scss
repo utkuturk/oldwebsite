@@ -1,14 +1,15 @@
 .page {
     margin: 0 auto;
     max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
-    max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
+    max-width: calc(#{$content-width} - (#{$spacing-unit} * 2));
     min-width: -webkit-calc(#{$content-min-width} - (#{$spacing-unit} * 2));
-    min-width:         calc(#{$content-min-width} - (#{$spacing-unit} * 2));
+    min-width: calc(#{$content-min-width} - (#{$spacing-unit} * 2));
+
     @include media-query($desktop) {
         max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
-        max-width:         calc(#{$content-width} - (#{$spacing-unit}));
+        max-width: calc(#{$content-width} - (#{$spacing-unit}));
         min-width: -webkit-calc(#{$content-min-width} - (#{$spacing-unit} * 2));
-        min-width:         calc(#{$content-min-width} - (#{$spacing-unit} * 2));
+        min-width: calc(#{$content-min-width} - (#{$spacing-unit} * 2));
     }
 }
 
@@ -27,20 +28,48 @@
 }
 
 .post p {
-    margin-top:    $spacing-unit * 0.8;
+    margin-top: $spacing-unit * 0.8;
     margin-bottom: $spacing-unit * 0.8;
+    // color:       $myblack;
 }
 
-.post h1, h2, h3, h4, h5, h6 {
-    margin-top:    $spacing-unit * 0.8;
+// .post table {
+//     color:       $exe;
+//     margin-left: 2%;
+// }
+
+// .post ul, ol {
+//     color:       $exe;
+//     margin-left: 5%;
+// }
+
+// .post li {
+//     > ul, ol {
+//         color:       $exe;
+//         margin-left: 5%;
+//     }
+// }
+
+.post h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: $spacing-unit * 0.8;
     margin-bottom: $spacing-unit * 0.8;
+    // text-align: center;
+    // text-decoration: underline;
+    // text-decoration-thickness: 2px;
+    // text-underline-offset: 5px;
 }
+
 
 .post-list {
     margin-left: 0;
     list-style: none;
 
-    > li {
+    >li {
         margin-bottom: $spacing-unit;
     }
 }

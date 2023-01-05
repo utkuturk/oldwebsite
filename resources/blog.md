@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Blog
-permalink: /blog/
+title: 
+permalink: /resources/blog/
 ---
 
-{% include image.html url="../images/station_izmir.jpg" caption="view of a station in izmir, aug 18, photo by me" width="800px" align="middle" %}
+{% include image.html url="../../images/station_izmir.jpg" caption="view of a station in izmir, aug 18, photo by me" width="800px" align="middle" %}
 
 
 <ul class="listing">

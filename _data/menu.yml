@@ -4,18 +4,31 @@
 - title: "teaching"
   href: "/teaching/"
 
+- title: "publications"
+  href: "/publications/"
+
+- title: "presentations"
+  href: "/presentations/"
 
 - title: "cv"
   href: "/cv/"
 
-- title: "blog"
-  href: "/blog/"
+- title: "resources"
+  href: "/resources/"
 
 # - title: "growth"
 #   href: "/growth/"
 
-  # subcategories:
-  #  - subtitle: "Item 1"
-  #    subhref: "/miscellany/item-1/"
-  #  - subtitle: "Item 2"
-  #    subhref: "/miscellany/item-2/"
+  subcategories:
+  - subtitle: "my blog"
+    subhref: "/resources/blog/"
+  - subtitle: "friends"
+    subhref: "/resources/friends/"
+  - subtitle: "ling"
+    subhref: "/resources/ling/"
+  - subtitle: "stats"
+    subhref: "/resources/stats/"
+  - subtitle: "typescript"
+    subhref: "/resources/typescript/"
+  - subtitle: "games"
+    subhref: "/resources/games/"

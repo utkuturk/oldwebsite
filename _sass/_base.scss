@@ -1,7 +1,20 @@
 //  Reset some basic elements
-body, h1, h2, h3, h4, h5, h6,
-p, blockquote, pre, hr,
-dl, dd, ol, ul, figure {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+hr,
+dl,
+dd,
+ol,
+ul,
+figure {
     margin: 0;
     padding: 0;
 }
@@ -10,14 +23,26 @@ html {
     overflow-y: scroll;
 }
 
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
 // Basic styling
 body {
     font-family: $base-font-family;
     font-weight: $font-weight-normal;
-    font-size:   $base-font-size;
+    font-size: $base-font-size;
     line-height: $base-line-height;
-    color:       $text-color;
+    color: $text-color;
     background-color: $background;
+    animation-name: fadein;
+    animation-duration: 1.5s;
     margin: 0 $spacing-unit/2;
     -webkit-text-size-adjust: 100%;
 }
@@ -28,19 +53,34 @@ strong {
 }
 
 //  Headings
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: $heading-font-family;
     font-weight: $font-weight-bold;
-    font-size:   $heading-font-size;
+    font-size: $heading-font-size;
     line-height: $heading-line-height;
-    color:       $text-color;
+    color: $text-color;
     text-transform: uppercase;
 }
 
 // Set `margin-bottom` to maintain vertical rhythm
-h1, h2, h3, h4, h5, h6,
-p, blockquote, pre,
-ul, ol, dl, figure,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+ul,
+ol,
+dl,
+figure,
 %vertical-rhythm {
     margin-bottom: 0; //$spacing-unit/2;
 }
@@ -61,7 +101,7 @@ img {
 }
 
 // Figures
-figure > img {
+figure>img {
     display: block;
 }
 
@@ -70,23 +110,30 @@ figcaption {
 }
 
 //  Lists
-ul, ol {
+ul,
+ol {
     margin-left: $spacing-unit;
 }
 
 li {
-    > ul,
-    > ol {
-         margin-bottom: 0;
-         margin-top:    0;
+
+    >ul,
+    >ol {
+        margin-bottom: 0;
+        margin-top: 0;
     }
 }
 
 // Links
 a {
     color: $url-color;
-    text-decoration: none;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 5px;
+    text-decoration-color: $url-color;
+
     &:hover {
+        text-decoration-color: $url-hover-color;
         color: $url-hover-color;
     }
 }
@@ -95,18 +142,20 @@ a {
 blockquote {
     background-color: $dark-background;
     border-left: 4px solid darken($line-color, 66%);
-    padding-left:   1.0em;
-    padding-right:  0.8em;
-    padding-top:    0.8em;
+    padding-left: 1.0em;
+    padding-right: 0.8em;
+    padding-top: 0.8em;
     padding-bottom: 0.001em;
     font-style: italic;
+
     > :last-child {
         margin-bottom: 0;
     }
 }
 
 // Code formatting
-pre, code {
+pre,
+code {
     border: 1px solid $line-color;
     border-radius: 3px;
     background-color: $dark-background;
@@ -122,7 +171,7 @@ pre {
     padding: 8px 12px;
     overflow-x: scroll;
 
-    > code {
+    >code {
         border: 0;
         padding-right: 0;
         padding-left: 0;
@@ -131,11 +180,12 @@ pre {
 
 // Icons
 .icon {
-    > svg {
+    >svg {
         display: inline-block;
         width: 0.75em;
         height: 0.75em;
         vertical-align: middle;
+
         path {
             fill: $text-color;
         }
@@ -143,8 +193,9 @@ pre {
 }
 
 .footnotes ol li {
-    list-style-type:decimal;
+    list-style-type: decimal;
 }
+
 .footnotes ol {
     font-size: $vsmall-font-size;
     color: $text-light-color;
@@ -169,3 +220,108 @@ ul.listing li.listing-item time {
 ul.listing li.listing-item a {
     color: $url-color;
 }
+
+
+// mystyles
+.foc {
+    //text-decoration: underline;
+    //text-decoration-style: wavy;
+    font-family: $monospace-font;
+    font-size: 0.90rem;
+    font-style: italic;
+    //text-decoration-thickness: 2px;
+    //text-underline-offset: 4px;
+    //text-decoration-color: chocolate;
+}
+
+// details
+details[open] summary~* {
+    animation: open 0.5s ease-in-out;
+}
+
+@keyframes open {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+details summary::-webkit-details-marker {
+    display: none;
+}
+
+details summary {
+    width: 100%;
+    text-align: center;
+    padding: 0.5rem 0;
+    border-top: 1px solid black;
+    position: relative;
+    cursor: pointer;
+    font-size: 0.85rem;
+    font-family: $monospace-font;
+    font-weight: 700;
+    list-style: none;
+}
+
+details summary:after {
+    content: "+";
+    color: black;
+    position: absolute;
+    font-size: 1.25rem;
+    line-height: 0;
+    margin-top: 0.75rem;
+    right: 0;
+    font-weight: 200;
+    transform-origin: center;
+    transition: 200ms linear;
+}
+
+details[open] summary:after {
+    transform: rotate(45deg);
+    font-size: 2rem;
+}
+
+details summary {
+    outline: 0;
+}
+
+details p {
+    font-size: 0.95rem;
+    margin: 0 0 1rem;
+    padding-top: 1rem;
+}
+
+details>*:not(summary) {
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+details a {
+    margin-left: 0em;
+    margin-right: 0em;
+}
+
+details strong {
+    margin-left: 0em;
+    margin-right: 0em;
+}
+
+details span.doi {
+    margin-left: 0em;
+    margin-right: 0em;
+    font-variant: small-caps;
+}
+
+
+//   hr { 
+//     display: block;
+//     margin-top: 0.5em;
+//     margin-bottom: 0.5em;
+//     margin-left: auto;
+//     margin-right: auto;
+//     border-style: inset;
+//     border-width: 1px;
+//   }

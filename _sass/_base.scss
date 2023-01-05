@@ -43,7 +43,7 @@ body {
     background-color: $background;
     animation-name: fadein;
     animation-duration: 1.5s;
-    margin: 0 $spacing-unit/2;
+    margin: 0 calc($spacing-unit / 2);
     -webkit-text-size-adjust: 100%;
 }
 

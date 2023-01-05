@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /research/
-title:
+title: ""
 ---
 
 Jump to [sentence processing](#sentence-processing), [morpho-syntax](#morpho-syntax), [treebanking](#treebanking), [semantics](#semantics), [computing stack](#computing-stack).

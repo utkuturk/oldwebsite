@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /presentations/
-title: 
+title: ""
 ---
 
 ## Conference Poster & Talks

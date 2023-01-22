@@ -37,10 +37,12 @@ In the meantime, I focused on many different topics, including:
 - formation of Turkish and Laz treebanks, <!--[Turkish and Laz treebanks][trlazud],--> 
 - language contact between Greek and Turkish. <!-- [Greek and Turkish][grtr] in Asia Minor.-->
 <br><br>
-{% include image.html url="images/bosphorous.jpg" caption="view of bosphrous and kennedy lodge, photo by me, aug 18" width="800px" align="middle" %}
 
 
-In my freetime, I usually play games on [Steam][steam] or take amateur [photographs][flickr]. My favorite food is [gata][gata] with koritz and my favorite icecream flavor is [saffron and rose][rose].
+<!-- {% include image.html url="images/bosphorous.jpg" caption="view of bosphrous and kennedy lodge, photo by me, aug 18" width="800px" align="middle" %}
+
+
+In my freetime, I usually play games on [Steam][steam] or take amateur [photographs][flickr]. My favorite food is [gata][gata] with koritz and my favorite icecream flavor is [saffron and rose][rose]. -->
 
 
 

@@ -263,6 +263,21 @@ proceedings:
       doi:     http://dx.doi.org/10.18653/v1/W19-8013
 
 conferences:
+    - title: Novel analysis of response bias challenges representational accounts in attraction
+      author: "**Türk, U.**, Logacev, P."
+      conf: Human Sentence Processing 2023
+      month: "March"
+      year: 2023
+      istalk: TRUE
+      abs:     /files/abstracts/hsp-2023-bias.pdf
+    - title: Obviation Problem in Turkish
+      author: "**Türk, U.**"
+      conf: "the 8th Workshop on Turkic and languages in contact with Turkic" 
+      year:    2023
+      month: March
+      isposter: TRUE
+      place:   "Harvard University: Cambridge, MA, USA"
+      abs:     /files/abstracts/obviation2023.pdf
     - title:   "Defining borrowing hierarchies in the light of sociolinguistic and geodemographic causation: contact-induced morphosyntactic change in Asia Minor Greek"
       author:  Sampanis, K., **Türk, U.**
       conf:    "54th Annual Meeting of the Societas Linguistica Europaea" 

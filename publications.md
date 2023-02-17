@@ -7,6 +7,11 @@ title:
 {% include image.html url="../images/cats.jpg" caption="cats of '18 summer & bit espresso bar, photo by me" width="800px" align="middle" %}
 
 
+## Dissertation / Thesis
+
+**Türk, U.** (2022). [Agreement Attraction in Turkish](http://seyhan.library.boun.edu.tr/record=b2776878~S5). Unplished MA thesis. Bogazici University. [[localpdf]]("../files/ma_defense/thesis_singlespace.pdf"). [[repo]](https://github.com/utkuturk/ma-thesis). [[overleaf]](https://www.overleaf.com/read/vdstcpwwvdpp). 
+
+
 ##  Journal Articles
 
 **Türk, U.**, Atmaca, F., Özateş, Ş.B. et al. (2022). [Resources for Turkish dependency parsing: introducing the BOUN Treebank and the BoAT annotation tool.](https://link.springer.com/article/10.1007/s10579-021-09558-0) Language Resources & Evaluation 56, 259–307. <font style="font-variant: small-caps">Doi:</font> [10.1007/s10579-021-09558-0](https://doi.org/10.1007/s10579-021-09558-0). [[resources]](https://tabilab.cmpe.boun.edu.tr/BOUN-PARS/resources.html)
@@ -35,14 +40,10 @@ Canalis, S., Özdemir, S., **Türk, U.**, Tunçer, Ü.C. (in press). [The phonol
 **Türk, U.**, Atmaca, F., Özateş, S. B., Bedir, S. T., Köksal, A., Öztürk B., Güngör, T., Özgür, A. (2019). [Improving the Annotations in the Turkish Universal Dependency Treebank.](https://aclanthology.org/W19-8013.pdf) In A. Rademaker & F. Tyers (eds.), Proceedings of the Third Workshop on Universal Dependencies (UDW, SyntaxFest 2019), 108-117, <font style="font-variant: small-caps">Acl Anthology:</font> [W19-8013](https://aclanthology.org/W19-8013).
 
 
-## Dissertation
-
-**Türk, U.** (2022). [Agreement Attraction in Turkish](http://seyhan.library.boun.edu.tr/record=b2776878~S5). [[localpdf]]("../files/ma_defense/thesis_singlespace.pdf"). [[repo]](https://github.com/utkuturk/ma-thesis). [[overleaf]](https://www.overleaf.com/read/vdstcpwwvdpp). 
-
 
 ## Manuscripts
 
-_(manuscripts are available upon a request via e-mail)_
+_(manuscripts are available upon request via e-mail)_
 
 **Türk, U.** (2022). Selectivity in the effects of Case Ambiguity in Agreement attraction.
 

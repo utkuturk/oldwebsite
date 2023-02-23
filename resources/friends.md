@@ -6,12 +6,12 @@ permalink: /resources/friends/
 
 Friends & Collaborators
 - from UMD Cohort (SUS CLAMS)
-    - [**S**ebastian Mancha](https://smancha.github.io/)
-    - **U**tku Turk
     - [**S**arah Boukendour](https://linguistics.umd.edu/directory/sarah-boukendour)
+    - **U**tku Turk
+    - [**S**ebastian Mancha](https://smancha.github.io/)
     - [**C**assandra Caragine](https://linguistics.umd.edu/directory/cassandra-caragine)
     - [**L**ydia Quevedo](https://lydiayquevedo.wordpress.com/)
-    - [**A**llison Dods](https://linguistics.umd.edu/directory/allison-dods)
+    -  <font size="+2">[**A**llison Dods](https://linguistics.umd.edu/directory/allison-dods)</font>
     - [**M**alhaar Shah](https://linguistics.umd.edu/directory/malhaar-shah)
     - [**S**athvik Nair](https://sathvikn.github.io/)
 

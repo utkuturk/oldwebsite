@@ -24,8 +24,10 @@ permalink: /
 I am a first year Ph.D. student in [linguistics][umdling] at University of Maryland, working mainly with [Colin Phillips][colin] and [Ellen Lau][ellen]. I am mostly interested in morpho-syntax and psycholinguistics. I am especially interested in why morpho-syntactic manipulations have irregular effects in various languages. 
 
 In June 2022, I defended my MA thesis titled ["Agreement Attraction in Turkish"][thesis] in Bogazici University, where I worked with [Pavel Logacev][pavel]. 
+<br><br>
 
-In the meantime, I focused on many different topics, including: 
+    
+### Topics thata are close to my heart
 - shallow processing in agreement attraction,
 - response bias estimation,
 - case-driven local ambiguity in agreement attraction,  
@@ -36,8 +38,11 @@ In the meantime, I focused on many different topics, including:
 - the phonemic status of ["glide" [ j ]][glide], 
 - formation of Turkish and Laz treebanks, <!--[Turkish and Laz treebanks][trlazud],--> 
 - language contact between Greek and Turkish. <!-- [Greek and Turkish][grtr] in Asia Minor.-->
-<br><br>
 
+
+### Recent and upcoming activity
+- March 9, 2023: I gave a talk in Human Sentence Processing Conference about response bias and agreement attraction. [slides]("files/slides/hsp2023.pdf)
+- March 4, 2023: I presented my poster on Obviation an Reference at Harvard at TU+. [poster]("files/slides/tuplus2023.pdf)
 
 <!-- {% include image.html url="images/bosphorous.jpg" caption="view of bosphrous and kennedy lodge, photo by me, aug 18" width="800px" align="middle" %}
 

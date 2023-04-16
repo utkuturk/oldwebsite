@@ -67,7 +67,7 @@ In my freetime, I usually play games on [Steam][steam] or take amateur [photogra
   [langsci]: http://languagescience.umd.edu
   [ellen]: https://ellenlau.net/
   [uni]:    http://www.boun.edu.tr
-  [pavel]:  https://plogacev.github.io
+  [pavel]:  https://twitter.com/pavellogacev?lang=en
   [colin]:  https://www.colinphillips.net/
   [gata]:   https://en.wikipedia.org/wiki/Gata_(food)
   [rose]:   https://www.nytimes.com/2016/04/06/dining/saffron-and-rose-persian-ice-cream-shop-los-angeles.html

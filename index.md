@@ -27,7 +27,7 @@ In June 2022, I defended my MA thesis titled ["Agreement Attraction in Turkish"]
 <br><br>
 
     
-### Topics thata are close to my heart
+### Topics that are close to my heart
 - shallow processing in agreement attraction,
 - response bias estimation,
 - case-driven local ambiguity in agreement attraction,  

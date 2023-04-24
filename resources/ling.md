@@ -14,7 +14,6 @@ Blogs I frequently check and read (ordered according to the frequency I check th
 - [Alec Marantz' blog](https://wp.nyu.edu/morphlab/blog/)
 - [Diversity Linguistics Comments](https://dlc.hypotheses.org/) by Martin Haspelmath.
 - [outdex](https://outde.xyz) by Thomas Graf and few guest writers.
-- [Omer Preminger's blog](https://omer.lingsite.org/category/blogging/)
 - [Gillian Ramchand's blog](https://gillianramchand.blog/)
 - [Dan Milway's blog](https://milway.ca/blog/)
 - [talking brains](http://www.talkingbrains.org) by David Poeppel and Greg Hickok

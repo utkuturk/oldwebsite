@@ -27,7 +27,7 @@ In June 2022, I defended my MA thesis titled ["Agreement Attraction in Turkish"]
 <br><br>
 
     
-### Topics thata are close to my heart
+### Topics that are close to my heart
 - shallow processing in agreement attraction,
 - response bias estimation,
 - case-driven local ambiguity in agreement attraction,  
@@ -68,7 +68,7 @@ In my freetime, I usually play games on [Steam][steam] or take amateur [photogra
   [langsci]: http://languagescience.umd.edu
   [ellen]: https://ellenlau.net/
   [uni]:    http://www.boun.edu.tr
-  [pavel]:  https://plogacev.github.io
+  [pavel]:  https://twitter.com/pavellogacev?lang=en
   [colin]:  https://www.colinphillips.net/
   [gata]:   https://en.wikipedia.org/wiki/Gata_(food)
   [rose]:   https://www.nytimes.com/2016/04/06/dining/saffron-and-rose-persian-ice-cream-shop-los-angeles.html

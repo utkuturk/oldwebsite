@@ -41,6 +41,7 @@ In June 2022, I defended my MA thesis titled ["Agreement Attraction in Turkish"]
 
 
 ### Recent and upcoming activity
+- April 25, 2023: Our paper on the phonemic status of Turkish glide [ j ] is now in press! [pdf](files/pdfs/CanalisEtAl2023.pdf)
 - March 9, 2023: I gave a talk in Human Sentence Processing Conference about response bias and agreement attraction. [slides](files/slides/hsp2023.pdf)
 - March 4, 2023: I presented my poster on Obviation an Reference at Harvard at TU+. [poster](files/slides/tuplus2023.pdf)
 

@@ -9,7 +9,7 @@ title:
 
 ## Dissertation / Thesis
 
-**Türk, U.** (2022). [Agreement Attraction in Turkish](http://seyhan.library.boun.edu.tr/record=b2776878~S5). Unplished MA thesis. Bogazici University. [[localpdf]]("../files/ma_defense/thesis_singlespace.pdf"). [[repo]](https://github.com/utkuturk/ma-thesis). [[overleaf]](https://www.overleaf.com/read/vdstcpwwvdpp). 
+**Türk, U.** (2022). [Agreement Attraction in Turkish](http://seyhan.library.boun.edu.tr/record=b2776878~S5). Unplished MA thesis. Bogazici University. [[localpdf]](../files/ma_defense/thesis_singlespace.pdf). [[repo]](https://github.com/utkuturk/ma-thesis). [[overleaf]](https://www.overleaf.com/read/vdstcpwwvdpp). 
 
 
 ##  Journal Articles

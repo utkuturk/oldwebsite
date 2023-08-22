@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 
+title:
 permalink: /
 ---
 <!-- change font color -->
@@ -8,35 +8,37 @@ permalink: /
 <link rel="stylesheet" href="/css/fontawesome/css/all.css" >
 <link rel="stylesheet" href="css/academicons/css/academicons.min.css"/>
 
-{% 
-  include image.html 
-  url="images/June22_utkuPhoto.jpeg" 
-  caption="june 2022, photo by Merve Aydar<br>e-mail: utkuturk@umd.edu<br><a href='https://twitter.com/UtkuTurkLing'><i class='fa-brands fa-twitter' style='font-size:24px'></i></a> <a href='https://scholar.google.com/citations?hl=tr&user=wa7LG9gAAAAJ'><i class='ai ai-google-scholar ai-3x' style='font-size:24px'></i></a> <a href='https://orcid.org/0000-0001-8011-1541'><i class='ai ai-orcid ai-3x' style='font-size:24px'></i></a> <a href='https://github.com/utkuturk'><i class='fab fa-github' style='font-size:24px'></i></a> <a href='http://bayes.club/@utkuturk'><i class='fa-brands fa-mastodon' style='font-size:24px'></i></a>" 
+{%
+  include image.html
+  url="images/June22_utkuPhoto.jpeg"
+  caption="june 2022, photo by Merve Aydar<br>e-mail: utkuturk@umd.edu<br><a href='https://twitter.com/UtkuTurkLing'><i class='fa-brands fa-twitter' style='font-size:24px'></i></a> <a href='https://scholar.google.com/citations?hl=tr&user=wa7LG9gAAAAJ'><i class='ai ai-google-scholar ai-3x' style='font-size:24px'></i></a> <a href='https://orcid.org/0000-0001-8011-1541'><i class='ai ai-orcid ai-3x' style='font-size:24px'></i></a> <a href='https://github.com/utkuturk'><i class='fab fa-github' style='font-size:24px'></i></a> <a href='http://bayes.club/@utkuturk'><i class='fa-brands fa-mastodon' style='font-size:24px'></i></a>"
   href="https://twitter.com/UtkuTurkLing"
   href="https://scholar.google.com/citations?hl=tr&user=wa7LG9gAAAAJ"
   href="https://orcid.org/0000-0001-8011-1541"
   href="https://github.com/utkuturk"
   href="http://bayes.club/@utkuturk"
-  width="250px" 
-  align="right" 
+  width="250px"
+  align="right"
 %}
 
-I am a first year Ph.D. student in [linguistics][umdling] at University of Maryland, working mainly with [Colin Phillips][colin] and [Ellen Lau][ellen]. I am mostly interested in morpho-syntax and psycholinguistics. I am especially interested in why morpho-syntactic manipulations have irregular effects in various languages. 
+I am a first year Ph.D. student in [linguistics][umdling] at University of Maryland, working mainly with [Colin Phillips][colin] and [Ellen Lau][ellen]. I am mostly interested in morpho-syntax and psycholinguistics. I am especially interested in why morpho-syntactic manipulations have irregular effects in various languages.
 
-In June 2022, I defended my MA thesis titled ["Agreement Attraction in Turkish"][thesis] in Bogazici University, where I worked with [Pavel Logacev][pavel]. 
+In June 2022, I defended my MA thesis titled ["Agreement Attraction in Turkish"][thesis] in Bogazici University, where I worked with [Pavel Logacev][pavel].
+
+You can find my CV [here][cv].
 <br><br>
 
-    
+
 ### Topics that are close to my heart
 - shallow processing in agreement attraction,
 - response bias estimation,
-- case-driven local ambiguity in agreement attraction,  
-- semantics of [hypothetical comparisons][hc], 
-- morphosyntax of augmentatives,<!-- [augmentatives][aug], --> 
-- syntax-phonology interface of Turkish cases, <!--[Turkish cases][case],--> 
-- influence of vowel harmony on suspended affixation, <!--[suspended affixation][sa],--> 
-- the phonemic status of ["glide" [ j ]][glide], 
-- formation of Turkish and Laz treebanks, <!--[Turkish and Laz treebanks][trlazud],--> 
+- case-driven local ambiguity in agreement attraction,
+- semantics of [hypothetical comparisons][hc],
+- morphosyntax of augmentatives,<!-- [augmentatives][aug], -->
+- syntax-phonology interface of Turkish cases, <!--[Turkish cases][case],-->
+- influence of vowel harmony on suspended affixation, <!--[suspended affixation][sa],-->
+- the phonemic status of ["glide" [ j ]][glide],
+- formation of Turkish and Laz treebanks, <!--[Turkish and Laz treebanks][trlazud],-->
 - language contact between Greek and Turkish. <!-- [Greek and Turkish][grtr] in Asia Minor.-->
 
 

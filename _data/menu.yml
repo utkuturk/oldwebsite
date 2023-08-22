@@ -10,8 +10,8 @@
 - title: "presentations"
   href: "/presentations/"
 
-- title: "cv"
-  href: "/cv/"
+# - title: "cv"
+#   href: "/cv/"
 
 - title: "resources"
   href: "/resources/"

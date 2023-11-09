@@ -21,9 +21,12 @@ permalink: /
   align="right"
 %}
 
-I am a first year Ph.D. student in [linguistics][umdling] at University of Maryland, working mainly with [Colin Phillips][colin] and [Ellen Lau][ellen]. I am mostly interested in morpho-syntax and psycholinguistics. I am especially interested in why morpho-syntactic manipulations have irregular effects in various languages.
+I am a first year Ph.D. student in [linguistics][umdling] at University of Maryland, working mainly with [Colin Phillips][colin] and [Ellen Lau][ellen]. I am mostly interested in morpho-syntax and psycholinguistics. I am currently working on (i) morphological planning, i.e., when and how morphemes are planned in sentence production and (ii) neural representations of generics/kind NPs.
 
-In June 2022, I defended my MA thesis titled ["Agreement Attraction in Turkish"][thesis] in Bogazici University, where I worked with [Pavel Logacev][pavel].
+<!-- I am especially interested in why morpho-syntactic manipulations have irregular effects in various languages. -->
+
+In June 2022, I defended my MA thesis titled ["Agreement Attraction in Turkish"][thesis] in Bogazici University, where I worked with [Pavel Logacev][pavel] and focused on case-ambiguity, response bias, and shallow processing in agreement attraction. During my time in Bogazici, I also worked on formal semantics of hypothetical comparisons, the phonemic status of Turkish glide [j], treebanking efforts in Turkish and Laz. I also spent a semester in Masaryk University, as an invited researcher, where I worked with [Pavel Caha][caha] and focused on the syntax-phonology interface of Turkish case system and augmentatives in Turkish using nanosyntactic framework.
+
 
 You can find my CV [here][cv]. My favorite food is [gata][gata] with koritz and my favorite icecream flavor is [saffron and rose][rose].
 <br><br>

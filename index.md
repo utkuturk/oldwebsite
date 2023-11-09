@@ -25,32 +25,38 @@ I am a first year Ph.D. student in [linguistics][umdling] at University of Maryl
 
 In June 2022, I defended my MA thesis titled ["Agreement Attraction in Turkish"][thesis] in Bogazici University, where I worked with [Pavel Logacev][pavel].
 
-You can find my CV [here][cv].
+You can find my CV [here][cv]. My favorite food is [gata][gata] with koritz and my favorite icecream flavor is [saffron and rose][rose].
 <br><br>
 
+
+
+<!--
 
 ### Topics that are close to my heart
 - shallow processing in agreement attraction,
 - response bias estimation,
 - case-driven local ambiguity in agreement attraction,
 - semantics of [hypothetical comparisons][hc],
-- morphosyntax of augmentatives,<!-- [augmentatives][aug], -->
-- syntax-phonology interface of Turkish cases, <!--[Turkish cases][case],-->
-- influence of vowel harmony on suspended affixation, <!--[suspended affixation][sa],-->
+- morphosyntax of augmentatives,<!-- [augmentatives][aug],
+- syntax-phonology interface of Turkish cases, <!--[Turkish cases][case],
+- influence of vowel harmony on suspended affixation, <!--[suspended affixation][sa],
 - the phonemic status of ["glide" [ j ]][glide],
-- formation of Turkish and Laz treebanks, <!--[Turkish and Laz treebanks][trlazud],-->
-- language contact between Greek and Turkish. <!-- [Greek and Turkish][grtr] in Asia Minor.-->
+- formation of Turkish and Laz treebanks, <!--[Turkish and Laz treebanks][trlazud],
+- language contact between Greek and Turkish. [Greek and Turkish][grtr] in Asia Minor.
+
+-->
 
 
 ### Recent and upcoming activity
+- October 1, 2023: Got invited to send my paper on Suppletion and Suspended Affixation to a new Nanosyntax Book! It is still a very early draft, so all comments are appreciated! [pdf](files/pdfs/SA.pdf)
 - May 29, 2023: Contributed to pangoling R package. [myreview](https://github.com/ropensci/software-review/issues/575#issuecomment-1566746683)
 - April 25, 2023: Our paper on the phonemic status of Turkish glide [ j ] is now in press! [pdf](files/pdfs/CanalisEtAl2023.pdf)
 - March 9, 2023: I gave a talk in Human Sentence Processing Conference about response bias and agreement attraction. [slides](files/slides/hsp2023.pdf)
 - March 4, 2023: I presented my poster on Obviation and Reference at Harvard at TU+. [poster](files/slides/tuplus2023.pdf)
 
-<!-- {% include image.html url="images/bosphorous.jpg" caption="view of bosphrous and kennedy lodge, photo by me, aug 18" width="800px" align="middle" %}
+{% include image.html url="images/bosphorous.jpg" caption="view of bosphrous and kennedy lodge, photo by me, aug 18" width="800px" align="middle" %}
 
-
+<!--
 In my freetime, I usually play games on [Steam][steam] or take amateur [photographs][flickr]. My favorite food is [gata][gata] with koritz and my favorite icecream flavor is [saffron and rose][rose]. -->
 
 

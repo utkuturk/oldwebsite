@@ -21,7 +21,7 @@ permalink: /
   align="right"
 %}
 
-I am a first year Ph.D. student in [linguistics][umdling] at University of Maryland, working mainly with [Colin Phillips][colin] and [Ellen Lau][ellen]. I am mostly interested in morpho-syntax and psycholinguistics. I am currently working on (i) morphological planning, i.e., when and how morphemes are planned in sentence production and (ii) neural representations of generics/kind NPs.
+I am a second year Ph.D. student in [linguistics][umdling] at University of Maryland, working mainly with [Colin Phillips][colin] and [Ellen Lau][ellen]. I am mostly interested in morpho-syntax and psycholinguistics. I am currently working on (i) morphological planning, i.e., when and how morphemes are planned in sentence production and (ii) neural representations of generics/kind NPs.
 
 <!-- I am especially interested in why morpho-syntactic manipulations have irregular effects in various languages. -->
 

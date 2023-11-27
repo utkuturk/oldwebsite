@@ -28,7 +28,7 @@ I am a second year Ph.D. student in [linguistics][umdling] at University of Mary
 In June 2022, I defended my MA thesis titled ["Agreement Attraction in Turkish"][thesis] in Bogazici University, where I worked with [Pavel Logacev][pavel] and focused on case-ambiguity, response bias, and shallow processing in agreement attraction. During my time in Bogazici, I also worked on formal semantics of hypothetical comparisons, the phonemic status of Turkish glide [j], treebanking efforts in Turkish and Laz. I also spent a semester in Masaryk University, as an invited researcher, where I worked with [Pavel Caha][caha] and focused on the syntax-phonology interface of Turkish case system and augmentatives in Turkish using nanosyntactic framework.
 
 
-You can find my CV [here][cv]. My favorite food is [gata][gata] with koritz and my favorite icecream flavor is [saffron and rose][rose].
+You can find my CV [here][cv]. My favorite food is [gata][gata] with koritz and my favorite icecream flavor is [saffron and rose (5pm snack of Anthony Bourdain)][rose].
 <br><br>
 
 
@@ -83,7 +83,7 @@ In my freetime, I usually play games on [Steam][steam] or take amateur [photogra
   [pavel]:  https://twitter.com/pavellogacev?lang=en
   [colin]:  https://www.colinphillips.net/
   [gata]:   https://en.wikipedia.org/wiki/Gata_(food)
-  [rose]:   https://www.nytimes.com/2016/04/06/dining/saffron-and-rose-persian-ice-cream-shop-los-angeles.html
+  [rose]:   https://explorepartsunknown.com/koreatown-la/koreatown-perfect-day/
   [steam]:  https://steamcommunity.com/id/lecagot
   [flickr]: https://flickr.com/photos/97029582@N03/albums
   [caha]:   https://www.muni.cz/en/people/53172-pavel-caha/cv

@@ -22,7 +22,7 @@
   subcategories:
   - subtitle: "my blog"
     subhref: "/resources/blog/"
-  - subtitle: "books"
+  - subtitle: "teaching"
     subhref: "/teaching/"
   - subtitle: "friends"
     subhref: "/resources/friends/"

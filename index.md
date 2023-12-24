@@ -11,7 +11,8 @@ permalink: /
 {%
   include image.html
   url="images/June22_utkuPhoto.jpeg"
-  caption="e-mail: utkuturk@umd.edu<br><a href='https://twitter.com/UtkuTurkLing'><i class='fa-brands fa-twitter' style='font-size:24px'></i></a> <a href='https://scholar.google.com/citations?hl=tr&user=wa7LG9gAAAAJ'><i class='ai ai-google-scholar ai-3x' style='font-size:24px'></i></a> <a href='https://orcid.org/0000-0001-8011-1541'><i class='ai ai-orcid ai-3x' style='font-size:24px'></i></a> <a href='https://github.com/utkuturk'><i class='fab fa-github' style='font-size:24px'></i></a> <a href='http://bayes.club/@utkuturk'><i class='fa-brands fa-mastodon' style='font-size:24px'></i></a>"
+  caption="e-mail: utkuturk@umd.edu<br><a href='https://bsky.app/profile/utkuturk.com'><img src = "/images/bsky.svg" width='25' height='25' alt="bsky"/></a> <a href='https://twitter.com/UtkuTurkLing'><i class='fa-brands fa-twitter' style='font-size:24px'></i></a> <a href='https://scholar.google.com/citations?hl=tr&user=wa7LG9gAAAAJ'><i class='ai ai-google-scholar ai-3x' style='font-size:24px'></i></a> <a href='https://orcid.org/0000-0001-8011-1541'><i class='ai ai-orcid ai-3x' style='font-size:24px'></i></a> <a href='https://github.com/utkuturk'><i class='fab fa-github' style='font-size:24px'></i></a> <a href='http://bayes.club/@utkuturk'><i class='fa-brands fa-mastodon' style='font-size:24px'></i></a>"
+  href ="https://bsky.app/profile/utkuturk.com"
   href="https://twitter.com/UtkuTurkLing"
   href="https://scholar.google.com/citations?hl=tr&user=wa7LG9gAAAAJ"
   href="https://orcid.org/0000-0001-8011-1541"

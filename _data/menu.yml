@@ -1,20 +1,20 @@
 - title: "research"
   href: "/research/"
 
-- title: "teaching"
-  href: "/teaching/"
+# - title: "teaching"
+#   href: "/teaching/"
 
-- title: "publications"
-  href: "/publications/"
+- title: "papers"
+  href: "/papers/"
 
-- title: "presentations"
-  href: "/presentations/"
+- title: "talks"
+  href: "/talks/"
 
 # - title: "cv"
 #   href: "/cv/"
 
-- title: "resources"
-  href: "/resources/"
+- title: "misc"
+  href: "/misc/"
 
 # - title: "growth"
 #   href: "/growth/"
@@ -22,6 +22,8 @@
   subcategories:
   - subtitle: "my blog"
     subhref: "/resources/blog/"
+  - subtitle: "books"
+    subhref: "/teaching/"
   - subtitle: "friends"
     subhref: "/resources/friends/"
   - subtitle: "ling"

@@ -22,6 +22,8 @@
   subcategories:
   - subtitle: "my blog"
     subhref: "/resources/blog/"
+  - subtitle: "calligraphy"
+    subhref: "/resources/calligraphy/"
   - subtitle: "teaching"
     subhref: "/teaching/"
   - subtitle: "friends"
@@ -32,5 +34,3 @@
     subhref: "/resources/stats/"
   - subtitle: "typescript"
     subhref: "/resources/typescript/"
-  - subtitle: "games"
-    subhref: "/resources/games/"

@@ -9,18 +9,18 @@ title:
 
 ## Dissertation / Thesis
 
-**Türk, U.** (2022). [Agreement Attraction in Turkish](http://seyhan.library.boun.edu.tr/record=b2776878~S5). Unplished MA thesis. Bogazici University. [[localpdf]](../files/ma_defense/thesis_singlespace.pdf). [[repo]](https://github.com/utkuturk/ma-thesis). [[overleaf]](https://www.overleaf.com/read/vdstcpwwvdpp).
+**Türk, U.** (2022). [Agreement Attraction in Turkish](http://seyhan.library.boun.edu.tr/record=b2776878~S5). Unplished MA thesis. Bogazici University. [[localpdf]](../files/ma_defense/Turk2020-Agreement-Attraction-in-Turkish.pdf). [[repo]](https://github.com/utkuturk/ma-thesis). [[overleaf]](https://www.overleaf.com/read/vdstcpwwvdpp).
 
 
 ##  Journal Articles
+
+**Türk, U.**, Logacev, P. (2024). [Agreement Attraction in Turkish: The case of genitive attractors](https://www.tandfonline.com/doi/full/10.1080/23273798.2024.2324766). <font style="font-variant: small-caps">Doi:</font> [10.1080/23273798.2024.2324766](https://doi.org/10.1080/23273798.2024.2324766). [local pdf](../files/pdfs/TurkLogacev2024-cnl-preprint.pdf)
 
 **Türk, U.**, Atmaca, F., Özateş, Ş.B. et al. (2022). [Resources for Turkish dependency parsing: introducing the BOUN Treebank and the BoAT annotation tool.](https://link.springer.com/article/10.1007/s10579-021-09558-0) Language Resources & Evaluation 56, 259–307. <font style="font-variant: small-caps">Doi:</font> [10.1007/s10579-021-09558-0](https://doi.org/10.1007/s10579-021-09558-0). [[resources]](https://tabilab.cmpe.boun.edu.tr/BOUN-PARS/resources.html)
 
 ## _In Progress_
 
-Canalis, S., Özdemir, S., **Türk, U.**, Tunçer, Ü.C. (in press). [The phonological nature of the Turkish front glide](). In Proceedings of the 20th International Conference on Turkish Linguistics. (_available upon a request_)
-
- **Türk, U.**, Logacev, P. (resubmitted). [Agreement Attraction in Turkish: The case of genitive attractors](https://psyarxiv.com/5rmvu/). <font style="font-variant: small-caps">Doi:</font> [10.31234/osf.io/5rmvu](https://doi.org/10.31234/osf.io/5rmvu). <!--[[repo]]() -->
+Canalis, S., Özdemir, S., **Türk, U.**, Tunçer, Ü.C. (in press). [The phonological nature of the Turkish front glide](../files/pdfs/CanalisEtAl2023.pdf). In Proceedings of the 20th International Conference on Turkish Linguistics.
 
 **Türk, U.**, Logacev, P. (in prep). [Response Bias in Turkish Agreement Attraction](). [[repo]](https://github.com/utkuturk/attraction_meta) (_available upon a request_)
 

@@ -29,7 +29,7 @@ I am a second year Ph.D. student in [linguistics][umdling] at University of Mary
 In June 2022, I defended my MA thesis titled ["Agreement Attraction in Turkish"][thesis] in Bogazici University, where I worked with [Pavel Logacev][pavel] and focused on case-ambiguity, response bias, and shallow processing in agreement attraction. During my time in Bogazici, I also worked on formal semantics of hypothetical comparisons, the phonemic status of Turkish glide [j], treebanking efforts in Turkish and Laz. I also spent a semester in Masaryk University, as an invited researcher, where I worked with [Pavel Caha][caha] and focused on the syntax-phonology interface of Turkish case system and augmentatives in Turkish using nanosyntactic framework.
 
 
-My favorite food is [gata][gata] with koritz and my favorite icecream flavor is [saffron and rose (5pm snack of Anthony Bourdain)][rose]. In my freetime, I try to do some [calligraphy][cal]. I co-founded [Translate for Justice][tfj], an independent platform of voluntary translators from all corners of the world. Our main objective is to help raise awareness by providing information for the international public on the issues of restriction of basic human rights and freedom.
+My favorite food is [gata][gata] with koritz and my favorite icecream flavor is [saffron and rose (5pm snack of Anthony Bourdain)][rose]. In my freetime, I try to do some [calligraphy][cal]. I co-founded [Translate for Justice][tfj], an independent platform of voluntary translators from all corners of the world to help raise awareness by providing information for the international public on the issues of restriction of basic human rights and freedom.
 <br><br>
 
 

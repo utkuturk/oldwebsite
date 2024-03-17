@@ -13,6 +13,8 @@ title: ""
 
 ## Invited & Internal Talks
 
+**Türk, U**. (January, 2024). _Controlling morphosyntactic competition through phonology_. Talk given at S-Lab. University of Maryland: College Park, MD, USA. [handout](files/handouts/turk_suspended_affixation_handout.pdf)
+
 **Türk, U**. (December, 2022). _As If they were Turkish As Ifs_. Talk given at Meaning Meeting. University of Maryland: College Park, MD, USA.
 
 **Türk, U**. (October, 2022). _Sources of Bias in Psycholinguistic Data_. Talk given at Language Science Lunch Talks. Language Science Center, University of Maryland: College Park, MD, USA.

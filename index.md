@@ -11,7 +11,8 @@ permalink: /
 {%
   include image.html
   url="images/June22_utkuPhoto.jpeg"
-  caption="e-mail: utkuturk@umd.edu<br><a href='https://twitter.com/UtkuTurkLing'><i class='fa-brands fa-twitter' style='font-size:24px'></i></a> <a href='https://scholar.google.com/citations?hl=tr&user=wa7LG9gAAAAJ'><i class='ai ai-google-scholar ai-3x' style='font-size:24px'></i></a> <a href='https://orcid.org/0000-0001-8011-1541'><i class='ai ai-orcid ai-3x' style='font-size:24px'></i></a> <a href='https://github.com/utkuturk'><i class='fab fa-github' style='font-size:24px'></i></a> <a href='http://bayes.club/@utkuturk'><i class='fa-brands fa-mastodon' style='font-size:24px'></i></a>"
+  caption="e-mail: utkuturk@umd.edu | <a href ='files/cv.pdf'>cv</a><br><a href='https://twitter.com/UtkuTurkLing'><i class='fa-brands fa-twitter' style='font-size:24px'></i></a> <a href='https://scholar.google.com/citations?hl=tr&user=wa7LG9gAAAAJ'><i class='ai ai-google-scholar ai-3x' style='font-size:24px'></i></a> <a href='https://orcid.org/0000-0001-8011-1541'><i class='ai ai-orcid ai-3x' style='font-size:24px'></i></a> <a href='https://github.com/utkuturk'><i class='fab fa-github' style='font-size:24px'></i></a> <a href='http://bayes.club/@utkuturk'><i class='fa-brands fa-mastodon' style='font-size:24px'></i></a>"
+  href="files/cv.pdf"
   href="https://twitter.com/UtkuTurkLing"
   href="https://scholar.google.com/citations?hl=tr&user=wa7LG9gAAAAJ"
   href="https://orcid.org/0000-0001-8011-1541"
@@ -28,7 +29,7 @@ I am a second year Ph.D. student in [linguistics][umdling] at University of Mary
 In June 2022, I defended my MA thesis titled ["Agreement Attraction in Turkish"][thesis] in Bogazici University, where I worked with [Pavel Logacev][pavel] and focused on case-ambiguity, response bias, and shallow processing in agreement attraction. During my time in Bogazici, I also worked on formal semantics of hypothetical comparisons, the phonemic status of Turkish glide [j], treebanking efforts in Turkish and Laz. I also spent a semester in Masaryk University, as an invited researcher, where I worked with [Pavel Caha][caha] and focused on the syntax-phonology interface of Turkish case system and augmentatives in Turkish using nanosyntactic framework.
 
 
-You can find my [CV here][cv]. My favorite food is [gata][gata] with koritz and my favorite icecream flavor is [saffron and rose (5pm snack of Anthony Bourdain)][rose].
+My favorite food is [gata][gata] with koritz and my favorite icecream flavor is [saffron and rose (5pm snack of Anthony Bourdain)][rose]. In my freetime, I try to do some [calligraphy][cal]. I co-founded [Translate for Justice][tfj], an independent platform of voluntary translators from all corners of the world. Our main objective is to help raise awareness by providing information for the international public on the issues of restriction of basic human rights and freedom.
 <br><br>
 
 
@@ -68,7 +69,7 @@ In my freetime, I usually play games on [Steam][steam] or take amateur [photogra
 
 
 
-  [cal]:   https://www.artstation.com/kaosperver
+  [cal]:   resources/calligraphy/
   [thesis]: ma/
   [glide]:  2022/130/glide.html
   [sa]:     research/sa/
@@ -97,7 +98,7 @@ In my freetime, I usually play games on [Steam][steam] or take amateur [photogra
   [manu]:   https://github.com/utkuturk/tr_bias/blob/master/paper/draft/manuscript.pdf
   [o]:      https://en.wikipedia.org/wiki/Gender_neutrality_in_genderless_languages#Turkish
   [twitter]:https://www.twitter.com/utkuturkling
-  [tfj]:    https://translateforjustice.com/
+  [tfj]:    https://translateforjustice.wordpress.com/
   [gezi]:   https://en.wikipedia.org/wiki/Gezi_Park_protests
 
 

@@ -4,7 +4,7 @@ title:
 permalink: /resources/calligraphy/
 ---
 
-{% include image.html url="files/calligraphy/kaosperver_cubic.png" caption="kaosperver, TR, [kʰɑospʰɛɹvɛɹ̥], adj.: a person who welcomes/enjoys chaos. kaos (chaos, Greek, the first state of universe, emptiness) + perver (پرور, Farsi, lit. nourisher, widely used as "-lover" compound in Ottoman Turkish). cubic version" width="800px" align="middle" %}
+{% include image.html url="files/calligraphy/kaosperver_cubic.png" caption="kaosperver, TR, [kʰɑospʰɛɹvɛɹ̥], adj.: a person who welcomes/enjoys chaos. kaos (chaos, Greek, the first state of universe, emptiness) + perver (پرور, Farsi, lit. nourisher, widely used as '-lover' compound in Ottoman Turkish). cubic version" width="800px" align="middle" %}
 
 {% include image.html url="files/calligraphy/kaosperver_string.jpg" caption="kaosperver, string version" width="800px" align="middle" %}
 

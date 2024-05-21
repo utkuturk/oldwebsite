@@ -10,8 +10,16 @@
 - title: "talks"
   href: "/talks/"
 
-# - title: "cv"
-#   href: "/cv/"
+- title: "teaching"
+  href: "/teaching/"
+
+- title: "cv"
+  href: "/cv/"
+
+- title: "blog"
+  href: "/blog/"
+
+
 
 - title: "misc"
   href: "/misc/"
@@ -20,12 +28,8 @@
 #   href: "/growth/"
 
   subcategories:
-  - subtitle: "my blog"
-    subhref: "/resources/blog/"
   - subtitle: "calligraphy"
     subhref: "/resources/calligraphy/"
-  - subtitle: "teaching"
-    subhref: "/teaching/"
   - subtitle: "friends"
     subhref: "/resources/friends/"
   - subtitle: "ling"

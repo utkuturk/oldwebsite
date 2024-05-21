@@ -11,8 +11,7 @@ permalink: /
 {%
   include image.html
   url="images/June22_utkuPhoto.jpeg"
-  caption="e-mail: utkuturk@umd.edu | <a href ='files/cv.pdf'>CV</a><br><a href='https://twitter.com/UtkuTurkLing'><i class='fa-brands fa-twitter' style='font-size:24px'></i></a> <a href='https://scholar.google.com/citations?hl=tr&user=wa7LG9gAAAAJ'><i class='ai ai-google-scholar ai-3x' style='font-size:24px'></i></a> <a href='https://orcid.org/0000-0001-8011-1541'><i class='ai ai-orcid ai-3x' style='font-size:24px'></i></a> <a href='https://github.com/utkuturk'><i class='fab fa-github' style='font-size:24px'></i></a> <a href='http://bayes.club/@utkuturk'><i class='fa-brands fa-mastodon' style='font-size:24px'></i></a>"
-  href="files/cv.pdf"
+  caption="e-mail: utkuturk@umd.edu <br><a href='https://twitter.com/UtkuTurkLing'><i class='fa-brands fa-twitter' style='font-size:24px'></i></a> <a href='https://scholar.google.com/citations?hl=tr&user=wa7LG9gAAAAJ'><i class='ai ai-google-scholar ai-3x' style='font-size:24px'></i></a> <a href='https://orcid.org/0000-0001-8011-1541'><i class='ai ai-orcid ai-3x' style='font-size:24px'></i></a> <a href='https://github.com/utkuturk'><i class='fab fa-github' style='font-size:24px'></i></a> <a href='http://bayes.club/@utkuturk'><i class='fa-brands fa-mastodon' style='font-size:24px'></i></a>"
   href="https://twitter.com/UtkuTurkLing"
   href="https://scholar.google.com/citations?hl=tr&user=wa7LG9gAAAAJ"
   href="https://orcid.org/0000-0001-8011-1541"
@@ -26,7 +25,9 @@ I am a second year Ph.D. student in [linguistics][umdling] at University of Mary
 
 <!-- I am especially interested in why morpho-syntactic manipulations have irregular effects in various languages. -->
 
-In June 2022, I defended my MA thesis titled ["Agreement Attraction in Turkish"][thesis] in Bogazici University, where I worked with [Pavel Logacev][pavel] and focused on case-ambiguity, response bias, and shallow processing in agreement attraction. During my time in Bogazici, I also worked on formal semantics of hypothetical comparisons, the phonemic status of Turkish glide [j], treebanking efforts in Turkish and Laz. I also spent a semester in Masaryk University, as an invited researcher, where I worked with [Pavel Caha][caha] and focused on the syntax-phonology interface of Turkish case system and augmentatives in Turkish using nanosyntactic framework.
+In June 2022, I defended my MA thesis titled ["Agreement Attraction in Turkish"][thesis] in Bogazici University, where I worked with [Pavel Logacev][pavel] and focused on case-ambiguity, response bias, and shallow processing in agreement attraction.
+
+During my time in Bogazici, I also worked on formal semantics of hypothetical comparisons, the phonemic status of Turkish glide [j], treebanking efforts in Turkish and Laz. I spent a semester in Masaryk University, as an invited researcher, where I worked with [Pavel Caha][caha] and focused on the syntax-phonology interface of Turkish case system and augmentatives in Turkish using nanosyntactic framework.
 
 
 My favorite food is [gata][gata] with koritz and my favorite icecream flavor is [saffron and rose (5pm snack of Anthony Bourdain)][rose]. In my freetime, I try to do some [calligraphy][cal]. I co-founded [Translate for Justice][tfj], an independent platform of voluntary translators from all corners of the world to help raise awareness by providing information for the international public on the issues of restriction of basic human rights and freedom.

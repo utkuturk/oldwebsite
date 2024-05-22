@@ -49,10 +49,10 @@ $header-hover-url:  $url-color;
 $line-color:        $grey-light;
 
 // Width of the content area
-$content-width:    100em;
+$content-width:    60em;
 $content-min-width:25em;
 $mobile:           32em;
-$desktop:          100em;
+$desktop:          60em;
 
 @mixin media-query($device) {
     @media screen and (max-width: $device) {

@@ -19,8 +19,8 @@ Go to
 
 
 
-[ca]:     resources/calligraphy/
-[fr]:     resources/friends/
-[ling]:   resources/ling/
-[stats]:  resources/stats/
-[typ]:    resources/typescript/
+[ca]:     ../resources/calligraphy/
+[fr]:     ../resources/friends/
+[ling]:   ../resources/ling/
+[stats]:  ../resources/stats/
+[typ]:    ../resources/typescript/

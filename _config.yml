@@ -1,6 +1,6 @@
 title: utkuturk
 description: utkuturk
-sourcecode: "https://github.com/utkuturk/utkuturk.github.io"
+sourcecode:
 permalink: ordinal
 exclude: ["Makefile", "README.md"]
 
@@ -11,7 +11,7 @@ url:                          # the base hostname & protocol for your site
 
 author:
     name: Utku Turk
-    scholar: wa7LG9gAAAAJ  
+    scholar: wa7LG9gAAAAJ
 
 # Build settings
 markdown: kramdown

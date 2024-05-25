@@ -4,11 +4,11 @@ title: CV
 permalink: /mycv/
 ---
 
-Utku Türk
-Department of Linguistics
-1401 Marie Mount Hall,
-University of Maryland,
-College Park, MD 20742
+Utku Türk\
+Department of Linguistics\
+1401 Marie Mount Hall,\
+University of Maryland,\
+College Park, MD 20742\
 
 email: `utkuturk@umd.edu`, [full CV](https://github.com/utkuturk/utkuturk.github.io/blob/master/files/cv.pdf?raw=true).
 

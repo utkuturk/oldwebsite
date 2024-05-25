@@ -86,7 +86,7 @@ In my freetime, I usually play games on [Steam][steam] or take amateur [photogra
   [langsci]: http://languagescience.umd.edu
   [ellen]: https://ellenlau.net/
   [uni]:    http://www.boun.edu.tr
-  [pavel]:  https://twitter.com/pavellogacev?lang=en
+  [pavel]:  https://scholar.google.com/citations?user=fhbdTJIAAAAJ&hl=en
   [colin]:  https://www.colinphillips.net/
   [gata]:   https://en.wikipedia.org/wiki/Gata_(food)
   [rose]:   https://explorepartsunknown.com/koreatown-la/koreatown-perfect-day/

@@ -14,15 +14,35 @@ email: `utkuturk@umd.edu`, [full CV](https://github.com/utkuturk/utkuturk.github
 
 # Short CV
 
-ongoing Certificate in Neuroscience and Cognitive Science, University of Maryland, College Park, USA
 
-ongoing PhD in Linguistics working with [Colin Phillips][col] & [Ellen Lau][lau], Department of Linguistics, University of Maryland, College Park,  USA
+_ongoing_ UMD Linguistics,
 
-08/2022 MA Linguistics, research and teaching assistant, working with [Pavel Logacev][log], Department of Linguistics, Boğaziçi University, Turkey
+PhD in Linguistics working with [Colin Phillips][col] & [Ellen Lau][lau],
 
-05/2020 Research visit working with [Pavel Caha][caha], Department of Czech Language, Masaryk University, Czech Republic
+Department of Linguistics, University of Maryland, College Park,  USA
 
-05/2017 BA Translation Studies, Department of Translation and Interpreting, Boğaziçi University, Turkey
+_ongoing_ UMD NACS,
+
+Certificate in Neuroscience and Cognitive Science,
+
+University of Maryland, College Park, USA
+
+_08/2022_ Bogazici Linguistics,
+
+MA Linguistics, research and teaching assistant, working with [Pavel Logacev][log],
+
+Department of Linguistics, Boğaziçi University, Turkey
+
+_05/2020_ Masaryk Linguistics
+
+Research visit working with [Pavel Caha][caha],
+
+Department of Czech Language, Masaryk University, Czech Republic
+
+_05/2017_ Bogazici Translation,
+
+BA Translation Studies,
+Department of Translation and Interpreting, Boğaziçi University, Turkey
 
 # Research Interests
 

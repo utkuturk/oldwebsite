@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching experience
+title:
 ---
 
 ## As a Teaching Assistant

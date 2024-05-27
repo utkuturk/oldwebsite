@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /life/
-title: life
+title:
 ---
 
 Go to

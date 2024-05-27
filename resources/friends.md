@@ -1,6 +1,6 @@
 ---
 layout: page
-title: friends
+title:
 permalink: /resources/friends/
 ---
 

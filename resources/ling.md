@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 
+title: linguistic resources
 permalink: /resources/ling/
 ---
 
@@ -36,4 +36,3 @@ Important webpages
 - [LingAlert](https://lingalert.com/) for conference deadlines.
 - [LingBuzz](https://lingbuzz.net/lingbuzz) for following linguistic papers.
 - [OSF](https://osf.io/)
-

@@ -3,16 +3,16 @@ layout: page
 permalink: /ma/
 title: "Agreement Attraction in Turkish"
 ---
-The term agreement attraction is used to describe either increased acceptability of ungrammatical sentences or reduced difficulty in reading ungrammatical sentences. This was made possible by an illusionary element which matches with the features of the verb, thus attracting the probe of the agreement from the head noun to itself. 
-<br> <br> 
+The term agreement attraction is used to describe either increased acceptability of ungrammatical sentences or reduced difficulty in reading ungrammatical sentences. This was made possible by an illusionary element which matches with the features of the verb, thus attracting the probe of the agreement from the head noun to itself.
+<br> <br>
 Consider the following sentence: "*The key to the cabinets are rusty." Even though it is ungrammatical, people systematically accepted these sentences more often than the ones with the word "attractor." They also spend less time when there is a plural nominal like "cabinets" rather than the word "cabinet."
-<br> <br> 
+<br> <br>
 This thesis tries to explore how the attraction phenomenon interacts with issues like case syncretism, form heuristics, response bias, and register, all of which are rarely investigated in the literature. This thesis also provides an extensive, but not exhaustive, picture of attraction effects in Turkish, an understudied language in psycholinguistics.
 
 <details>
   <summary>abstract</summary>
   In this thesis, I investigate the existing agreement attraction effects in Turkish and how these effects interact with various phenomenon such as (i) case syncretism and local ambiguity, (ii) form heuristics, (iii) response bias, and (iv) honorific readings. Previous studies have shown that speakers occasionally find ungrammatical sentences violating number agreement acceptable when there is another noun sharing same number with the verb, in other words exhibited agreement attraction. Lago et al. (2019) found that genitive-possessive structures were able to induce agreement attraction effects within native Turkish speakers in a speeded acceptability experiment. However, due to the nature of the Turkish and acceptability studies, there are multiple alternative explanations for the existing effects. This thesis aims to weed out possible confounds and clarify the effects by conducting four speeded acceptability judgment experiments. We showed (i) that case-ambiguity on the head noun does not play a role in Turkish agreement attraction (Experiment 1, N = 118), (ii) that participants do not use form-driven-processing-strategies to answer judgment questions (Experiments 2A, N = 80, and 2B, N = 95), (iii) that response bias induced ungrammaticality illusion and only decreased the magnitude of grammaticality illusion (Experiment 3, N = 114), and (iv) that a possible honorific reading does not license superfluous plural marking at the verb (Experiment 4, N = 174). Together, our results challenge cue-based retrieval accounts of agreement attraction and can be accommodated by accounts that assume attraction occurs due to erroneous encodings.
-  
+
 </details>
 
 
@@ -24,9 +24,9 @@ This thesis tries to explore how the attraction phenomenon interacts with issues
 
 <details>
   <summary>thesis</summary>
-  <a href="http://seyhan.library.boun.edu.tr/record=b2776878~S5">Bogazici Page</a> | 
-  <a href="../files/ma_defense/thesis_singlespace.pdf">local pdf</a> | 
-  <a href="https://www.overleaf.com/read/vdstcpwwvdpp">overleaf</a> 
+  <a href="http://seyhan.library.boun.edu.tr/record=b2776878~S5">Bogazici Page</a> |
+  <a href="../files/ma_defense/thesis_singlespace.pdf">local pdf</a> |
+  <a href="https://www.overleaf.com/read/vdstcpwwvdpp">overleaf</a>
 
   <!-- <iframe src="https://github.com/utkuturk/ma-thesis/raw/main/thesis_singlespace.pdf" width="100%" height="800px"></iframe> -->
 </details>

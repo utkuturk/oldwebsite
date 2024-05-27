@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /papers/
-title:
+title: papers
 ---
 
 {% include image.html url="../images/cats.jpg" caption="cats of '18 summer & bit espresso bar, photo by me" width="800px" align="middle" %}

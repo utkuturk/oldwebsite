@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /talks/
-title: ""
+title: talks
 ---
 
 ## Conference Poster & Talks

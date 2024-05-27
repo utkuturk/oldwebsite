@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /research/
-title: ""
+title: research
 ---
 
 Jump to [sentence processing](#sentence-processing), [morpho-syntax](#morpho-syntax), [treebanking](#treebanking), [semantics](#semantics), [computing stack](#computing-stack).
@@ -57,7 +57,7 @@ As a part of two projects (funded by TUBITAK and European Commission), I partake
 
 With [Arzucan Ozgur][ao], [Tunga Gungor][tg], and [Balkiz Ozturk][bo], we created a new guidelines for <span class="foc">annotating</span> Turkish data within Universal Dependencies framework. Following these guidelines, we re-annotated two already existing treebanks, and created a new treebank.
 
-As a part of my efforts to document minority languages, we also created the first <span class="foc">Laz</span> treebank, using data from published linguistic papers and theses. I am currently working on <span class="foc">Ladino</span> and <span class="foc">Cappadocian Greek</span> (with Konstantinos Sampanis) treebanks. _I am extremely open to collaborate and willing to work on any minority language documentation/treebanking effort! Do not hesitate to reach out!_ 
+As a part of my efforts to document minority languages, we also created the first <span class="foc">Laz</span> treebank, using data from published linguistic papers and theses. I am currently working on <span class="foc">Ladino</span> and <span class="foc">Cappadocian Greek</span> (with Konstantinos Sampanis) treebanks. _I am extremely open to collaborate and willing to work on any minority language documentation/treebanking effort! Do not hesitate to reach out!_
 
 <details>
 <summary>output</summary>
@@ -75,7 +75,7 @@ As a part of my efforts to document minority languages, we also created the firs
 
 ---
 
-## semantics 
+## semantics
 
 With [Omer Demirok][od], we investigated how <span class="foc">hypothetical comparions</span> are formed in Turkish. _-mışcasına_ is licensed with <span class="foc">gradable</span> adjectives but not with non-gradable ones. We took this to suggest that its semantics involves comparison of degrees. We pursued a previously uncharted route: HCM constructions in Turkish <span class="foc">compare degrees</span>, not eventualities. Our analysis is sensitive to the semantic difference between OPEN and CLOSE scale adjectives that are independently justified.
 

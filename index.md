@@ -1,6 +1,6 @@
 ---
 layout: page
-title:
+title: hello
 permalink: /
 ---
 <!-- change font color -->

@@ -1,8 +1,12 @@
 ---
 layout: page
-title: 
+title: friends
 permalink: /resources/friends/
 ---
+
+[Sadira Hanim](https://linguistics.umd.edu/directory/sadira-lewis)
+
+<br>
 
 Friends & Collaborators
 - from UMD Cohort (SUS CLAMS)

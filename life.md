@@ -4,6 +4,10 @@ permalink: /life/
 title:
 ---
 
+[Sadira Hanim](https://linguistics.umd.edu/directory/sadira-lewis)
+
+---
+
 Go to
 [calligraphy][ca],
 [friends][fr],

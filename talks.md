@@ -13,6 +13,9 @@ title:
 
 ## Invited & Internal Talks
 
+**Türk, U**. (February, 2024). _Timing of Agreement in Verb Planning_. Talk given at UMass/UMD Psycholinguistic Mixer. University of Massachusetts: Amherst, MA, USA.
+
+
 **Türk, U**. (January, 2024). _Controlling morphosyntactic competition through phonology_. Talk given at S-Lab. University of Maryland: College Park, MD, USA. [handout](files/handouts/turk_suspended_affixation_handout.pdf)
 
 **Türk, U**. (December, 2022). _As If they were Turkish As Ifs_. Talk given at Meaning Meeting. University of Maryland: College Park, MD, USA.

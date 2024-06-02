@@ -9,7 +9,7 @@ title:
 
 ## Dissertation / Thesis
 
-**Türk, U.** (2022). [Agreement Attraction in Turkish](http://seyhan.library.boun.edu.tr/record=b2776878~S5). MA thesis. Bogazici University. [[localpdf]](../files/ma_defense/Turk2020-Agreement-Attraction-in-Turkish.pdf). [[repo]](https://github.com/utkuturk/ma-thesis).
+**Türk, U.** (2022). [Agreement Attraction in Turkish](http://seyhan.library.boun.edu.tr/record=b2776878~S5). MA thesis. Bogazici University. [[pdf]](../files/ma_defense/Turk2020-Agreement-Attraction-in-Turkish.pdf). [[repo]](https://github.com/utkuturk/ma-thesis).
 
 
 ##  Journal Articles
@@ -22,7 +22,7 @@ title:
 
 **Türk, U.** (revision). 'Controlling morphosyntactic competition through phonology'. In Karen de Clerq, Pavel Caha, and Guido Vanden Wyngaerd (eds), *Exploring Nanosyntax II: The Lexicalisation algorithm*, Oxford Academic Press. (_available upon a request_)
 
-Canalis, S., Özdemir, S., **Türk, U.**, Tunçer, Ü.C. (2024). The phonological nature of the Turkish front glide. Selected Essays on Turkish Linguistics: The Anadolu Meeting. Wiesbaden: Otto Harrassowitz Verlag. [[pdf]](../files/pdfs/CanalisEtAl2023.pdf)
+Canalis, S., Özdemir, S., **Türk, U.**, Tunçer, Ü.C. (2024). The phonological nature of the Turkish front glide. Selected Essays on Turkish Linguistics: The Anadolu Meeting. Wiesbaden: Otto Harrassowitz Verlag. [[pdf]](../files/pdfs/CanalisEtAl2024.pdf)
 
 
 ## _In Progress_

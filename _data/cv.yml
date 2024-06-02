@@ -55,13 +55,12 @@ invitedlect:
       school: Bogazici University
 
 teachingumd:
-    - date: Fall 2023
-      title: 'LING 240: Language and Mind'
-      prof: Tonia Bleam
+    - date: Fall 2024
+      title: 'LING 440: Cognition and Grammar'
+      prof: Ellen Lau
       role: Teaching assistant
-      popul: ~20
+      popul: (unknown)
       school: Linguistics Dept, University of Maryland
-      syl: /files/syli/240_f23.pdf
     - date: Spring 2024
       title: 'ARHU 299: Machine Learning in Language and Art'
       prof: Omar Agha
@@ -69,12 +68,13 @@ teachingumd:
       popul: ~15
       school: College of Arts and Humanities, University of Maryland
       syl: /files/syli/299_s24.pdf
-    - date: Fall 2024
-      title: 'LING 440: Cognition and Grammar'
-      prof: Ellen Lau
+    - date: Fall 2023
+      title: 'LING 240: Language and Mind'
+      prof: Tonia Bleam
       role: Teaching assistant
-      popul: (unknown)
+      popul: ~20
       school: Linguistics Dept, University of Maryland
+      syl: /files/syli/240_f23.pdf
 
 teaching:
     - date:   Spring 2022

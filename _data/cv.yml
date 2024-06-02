@@ -37,6 +37,45 @@ visiting_positions:
       location:     Brno, Czech
       mentor:       Pavel Caha
 
+invitedlect:
+    - date: Fall 2023
+      topic: "Agreement Attraction and Grammar"
+      title: 'LING 240: Language and Mind'
+      prof: Tonia Bleam
+      school: University of Maryland
+    - date: Fall 2023
+      topic: "Production System and Grammar"
+      title: 'LING 440: Grammar and Cognition'
+      prof: Ellen Lau
+      school: University of Maryland
+    - date: Spring 2019
+      topic: "Dimunitives and Nanosyntax in Turkish"
+      title: "LING 202: Morphology"
+      prof: Aslı Göksel
+      school: Bogazici University
+
+teachingumd:
+    - date: Fall 2023
+      title: 'LING 240: Language and Mind'
+      prof: Tonia Bleam
+      role: Teaching assistant
+      popul: ~20
+      school: Linguistics Dept, University of Maryland
+      syl: /files/syli/240_f23.pdf
+    - date: Spring 2024
+      title: 'ARHU 299: Machine Learning in Language and Art'
+      prof: Omar Agha
+      role: Teaching assistant
+      popul: ~15
+      school: College of Arts and Humanities, University of Maryland
+      syl: /files/syli/299_s24.pdf
+    - date: Fall 2024
+      title: 'LING 440: Cognition and Grammar'
+      prof: Ellen Lau
+      role: Teaching assistant
+      popul: (unknown)
+      school: Linguistics Dept, University of Maryland
+
 teaching:
     - date:   Spring 2022
       title:  'Ling 360: Computational Methods in Linguistics'

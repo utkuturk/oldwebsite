@@ -9,17 +9,6 @@ permalink: /resources/friends/
 <br>
 
 Friends & Collaborators
-- from UMD Cohort (SUS CLAMS)
-    - [**S**arah Boukendour](https://linguistics.umd.edu/directory/sarah-boukendour)
-    - **U**tku Turk
-    - [**S**ebastian Mancha](https://smancha.github.io/)
-    - [**C**assandra Caragine](https://linguistics.umd.edu/directory/cassandra-caragine)
-    - [**L**ydia Quevedo](https://lydiayquevedo.wordpress.com/)
-    - [**A**llison Dods](https://linguistics.umd.edu/directory/allison-dods)
-    - [**M**alhaar Shah](https://linguistics.umd.edu/directory/malhaar-shah)
-    - [**S**athvik Nair](https://sathvikn.github.io/)
-
-<br>
 
 - from Bogazici University and proximity to Bogazici
     - [Hande Sevgi](https://sites.google.com/view/handesevgi)

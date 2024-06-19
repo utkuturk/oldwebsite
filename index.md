@@ -11,17 +11,11 @@ permalink: /
 {%
   include image.html
   url="images/June22_utkuPhoto.jpeg"
-  caption="e-mail: utkuturk@umd.edu <br><a href='https://twitter.com/UtkuTurkLing'>[twitter]</a> | <a href='https://scholar.google.com/citations?hl=tr&user=wa7LG9gAAAAJ'>[scholar]</a> | <a href='https://github.com/utkuturk'>[github]</a> <a href='https://bsky.app/profile/utkuturk.com'>[bsky]</a><hr><b> Collaborators </b> <br> <a href='https://www.colinphillips.net/'>Colin Phillips</a>, <a href='https://ellenlau.net/'>Ellen Lau</a>, <a href='https://scholar.google.com/citations?user=fhbdTJIAAAAJ&hl=en'>Pavel Logačev</a>, <br> <br> <a href='https://www.muni.cz/en/people/53172-pavel-caha/cv'>Pavel Caha</a>, <a href='https://www.omerdemirok.com'>Ömer Demirok</a>, <a href='https://linguistics.bogazici.edu.tr/balkiz-ozturk-basaran'> Balkız Öztürk</a>"
+  caption="e-mail: utkuturk@umd.edu <br><a href='https://twitter.com/UtkuTurkLing'>[twitter]</a> | <a href='https://scholar.google.com/citations?hl=tr&user=wa7LG9gAAAAJ'>[scholar]</a> | <a href='https://github.com/utkuturk'>[github]</a> <a href='https://bsky.app/profile/utkuturk.com'>[bsky]</a>"
   href="https://twitter.com/UtkuTurkLing"
   href="https://scholar.google.com/citations?hl=tr&user=wa7LG9gAAAAJ"
   href="https://github.com/utkuturk"
   href="https://bsky.app/profile/utkuturk.com"
-  href="https://www.colinphillips.net/"
-  href="https://www.ellenlau.net/"
-  href="https://scholar.google.com/citations?user=fhbdTJIAAAAJ&hl=en"
-  href="https://www.muni.cz/en/people/53172-pavel-caha/cv"
-  href="https://www.omerdemirok.com"
-  href="https://linguistics.bogazici.edu.tr/balkiz-ozturk-basaran"
   width="250px"
   align="right"
 %}

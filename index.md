@@ -11,12 +11,17 @@ permalink: /
 {%
   include image.html
   url="images/June22_utkuPhoto.jpeg"
-  caption="e-mail: utkuturk@umd.edu <br><a href='https://twitter.com/UtkuTurkLing'>[twitter]</a> | <a href='https://scholar.google.com/citations?hl=tr&user=wa7LG9gAAAAJ'>[scholar]</a> | <a href='https://github.com/utkuturk'>[github]</a> <a href='https://bsky.app/profile/utkuturk.com'>[bsky]</a><hr><br><b> Collaborators </b><a href='https://twitter.com/UtkuTurkLing'>Pavel Logacev</a> <br> "
+  caption="e-mail: utkuturk@umd.edu <br><a href='https://twitter.com/UtkuTurkLing'>[twitter]</a> | <a href='https://scholar.google.com/citations?hl=tr&user=wa7LG9gAAAAJ'>[scholar]</a> | <a href='https://github.com/utkuturk'>[github]</a> <a href='https://bsky.app/profile/utkuturk.com'>[bsky]</a><hr><b> Collaborators </b> <br> <i>I am fortunate to have worked with the following people: </i><br> <a href='https://www.colinphillips.net/'>Colin Phillips</a>, <a href='https://ellenlau.net/'>Ellen Lau</a>, <a href='https://scholar.google.com/citations?user=fhbdTJIAAAAJ&hl=en'>Pavel Logačev</a>, <a href='https://www.muni.cz/en/people/53172-pavel-caha/cv'>Pavel Caha</a>, <a href='https://www.omerdemirok.com'>Ömer Demirok</a>, <a href='https://linguistics.bogazici.edu.tr/balkiz-ozturk-basaran'> Balkız Öztürk</a>"
   href="https://twitter.com/UtkuTurkLing"
   href="https://scholar.google.com/citations?hl=tr&user=wa7LG9gAAAAJ"
   href="https://github.com/utkuturk"
   href="https://bsky.app/profile/utkuturk.com"
-  href="https://twitter.com/UtkuTurkLing"
+  href="https://www.colinphillips.net/"
+  href="https://www.ellenlau.net/"
+  href="https://scholar.google.com/citations?user=fhbdTJIAAAAJ&hl=en"
+  href="https://www.muni.cz/en/people/53172-pavel-caha/cv"
+  href="https://www.omerdemirok.com"
+  href="https://linguistics.bogazici.edu.tr/balkiz-ozturk-basaran"
   width="250px"
   align="right"
 %}
@@ -25,14 +30,11 @@ I am a second year Ph.D. student in [linguistics](https://linguistics.umd.edu/) 
 
 #### Recent Activity
 
-- March 16, 2024: A chapter of my MA thesis is published on [Language, Cognition, and Neuroscience!](https://doi.org/10.1080/23273798.2024.2324766)
-- February 28, 2024: Will be presenting two posters at HSP 2024 in May! [Planning agreement](files/abstracts/hsp-2024-agree.pdf) and [Tasks effects in sentence production](files/abstracts/hsp-2024-task.pdf)
-- February 16, 2024: Presented my work on sentence planning and morphological planning at [UMass](https://linguistics.umd.edu/news/maryland-psycholinguists-umass)
-- October 1, 2023: Got invited to send my paper on Suppletion and Suspended Affixation to a new Nanosyntax Book! It is still a very early draft, so all comments are appreciated! [email me for the draft!]
-- May 29, 2023: Contributed to pangoling R package. [[myreview]](https://github.com/ropensci/software-review/issues/575#issuecomment-1566746683)
-- April 25, 2023: Our paper on the phonemic status of Turkish glide [ j ] is now in press! [[pdf]](files/pdfs/CanalisEtAl2023.pdf)
-- March 9, 2023: I gave a talk in Human Sentence Processing Conference about response bias and agreement attraction. [[slides]](files/slides/hsp2023.pdf)
-- March 4, 2023: I presented my poster on Obviation and Reference at Harvard at TU+. [[poster]](files/slides/tuplus2023.pdf)
+- **August 2024**: book chapter on suppletin and suspended affixation in press at OUP! [link forthcoming]
+- **May 2024**: poster on [agreement planning](files/abstracts/hsp-2024-agree.pdf) and [task effects in production](files/abstracts/hsp-2024-task.pdf) in [HSP2024](https://hsp2024.github.io/)
+- **March 2024**: case syncretism and agreement attraction paper (w/ Pavel Logačev) published on *Language, Cognition, and Neuroscience*! [[link]](https://doi.org/10.1080/23273798.2024.2324766)
+- **April 2024**: book chapter on the phonemic status of Turkish glide [j] published! [[pdf]](files/pdfs/CanalisEtAl2023.pdf)
+- **March 2023**: talk on response bias and agreement attraction in [HSP2023](https://lrdc.pitt.edu/HSP2023/). [[slides]](files/slides/hsp2023.pdf)
 
 {% include image.html url="images/bosphorous.jpg" caption="view of bosphrous and kennedy lodge, photo by me, aug 18" width="800px" align="middle" %}
 

@@ -4,8 +4,9 @@ permalink: /papers/
 title:
 ---
 
-{% include image.html url="../images/cats.jpg" caption="cats of '18 summer & bit espresso bar, photo by me" width="800px" align="middle" %}
+{% include image.html url="../images/sofa.png" caption="discarded sofa, may 17,  photo by me" width="800px" align="middle" %}
 
+---
 
 ## Dissertation / Thesis
 

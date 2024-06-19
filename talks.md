@@ -4,6 +4,10 @@ permalink: /talks/
 title:
 ---
 
+{% include image.html url="../images/camp.png" caption="my view from my camp in the hills of şirince, july 16,  photo by me" width="800px" align="middle" %}
+
+---
+
 ## Conference Poster & Talks
 
 {% for talk in site.data.cv.conferences %}

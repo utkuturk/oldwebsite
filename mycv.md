@@ -4,6 +4,11 @@ title: CV
 permalink: /mycv/
 ---
 
+
+{% include image.html url="../images/bosph.png" caption="bosphrous and friends, july 18,  photo by me" width="800px" align="middle" %}
+
+---
+
 Utku Türk\
 Department of Linguistics\
 1401 Marie Mount Hall,\

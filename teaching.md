@@ -4,6 +4,11 @@ permalink: /teaching/
 title: ""
 ---
 
+
+{% include image.html url="../images/beyoglu.png" caption="road to the house in tomtom, april 18,  photo by me" width="800px" align="middle" %}
+
+---
+
 # Invited Lectures
 
 {% for t in site.data.cv.invitedlect %}

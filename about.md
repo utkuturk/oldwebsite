@@ -4,6 +4,10 @@ permalink: /about/
 title:
 ---
 
+{% include image.html url="../images/arc.png" caption="arcs in şirince, aug 2016, photo by me, " width="800px" align="middle" %}
+
+---
+
 I am mostly interested in morphology and psycholinguistics. I am currently working on (i) morphological planning, i.e., when and how morphemes are planned in sentence production and (ii) how theories of generics/kind NPs can interact with the neurolinguistic findings.
 
 

@@ -1,27 +1,34 @@
----
-layout: page
-title:
-permalink: /
----
-<!-- change font color -->
 
-<link rel="stylesheet" href="/css/fontawesome/css/all.css" >
-<link rel="stylesheet" href="css/academicons/css/academicons.min.css"/>
+I am mostly interested in morpho-syntax and psycholinguistics. I am currently working on (i) morphological planning, i.e., when and how morphemes are planned in sentence production and (ii) neural representations of generics/kind NPs.
 
-{%
-  include image.html
-  url="images/June22_utkuPhoto.jpeg"
-  caption="e-mail: utkuturk@umd.edu <br><a href='https://twitter.com/UtkuTurkLing'>[twitter]</a> | <a href='https://scholar.google.com/citations?hl=tr&user=wa7LG9gAAAAJ'>[scholar]</a> | <a href='https://github.com/utkuturk'>[github]</a> <a href='https://bsky.app/profile/utkuturk.com'>[bsky]</a><hr><br><b> Collaborators </b><a href='https://twitter.com/UtkuTurkLing'>Pavel Logacev</a> <br> "
-  href="https://twitter.com/UtkuTurkLing"
-  href="https://scholar.google.com/citations?hl=tr&user=wa7LG9gAAAAJ"
-  href="https://github.com/utkuturk"
-  href="https://bsky.app/profile/utkuturk.com"
-  href="https://twitter.com/UtkuTurkLing"
-  width="250px"
-  align="right"
-%}
+<!-- I am especially interested in why morpho-syntactic manipulations have irregular effects in various languages. -->
 
-I am a second year Ph.D. student in [linguistics](https://linguistics.umd.edu/) at [University of Maryland](https://umd.edu/), working  with [Colin Phillips](https://www.colinphillips.net/) and [Ellen Lau](https://ellenlau.net/). My main [research interests](research/) are in morphology and psycholinguistics.
+In June 2022, I defended my MA thesis titled ["Agreement Attraction in Turkish"][thesis] in Bogazici University, where I worked with [Pavel Logacev][pavel] and focused on case-ambiguity, response bias, and shallow processing in agreement attraction.
+
+During my time in Bogazici, I also worked on formal semantics of hypothetical comparisons, the phonemic status of Turkish glide [j], treebanking efforts in Turkish and Laz. I spent a semester in Masaryk University, as an invited researcher, where I worked with [Pavel Caha][caha] and focused on the syntax-phonology interface of Turkish case system and augmentatives in Turkish using nanosyntactic framework.
+
+
+My favorite food is [gata][gata] with koritz and my favorite icecream flavor is [saffron and rose (5pm snack of Anthony Bourdain)][rose]. In my freetime, I try to do some [calligraphy][cal]. I co-founded [Translate for Justice][tfj], an independent platform of voluntary translators from all corners of the world to help raise awareness by providing information for the international public on the issues of restriction of basic human rights and freedom.
+<br><br>
+
+
+
+<!--
+
+### Topics that are close to my heart
+- shallow processing in agreement attraction,
+- response bias estimation,
+- case-driven local ambiguity in agreement attraction,
+- semantics of [hypothetical comparisons][hc],
+- morphosyntax of augmentatives,<!-- [augmentatives][aug],
+- syntax-phonology interface of Turkish cases, <!--[Turkish cases][case],
+- influence of vowel harmony on suspended affixation, <!--[suspended affixation][sa],
+- the phonemic status of ["glide" [ j ]][glide],
+- formation of Turkish and Laz treebanks, <!--[Turkish and Laz treebanks][trlazud],
+- language contact between Greek and Turkish. [Greek and Turkish][grtr] in Asia Minor.
+
+-->
+
 
 #### Recent Activity
 
@@ -72,25 +79,3 @@ In my freetime, I usually play games on [Steam][steam] or take amateur [photogra
   [twitter]:https://www.twitter.com/utkuturkling
   [tfj]:    https://translateforjustice.wordpress.com/
   [gezi]:   https://en.wikipedia.org/wiki/Gezi_Park_protests
-
-
-<!--
-
-- 🌱 <span style="text-decoration: underline">learning</span>
-  - *stan & multinomial processing trees*
-  - *horseshoe priors and sparsity*<br><br>
-
-
-**utkuturk/utkuturk** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->

@@ -4,9 +4,7 @@ title:
 permalink: /resources/friends/
 ---
 
-[Sadira Hanim](https://linguistics.umd.edu/directory/sadira-lewis)
-
-<br>
+<!-- [Sadira Hanim](https://linguistics.umd.edu/directory/sadira-lewis) -->
 
 Friends & Collaborators
 

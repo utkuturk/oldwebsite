@@ -24,7 +24,8 @@ permalink: /
 I am a second year Ph.D. student in <a href='https://linguistics.umd.edu/'>linguistics</a> at <a href='https://umd.edu/'>University of Maryland</a>, working  with <a href='https://www.colinphillips.net/'>Colin Phillips</a> and <a href='https://ellenlau.net/'>Ellen Lau</a>. My main <a href='https://www.utkuturk.com/research/'>research interests</a> are in morphology and psycholinguistics.
 </font>
 
-#### Recent Activity
+<hr>
+<br>
 
 - **August 2024**: book chapter on suppletin and suspended affixation in press at OUP! [link forthcoming]
 - **May 2024**: poster on [agreement planning](files/abstracts/hsp-2024-agree.pdf) and [task effects in production](files/abstracts/hsp-2024-task.pdf) in [HSP2024](https://hsp2024.github.io/)

@@ -1,7 +1,11 @@
+---
+layout: page
+permalink: /about/
+title:
+---
 
-I am mostly interested in morpho-syntax and psycholinguistics. I am currently working on (i) morphological planning, i.e., when and how morphemes are planned in sentence production and (ii) neural representations of generics/kind NPs.
+I am mostly interested in morphology and psycholinguistics. I am currently working on (i) morphological planning, i.e., when and how morphemes are planned in sentence production and (ii) how theories of generics/kind NPs can interact with the neurolinguistic findings.
 
-<!-- I am especially interested in why morpho-syntactic manipulations have irregular effects in various languages. -->
 
 In June 2022, I defended my MA thesis titled ["Agreement Attraction in Turkish"][thesis] in Bogazici University, where I worked with [Pavel Logacev][pavel] and focused on case-ambiguity, response bias, and shallow processing in agreement attraction.
 
@@ -13,52 +17,17 @@ My favorite food is [gata][gata] with koritz and my favorite icecream flavor is 
 
 
 
-<!--
-
-### Topics that are close to my heart
-- shallow processing in agreement attraction,
-- response bias estimation,
-- case-driven local ambiguity in agreement attraction,
-- semantics of [hypothetical comparisons][hc],
-- morphosyntax of augmentatives,<!-- [augmentatives][aug],
-- syntax-phonology interface of Turkish cases, <!--[Turkish cases][case],
-- influence of vowel harmony on suspended affixation, <!--[suspended affixation][sa],
-- the phonemic status of ["glide" [ j ]][glide],
-- formation of Turkish and Laz treebanks, <!--[Turkish and Laz treebanks][trlazud],
-- language contact between Greek and Turkish. [Greek and Turkish][grtr] in Asia Minor.
-
--->
-
-
-#### Recent Activity
-
-- March 16, 2024: A chapter of my MA thesis is published on [Language, Cognition, and Neuroscience!](https://doi.org/10.1080/23273798.2024.2324766)
-- February 28, 2024: Will be presenting two posters at HSP 2024 in May! [Planning agreement](files/abstracts/hsp-2024-agree.pdf) and [Tasks effects in sentence production](files/abstracts/hsp-2024-task.pdf)
-- February 16, 2024: Presented my work on sentence planning and morphological planning at [UMass](https://linguistics.umd.edu/news/maryland-psycholinguists-umass)
-- October 1, 2023: Got invited to send my paper on Suppletion and Suspended Affixation to a new Nanosyntax Book! It is still a very early draft, so all comments are appreciated! [email me for the draft!]
-- May 29, 2023: Contributed to pangoling R package. [[myreview]](https://github.com/ropensci/software-review/issues/575#issuecomment-1566746683)
-- April 25, 2023: Our paper on the phonemic status of Turkish glide [ j ] is now in press! [[pdf]](files/pdfs/CanalisEtAl2023.pdf)
-- March 9, 2023: I gave a talk in Human Sentence Processing Conference about response bias and agreement attraction. [[slides]](files/slides/hsp2023.pdf)
-- March 4, 2023: I presented my poster on Obviation and Reference at Harvard at TU+. [[poster]](files/slides/tuplus2023.pdf)
-
-{% include image.html url="images/bosphorous.jpg" caption="view of bosphrous and kennedy lodge, photo by me, aug 18" width="800px" align="middle" %}
-
-<!--
-In my freetime, I usually play games on [Steam][steam] or take amateur [photographs][flickr]. My favorite food is [gata][gata] with koritz and my favorite icecream flavor is [saffron and rose][rose]. -->
-
-
-
-  [cal]:   resources/calligraphy/
-  [thesis]: ma/
-  [glide]:  2022/130/glide.html
-  [sa]:     research/sa/
-  [case]:   research/case/
-  [aug]:    research/aug/
-  [hc]:     2022/130/as-if.html
-  [trlazud]: research/trlazud/
-  [grtr]:   research/grtr/
-  [deepl]:  research/deepl/
-  [taship]: teaching.md
+  [cal]:   ../resources/calligraphy/
+  [thesis]: ../ma/
+  [glide]:  ../2022/130/glide.html
+  [sa]:     ../research/sa/
+  [case]:   ../research/case/
+  [aug]:    ../research/aug/
+  [hc]:     ../2022/130/as-if.html
+  [trlazud]: ../research/trlazud/
+  [grtr]:   ../research/grtr/
+  [deepl]:  ../research/deepl/
+  [taship]: ../teaching.md
   [dept]:   https://linguistics.boun.edu.tr
   [umdling]: https://linguistics.umd.edu/
   [langsci]: http://languagescience.umd.edu
@@ -73,7 +42,7 @@ In my freetime, I usually play games on [Steam][steam] or take amateur [photogra
   [caha]:   https://www.muni.cz/en/people/53172-pavel-caha/cv
   [mas]:    https://www.muni.cz/en
   [ud]:     https://www.universaldependencies.org
-  [cv]:     files/cv.pdf
+  [cv]:     ../files/cv.pdf
   [manu]:   https://github.com/utkuturk/tr_bias/blob/master/paper/draft/manuscript.pdf
   [o]:      https://en.wikipedia.org/wiki/Gender_neutrality_in_genderless_languages#Turkish
   [twitter]:https://www.twitter.com/utkuturkling

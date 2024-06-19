@@ -1,8 +1,8 @@
+- title: "about"
+  href: "/about/"
+
 - title: "research"
   href: "/research/"
-
-# - title: "teaching"
-#   href: "/teaching/"
 
 - title: "papers"
   href: "/papers/"
@@ -18,8 +18,6 @@
 
 - title: "blog"
   href: "/blog/"
-
-
 
 - title: "life"
   href: "/life/"

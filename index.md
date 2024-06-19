@@ -11,7 +11,7 @@ permalink: /
 {%
   include image.html
   url="images/June22_utkuPhoto.jpeg"
-  caption="e-mail: utkuturk@umd.edu <br><a href='https://twitter.com/UtkuTurkLing'>[twitter]</a> | <a href='https://scholar.google.com/citations?hl=tr&user=wa7LG9gAAAAJ'>[scholar]</a> | <a href='https://github.com/utkuturk'>[github]</a> <a href='https://bsky.app/profile/utkuturk.com'>[bsky]</a><hr><b> Collaborators </b> <br> <i>I am fortunate to have worked with the following people: </i><br> <a href='https://www.colinphillips.net/'>Colin Phillips</a>, <a href='https://ellenlau.net/'>Ellen Lau</a>, <a href='https://scholar.google.com/citations?user=fhbdTJIAAAAJ&hl=en'>Pavel Logačev</a>, <a href='https://www.muni.cz/en/people/53172-pavel-caha/cv'>Pavel Caha</a>, <a href='https://www.omerdemirok.com'>Ömer Demirok</a>, <a href='https://linguistics.bogazici.edu.tr/balkiz-ozturk-basaran'> Balkız Öztürk</a>"
+  caption="e-mail: utkuturk@umd.edu <br><a href='https://twitter.com/UtkuTurkLing'>[twitter]</a> | <a href='https://scholar.google.com/citations?hl=tr&user=wa7LG9gAAAAJ'>[scholar]</a> | <a href='https://github.com/utkuturk'>[github]</a> <a href='https://bsky.app/profile/utkuturk.com'>[bsky]</a><hr><b> Collaborators </b> <br> <i>fortunate to have worked with the following people: </i><br> <a href='https://www.colinphillips.net/'>Colin Phillips</a>, <a href='https://ellenlau.net/'>Ellen Lau</a>, <a href='https://scholar.google.com/citations?user=fhbdTJIAAAAJ&hl=en'>Pavel Logačev</a>, <br><a href='https://www.muni.cz/en/people/53172-pavel-caha/cv'>Pavel Caha</a>, <a href='https://www.omerdemirok.com'>Ömer Demirok</a>, <a href='https://linguistics.bogazici.edu.tr/balkiz-ozturk-basaran'> Balkız Öztürk</a>"
   href="https://twitter.com/UtkuTurkLing"
   href="https://scholar.google.com/citations?hl=tr&user=wa7LG9gAAAAJ"
   href="https://github.com/utkuturk"
@@ -26,7 +26,9 @@ permalink: /
   align="right"
 %}
 
+<font size="+2">
 I am a second year Ph.D. student in [linguistics](https://linguistics.umd.edu/) at [University of Maryland](https://umd.edu/), working  with [Colin Phillips](https://www.colinphillips.net/) and [Ellen Lau](https://ellenlau.net/). My main [research interests](research/) are in morphology and psycholinguistics.
+</font>
 
 #### Recent Activity
 

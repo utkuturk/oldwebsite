@@ -11,20 +11,22 @@ permalink: /
 {%
   include image.html
   url="images/June22_utkuPhoto.jpeg"
-  caption="e-mail: utkuturk@umd.edu <br><a href='https://twitter.com/UtkuTurkLing'>[twitter]</a> | <a href='https://scholar.google.com/citations?hl=tr&user=wa7LG9gAAAAJ'>[scholar]</a> | <a href='https://github.com/utkuturk'>[github]</a> <a href='https://bsky.app/profile/utkuturk.com'>[bsky]</a>"
+  caption="e-mail: utkuturk@umd.edu <br><a href='https://twitter.com/UtkuTurkLing'>[twitter]</a> | <a href='https://bsky.app/profile/utkuturk.com'>[bsky]</a> | <a href='https://scholar.google.com/citations?hl=tr&user=wa7LG9gAAAAJ'>[scholar]</a> | <a href='https://github.com/utkuturk'>[github]</a>"
   href="https://twitter.com/UtkuTurkLing"
+  href="https://bsky.app/profile/utkuturk.com"
   href="https://scholar.google.com/citations?hl=tr&user=wa7LG9gAAAAJ"
   href="https://github.com/utkuturk"
-  href="https://bsky.app/profile/utkuturk.com"
   width="250px"
   align="right"
 %}
 
 <br><br><br>
 
+<center>
 <font size="+1">
 I am a second year Ph.D. student in <a href='https://linguistics.umd.edu/'>linguistics</a> at <a href='https://umd.edu/'>University of Maryland</a>, working  with <a href='https://www.colinphillips.net/'>Colin Phillips</a> and <a href='https://ellenlau.net/'>Ellen Lau</a>. My main <a href='https://www.utkuturk.com/research/'>research interests</a> are in morphology and psycholinguistics.
 </font>
+</center>
 
 <br><br><br>
 

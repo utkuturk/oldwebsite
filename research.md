@@ -4,7 +4,7 @@ permalink: /research/
 title:
 ---
 
-Jump to [sentence processing](#sentence-processing), [morpho-syntax](#morpho-syntax), [treebanking](#treebanking), [semantics](#semantics), [computing stack](#computing-stack).
+Jump to [sentence production](#sentence-production), [sentence processing](#sentence-processing), [morpho-syntax](#morpho-syntax), [treebanking](#treebanking), [semantics](#semantics), [computing stack](#computing-stack).
 
 ---
 
@@ -12,9 +12,25 @@ Jump to [sentence processing](#sentence-processing), [morpho-syntax](#morpho-syn
 
 ---
 
+
+## sentence planning
+
+My primary focus at the moment is on the flexibility that speakers show when planning sentences. I am currently working on to <span class="foc">understand how morphological planning</span> is carried out and whether <span class="foc">agents have special status</span> in planning. My goal is to eventually tie this to the work focusing on exploring  <span class="foc">generative grammars</span> and how <span class="foc">they can explain the planning procedure</span>. Broadly, I’m interested in online sentence building and its interaction with syntactic structure.
+
+<details>
+<summary>output</summary>
+
+<strong>Türk, U.</strong>, Phillips, C. (2024). Speech timing evidence on the (in)dependence of root and inflection access in production. Poster presented at Human Sentence Processing 2024. [[abstract]](/files/abstracts/hsp-2024-agree.pdf)<br><br>
+
+Dods, A., MacDonalds, A., <strong>Türk, U.</strong>, Mancha, S., Phillips, C. (2024). Is the octopus regenerating?: Comparing timing effects in sentence recall and picture description tasks. Poster presented at Human Sentence Processing 2024. [[abstract]](/files/abstracts/hsp-2024-task.pdf)<br><br>
+
+</details>
+
+---
+
 ## sentence processing
 
-My primary focus at the moment is on people's degree of fallibility when it comes to comprehending number agreement. I am currently working on to <span class="foc">reconcile conflicting findings</span> on whether attraction effects are modulated by <span class="foc">case ambiguity</span> in sentence comprehension. My goal is to eventually tie this to the work focusing on exploring how people <span class="foc">access memory</span> and why we need to <span class="foc">recontruct</span> them using either abstract or form-related cues. Broadly, I’m interested in online addressable memory-building, its interaction with syntactic dependencies in <span class="foc">typologically</span> different languages, and the nature of the mechanisms and representations this interaction involves.
+I am interested in people's degree of fallibility when it comes to comprehending number agreement. I am currently working on to <span class="foc">reconcile conflicting findings</span> on whether attraction effects are modulated by <span class="foc">case ambiguity</span> in sentence comprehension. My goal is to eventually tie this to the work focusing on exploring how people <span class="foc">access memory</span> and why we need to <span class="foc">recontruct</span> them using either abstract or form-related cues. Broadly, I’m interested in online addressable memory-building, its interaction with syntactic dependencies in <span class="foc">typologically</span> different languages, and the nature of the mechanisms and representations this interaction involves.
 
 With [Pavel Logacev][pavel], I focused on whether people's failure to notice ungrammatical sentences was due to more <span class="foc">cognitive-general</span> issues such as, response <span class="foc">bias</span>, <span class="foc">shallow</span> processing, or <span class="foc">task-effects</span>. Through series of behavioral experiments, we learned that even though that they affect to what degree people fail to assess grammaticality of a sentence, these cognitive-general issues cannot be sole explanation of failure to detect ungrammaticality.
 
@@ -23,7 +39,7 @@ With [Pavel Logacev][pavel], I focused on whether people's failure to notice ung
 
 <strong>Türk, U.</strong> (2022). <a href="http://seyhan.library.boun.edu.tr/record=b2776878~S5">Agreement Attraction in Turkish</a>. <a href="../files/ma_defense/thesis_singlespace.pdf">[localpdf]</a>. <a href="https://github.com/utkuturk/ma-thesis">[repo]</a>. <a href="../ma/">[summary]</a>. <br><br>
 
-<strong>Türk, U.</strong>, Logacev, P. (resubmitted). <a href="https://psyarxiv.com/5rmvu/">Agreement Attraction in Turkish: The case of genitive attractors</a>. <span class="doi">Doi:</span> <a href="https://doi.org/10.31234/osf.io/5rmvu">10.31234/osf.io/5rmvu</a>. <br><br><!--[[repo]]() -->
+<strong>Türk, U.</strong>, Logacev, P. (2024). <a href="https://www.tandfonline.com/doi/full/10.1080/23273798.2024.2324766">Agreement Attraction in Turkish: The case of genitive attractors</a>. Language, Cognition, and Neuroscience. <span class="doi">Doi:</span> <a href="https://doi.org/10.1080/23273798.2024.2324766">10.1080/23273798.2024.2324766</a>. <br><br>
 
 <strong>Türk, U.</strong>, Logacev, P. (in prep). Response Bias in Turkish Agreement Attraction]. <a href="https://github.com/utkuturk/attraction_meta">[repo]</a> (_available upon a request_)
 

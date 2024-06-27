@@ -24,7 +24,7 @@ permalink: /
 
 <center>
 <font size="+1">
-I am a second year Ph.D. student in <a href='https://linguistics.umd.edu/'>linguistics</a> at <a href='https://umd.edu/'>University of Maryland</a>, working  with <a href='https://www.colinphillips.net/'>Colin Phillips</a> and <a href='https://ellenlau.net/'>Ellen Lau</a>. My main <a href='https://www.utkuturk.com/research/'>research interests</a> are in morphology and psycholinguistics.
+I am a second year Ph.D. student in <a href='https://linguistics.umd.edu/'>linguistics</a> at <a href='https://umd.edu/'>University of Maryland</a>, working  with <a href='https://www.colinphillips.net/'>Colin Phillips</a> and <a href='https://ellenlau.net/'>Ellen Lau</a>. My main <a href='https://www.utkuturk.com/research/'>research interests</a> are in morphology and psycholinguistics. Before UMD, I completed my masters at <a href='https://linguistics.boun.edu.tr'>Bogazici University Linguistics</a>, where I worked with <a href='https://scholar.google.com/citations?user=fhbdTJIAAAAJ&hl=en'>Pavel Logačev</a> and write my thesis titled <a href='https://www.utkuturk.com/ma/'>Agreement Attraction in Turkish</a>.
 </font>
 </center>
 

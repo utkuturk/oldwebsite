@@ -3060,7 +3060,7 @@ vertical-align: -.125em;
   </ul>
 </li>
   <li><a href="#an-example-descriptive-summary" id="toc-an-example-descriptive-summary" class="nav-link" data-scroll-target="#an-example-descriptive-summary"><span class="header-section-number">7</span> An Example Descriptive Summary</a></li>
-  </ul><div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="MFA.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li><li><a href="MFA.md"><i class="bi bi-file-code"></i>Markdown</a></li></ul></div></nav>
+  </ul><div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="MFA.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
 </div>
 <main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block default"><div class="quarto-title">
 <h1 class="title">Guidelines to Run Montreal Forced Aligner for a PCIbex Experiment</h1>
@@ -3084,16 +3084,16 @@ vertical-align: -.125em;
 
 </header><section id="introduction" class="level1" data-number="1"><h1 data-number="1">
 <span class="header-section-number">1</span> Introduction</h1>
-<p>Let’s say we have our data from PCIbex and we also have our zip files from the server. Let’s also say we unzipped them and converted them to <code>.wav</code> files from <code>.webm</code> files. Now, it is time to align them using MFA. But, before that we have to prepare our files accordingly. Here’s the steps that we are going to follow in this document.</p>
+<p>We have our data from PCIbex and our zip files from the server. Let’s assume we have unzipped them and converted them from <code>.webm</code> to <code>.wav</code> files. Now, it’s time to align them using MFA. But before that, we need to prepare our files accordingly. Here are the steps we will follow in this document:</p>
 <ul>
 <li>Load the PCIbex results</li>
-<li>Filter irrelevant sound files</li>
+<li>Filter out irrelevant sound files</li>
 <li>Move all of our <code>.wav</code> and <code>.TextGrid</code> files to the same directory</li>
 <li>Rename our files according to MFA guidelines</li>
 <li>Run MFA</li>
 <li>Create a dataframe</li>
 </ul>
-<p>Before we start everything, let me load my favorite packages. <code><a href="https://rdrr.io/r/base/library.html">library()</a></code> loads the packages we want, hopefully they are already installed. If not, use <code><a href="https://rdrr.io/r/utils/install.packages.html">install.packages()</a></code> function to install these packages. While <code><a href="https://rdrr.io/r/base/library.html">library()</a></code> should have them without a quote, you should use quotes with <code><a href="https://rdrr.io/r/utils/install.packages.html">install.packages()</a></code>, i.e. <code>install.packages(&quot;tidyverse&quot;)</code>. If it asks you to select a Mirror from a list, choose a place that is geographically close to you, in your case UK.</p>
+<p>Before we start, let me load my favorite packages. The <code><a href="https://rdrr.io/r/base/library.html">library()</a></code> function loads the packages we need, assuming they are already installed. If not, use the <code><a href="https://rdrr.io/r/utils/install.packages.html">install.packages()</a></code> function to install them. While <code><a href="https://rdrr.io/r/base/library.html">library()</a></code> does not require quotes, you should use quotes with <code><a href="https://rdrr.io/r/utils/install.packages.html">install.packages()</a></code>, e.g., <code>install.packages(&quot;tidyverse&quot;)</code>. If it asks you to select a mirror from a list, choose a location geographically close to you, such as the UK.</p>
 <div class="cell">
 <div class="sourceCode" id="cb1"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://tidyverse.tidyverse.org">tidyverse</a></span><span class="op">)</span> <span class="co"># I have to have tidyverse</span></span>
 <span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://stringr.tidyverse.org">stringr</a></span><span class="op">)</span> <span class="co"># to manipulate string</span></span>
@@ -3104,8 +3104,8 @@ vertical-align: -.125em;
 <span class="header-section-number">2</span> PCIbex Results</h1>
 <section id="read-the-results" class="level2" data-number="2.1"><h2 data-number="2.1" class="anchored" data-anchor-id="read-the-results">
 <span class="header-section-number">2.1</span> Read the results</h2>
-<p>The main reason we are loading PCIbex results is because sometimes we can use <code>async()</code> function in our PCIbex code. <code>async()</code> function allow us to send recordings to our server whenever we want without waiting the end of the experiment. Even though it is extremely helpful in allowing us to decrease some of the server-PCIbex connection load at the end of experiment, it also creates some pesky situations. For example, if a participant decides to not complete their experiment, we will still end up some of their recordings. We do not want participants who were windows-shopping, mainly because we are not sure about the quality of their data. Luckily for us, PCIbex only saves the results of participants who complete the entire experiment.</p>
-<p>To read the PCIbex results, we are going to use the function provided to us in <a href="https://doc.pcibex.net/advanced-tutorial/12_examining-data.html">PCIbex documentation</a>. Scroll down in that page, and you will see the words <code>Click for Base R Version</code>. The function is provided there as well. Moreover, please be careful whenever you are copy pasting your functions from this file, or any file, sometimes PDF or HTML files can include something unwanted, like a page number.</p>
+<p>The main reason we are loading PCIbex results is because sometimes we use the <code>async()</code> function in our PCIbex code. The <code>async()</code> function allows us to send recordings to our server whenever we want without waiting for the end of the experiment. Even though it is extremely helpful in reducing some of the server-PCIbex connection load at the end of the experiment, it also creates some pesky situations. For example, if a participant decides not to complete their experiment, we will still end up with some of their recordings. We do not want participants who were window-shopping, mainly because we are not sure about the quality of their data. Luckily for us, PCIbex only saves the results of participants who complete the entire experiment.</p>
+<p>To read the PCIbex results, we are going to use the function provided in the <a href="https://doc.pcibex.net/advanced-tutorial/12_examining-data.html">PCIbex documentation</a>. Scroll down on that page, and you will see the words “Click for Base R Version.” The function is provided there as well. Moreover, please be careful whenever you are copying and pasting functions from this file, or any file, as sometimes PDF or HTML files can include unwanted elements, like a page number.</p>
 <div class="cell">
 <div class="sourceCode" id="cb2"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co"># User-defined function to read in PCIbex Farm results files</span></span>
 <span><span class="va">read.pcibex</span> <span class="op">&lt;-</span> <span class="kw">function</span><span class="op">(</span></span>
@@ -3143,7 +3143,7 @@ vertical-align: -.125em;
 <span>  <span class="op">}</span></span>
 <span><span class="op">}</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<p>So, now what we have to do is to load our file. I also want to check my file using <code><a href="https://rdrr.io/r/utils/str.html">str()</a></code> function. Please run <code><a href="https://rdrr.io/r/utils/str.html">?str</a></code> to see what this function does. For any function that you do not understand, you can run <code>?</code> operator to see the help pages and some examples.</p>
+<p>So, now what we have to do is load our file. I also want to check my file using the <code><a href="https://rdrr.io/r/utils/str.html">str()</a></code> function. Please run <code><a href="https://rdrr.io/r/utils/str.html">?str</a></code> to see what this function does. For any function that you do not understand, you can run the <code>?</code> operator to see the help pages and some examples.</p>
 <div class="cell">
 <div class="sourceCode" id="cb3"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">ibex</span> <span class="op">&lt;-</span> <span class="fu">read.pcibex</span><span class="op">(</span><span class="st">&quot;~/octo-recall-ibex.csv&quot;</span><span class="op">)</span></span>
 <span><span class="fu"><a href="https://rdrr.io/r/utils/str.html">str</a></span><span class="op">(</span><span class="va">ibex</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -3237,7 +3237,7 @@ vertical-align: -.125em;
 </tbody>
 </table></section><section id="filter-the-results" class="level2" data-number="2.2"><h2 data-number="2.2" class="anchored" data-anchor-id="filter-the-results">
 <span class="header-section-number">2.2</span> Filter the results</h2>
-<p>Since we are dealing with media recordings, I will first filter the file using PennElementType column and will only select rows with “MediaRecorder” values in that column.</p>
+<p>Since we are dealing with media recordings, I will first filter the file using the <code>PennElementType</code> column and will only select rows with “MediaRecorder” values in that column.</p>
 <div class="cell">
 <div class="sourceCode" id="cb5"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">ibex</span> <span class="op">&lt;-</span> <span class="va">ibex</span> <span class="op">|&gt;</span> <span class="fu"><a href="https://dplyr.tidyverse.org/reference/filter.html">filter</a></span><span class="op">(</span><span class="va">PennElementType</span> <span class="op">==</span> <span class="st">&quot;MediaRecorder&quot;</span><span class="op">)</span></span>
 <span><span class="fu"><a href="https://rdrr.io/r/base/unique.html">unique</a></span><span class="op">(</span><span class="va">ibex</span><span class="op">$</span><span class="va">Value</span><span class="op">)</span><span class="op">[</span><span class="fl">1</span><span class="op">:</span><span class="fl">3</span><span class="op">]</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -3245,15 +3245,16 @@ vertical-align: -.125em;
 <pre><code>[1] &quot;test-recorder.webm&quot; &quot;1_prac-1_jztb.webm&quot; &quot;2_prac-1_jztb.webm&quot;</code></pre>
 </div>
 </div>
-<p>After checking my <code>Value</code> column where the files names for <code>MediaRecorder</code> is stored, I realize that this will not be enough given that we still have other unwanted elements like <code>test-recorder.webm</code> file or some practice files. There are multiple ways to get rid of these files, and you have to think about how to get rid of them for your own specific dataframe. For my own data, I will filter my data utilizing the labels I provided in my PCIbex code. They are stored in <code>Labels</code> column. What I want is to only get the <code>MediaRecorders</code> that are within a trial whose label starts with the word <code>trial</code>. You may have coded your data differently; you may have used a different word; you may not even have any practice or test-recorders, so, maybe you do not even have to this second filtering. Check your dataframe using the function <code><a href="https://rdrr.io/r/utils/View.html">View()</a></code>. I am also using a function called <code><a href="https://stringr.tidyverse.org/reference/str_detect.html">str_detect()</a></code>, which detect a regular expression pattern, in this case <code>^trial</code>, meaning starting with the word trial. Now, when I check my dataframe, I only will see experimental trials and recordings related to those trials. Just to make sure, I am also using the <code><a href="https://rdrr.io/r/base/unique.html">unique()</a></code> functions so that I do not have repetitions. And, I am assigning my filenames to a list called <code>ibex_files</code>. You can see that any random sample with <code><a href="https://rdrr.io/r/base/sample.html">sample()</a></code> function, will give filenames related to experimental trials.</p>
+<p>After checking my <code>Value</code> column where the file names for <code>MediaRecorder</code> are stored, I realize that this will not be enough given that we still have other unwanted elements like <code>test-recorder.webm</code> file or some practice files. There are multiple ways to get rid of these files, and you have to think about how to get rid of them for your own specific dataframe. For my own data, I will filter my data utilizing the labels I provided in my PCIbex code. They are stored in the <code>Labels</code> column. What I want is to only get the <code>MediaRecorders</code> that are within a trial whose label starts with the word <code>trial</code>.</p>
+<p>You may have coded your data differently; you may have used a different word; you may not even have any practice or test-recorders, so maybe you do not even need this second filtering. Check your dataframe using the <code><a href="https://rdrr.io/r/utils/View.html">View()</a></code> function. I am also using a function called <code><a href="https://stringr.tidyverse.org/reference/str_detect.html">str_detect()</a></code>, which detects a regular expression pattern, in this case <code>^trial</code>, meaning starting with the word trial. Now, when I check my dataframe, I will only see experimental trials and recordings related to those trials. Just to make sure, I am also using the <code><a href="https://rdrr.io/r/base/unique.html">unique()</a></code> function so that I do not have repetitions. And, I am assigning my filenames to a list called <code>ibex_files</code>. You can see that any random sample with the <code><a href="https://rdrr.io/r/base/sample.html">sample()</a></code> function will give filenames related to experimental trials.</p>
 <div class="cell">
 <div class="sourceCode" id="cb7"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">ibex</span> <span class="op">&lt;-</span> <span class="va">ibex</span> <span class="op">|&gt;</span> <span class="fu"><a href="https://dplyr.tidyverse.org/reference/filter.html">filter</a></span><span class="op">(</span><span class="fu"><a href="https://stringr.tidyverse.org/reference/str_detect.html">str_detect</a></span><span class="op">(</span><span class="va">Label</span>, <span class="st">&quot;^trial&quot;</span><span class="op">)</span><span class="op">)</span></span>
 <span><span class="va">ibex_files</span> <span class="op">&lt;-</span> <span class="va">ibex</span><span class="op">$</span><span class="va">Value</span> <span class="op">|&gt;</span> <span class="fu"><a href="https://rdrr.io/r/base/unique.html">unique</a></span><span class="op">(</span><span class="op">)</span></span>
 <span><span class="fu"><a href="https://rdrr.io/r/base/sample.html">sample</a></span><span class="op">(</span><span class="va">ibex_files</span>, <span class="fl">3</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>[1] &quot;snail_Unergative_unrelated_uopp.webm&quot;
-[2] &quot;monkey_Unergative_related_fmjr.webm&quot; 
-[3] &quot;chef_Unergative_related_xdhc.webm&quot;   </code></pre>
+<pre><code>[1] &quot;chef_Unergative_related_nnjw.webm&quot;    
+[2] &quot;snail_Unergative_related_tvbh.webm&quot;   
+[3] &quot;rabbit_Unergative_unrelated_fmjr.webm&quot;</code></pre>
 </div>
 </div>
 </section><section id="operators-used-in-this-section" class="level2" data-number="2.3"><h2 data-number="2.3" class="anchored" data-anchor-id="operators-used-in-this-section">
@@ -3293,14 +3294,14 @@ vertical-align: -.125em;
 <li>Create a dataframe</li>
 </ul></section></section><section id="filtering-files-from-the-server" class="level1" data-number="3"><h1 data-number="3">
 <span class="header-section-number">3</span> Filtering Files from the Server</h1>
-<p>Now that we have a <em>gold list</em>, we can go ahead and filter our files from the server according to our gold list, based on the results from PCIbex. To do this, first we will create a temporary folder called <code>gold</code>. We will strip every file name from their extension <code>.wav</code> or <code>.TextGrid</code> and check that name exists in our <em>gold list</em>. If that is the case, we will move the file. To this end, we are going to use something called <a href="https://www.youtube.com/watch?v=5zOTJ0fOllI"><em>for loops</em></a> and <a href="https://www.youtube.com/watch?v=N6E_qqhwr7M"><em>if statements</em></a>. You can click on the hyperlinks to watch more on them.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p>
+<p>Now that we have a <em>gold list</em>, we can go ahead and filter our files from the server according to our gold list, based on the results from PCIbex. To do this, first we will create a temporary folder called <code>gold</code>. We will strip every file name of its extension <code>.wav</code> or <code>.TextGrid</code> and check if that name exists in our <em>gold list</em>. If that is the case, we will move the file. To this end, we are going to use something called <a href="https://www.youtube.com/watch?v=5zOTJ0fOllI"><em>for loops</em></a> and <a href="https://www.youtube.com/watch?v=N6E_qqhwr7M"><em>if statements</em></a>. You can click on the hyperlinks to watch more on them. <a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p>
 <ul>
-<li>First, we need to list all of our files. I have all my <code>.wav</code> and <code>.TextGrid</code> files in the same place, so I just need to list a single directory. You might have them in different places. Check the commented out part. To only get relevant files, I am using a regular expression saying only chose the ones that end (<code>$</code>) with <code>.wav</code> or (<code>|</code>) <code>.TextGrid</code> using the pattern argument.</li>
-<li>Second, we create our <em>gold directory</em> with <code><a href="https://rdrr.io/r/base/files2.html">dir.create()</a></code> function.</li>
-<li>Third, we iterate over every file in the files list, get its name without its extension using <code><a href="https://rdrr.io/r/tools/fileutils.html">tools::file_path_sans_ext()</a></code> function and check whether it exist in our <em>gold list</em> using <code>%in%</code> operator.</li>
-<li>If it is also present in the gold_list, we specify where the file exists and assign it to a variable called <code>old_file_path</code>. We also specify where it should be moved and assign it to a variable called <code>new_file_path</code>. We use <code><a href="https://rdrr.io/r/base/file.path.html">file.path()</a></code> function and <code>dir</code>/<code>gold_dir</code> variables, along with the file <code>f</code> we are iterating over.</li>
-<li>Lastly, we move the file using <code><a href="https://rdrr.io/r/base/files.html">file.rename()</a></code> function. Even though the name of the function is <em>rename</em>, it can be used to move files. Every file exist with its pointer, such as <code>~/data/important.R</code>. By changing this pointer, we can change its name, as well as its location to something like <code>~/gold_data/really_important.R</code>. We did not only change the file name from important to really_important. We also changed other parts of this pointer, that is the folder part. If the folder gold_data exists, it will be moved there.</li>
-<li>To make sure this for loop works, I also print a message after every file movement using the function <code><a href="https://rdrr.io/r/base/cat.html">cat()</a></code>.</li>
+<li>First, we need to list all of our files. I have all my <code>.wav</code> and <code>.TextGrid</code> files in the same place, so I just need to list a single directory. You might have them in different places. Check the commented-out part. To only get relevant files, I am using a regular expression saying only choose the ones that end (<code>$</code>) with <code>.wav</code> or (<code>|</code>) <code>.TextGrid</code> using the pattern argument.</li>
+<li>Second, we create our <em>gold directory</em> with the <code><a href="https://rdrr.io/r/base/files2.html">dir.create()</a></code> function.</li>
+<li>Third, we iterate over every file in the files list, get its name without its extension using the <code><a href="https://rdrr.io/r/tools/fileutils.html">tools::file_path_sans_ext()</a></code> function and check whether it exists in our <em>gold list</em> using the <code>%in%</code> operator.</li>
+<li>If it is also present in the gold list, we specify where the file exists and assign it to a variable called <code>old_file_path</code>. We also specify where it should be moved and assign it to a variable called <code>new_file_path</code>. We use the <code><a href="https://rdrr.io/r/base/file.path.html">file.path()</a></code> function and <code>dir</code>/<code>gold_dir</code> variables, along with the file <code>f</code> we are iterating over.</li>
+<li>Lastly, we move the file using the <code><a href="https://rdrr.io/r/base/files.html">file.rename()</a></code> function. Even though the name of the function is <em>rename</em>, it can be used to move files. Every file exists with its pointer, such as <code>~/data/important.R</code>. By changing this pointer, we can change its name, as well as its location to something like <code>~/gold_data/really_important.R</code>. We did not only change the file name from important to really_important. We also changed other parts of this pointer, that is the folder part. If the folder <code>gold_data</code> exists, it will be moved there.</li>
+<li>To make sure this for loop works, I also print a message after every file movement using the <code><a href="https://rdrr.io/r/base/cat.html">cat()</a></code> function.</li>
 </ul>
 <div class="cell">
 <div class="sourceCode" id="cb9"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">dir</span> <span class="op">&lt;-</span> <span class="st">&quot;~/data&quot;</span></span>
@@ -3325,7 +3326,7 @@ vertical-align: -.125em;
 <span>  <span class="op">}</span></span>
 <span><span class="op">}</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<p>One important thing to note here is that if you have your <code>.wav</code> and <code>.TextGrid</code> files in different directories. You can either manually move them to a single folder using your Folders application. Or, you can run the command above using wav_dir and tg_dir variables, along with tg_files, and wav_files variables. It should look like following. There are of course way better ways to solve this problem. I am leaving that to your creativity.</p>
+<p>One important thing to note here is that if you have your <code>.wav</code> and <code>.TextGrid</code> files in different directories, you can either manually move them to a single folder using your file management application. Alternatively, you can run the commands above using <code>wav_dir</code> and <code>tg_dir</code> variables, along with <code>tg_files</code> and <code>wav_files</code> variables. It should look like the following. There are, of course, better ways to solve this problem, and I leave that to your creativity.</p>
 <div class="cell">
 <div class="sourceCode" id="cb10"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">wav_dir</span> <span class="op">&lt;-</span> <span class="st">&quot;~/wav_data&quot;</span></span>
 <span><span class="va">tg_dir</span> <span class="op">&lt;-</span> <span class="st">&quot;~/tg_data&quot;</span></span>
@@ -3373,11 +3374,11 @@ vertical-align: -.125em;
 <li>Create a dataframe</li>
 </ul></section></section><section id="renaming-files" class="level1" data-number="4"><h1 data-number="4">
 <span class="header-section-number">4</span> Renaming Files</h1>
-<p>This section is going to be the section you have to be most careful about. If you mess anything up in this section, you will have to delete everything, go back, unzip your files, convert them to .wav from .webm, and do everything in this file again. So, before going giving you the for-loop to rename all files, I want to make sure that we go over one of the files, and make sure we do it correctly.</p>
-<p>The main reason we rename our files is because we want Montreal Forced Aligner to understand that we have multiple speakers in our dataset. If we do not do that, it will treat as if all of the files are from a single speaker and probably will be very confused due to inter-speaker variance in speech. Since we have erroneously specified in our PCIbex files to use the <code>subject_id</code> as a suffix, rather than a prefix, we have to fix that. If in the future, we fix that in our PCIbex script, we do not have to go over this part.</p>
+<p>This section is going to be the section you have to be most careful about. If you mess anything up in this section, you will have to delete everything, go back, unzip your files, convert them to <code>.wav</code> from <code>.webm</code>, and do everything in this file again. So, before giving you the for-loop to rename all files, I want to make sure that we go over one of the files and make sure we do it correctly.</p>
+<p>The main reason we rename our files is because we want Montreal Forced Aligner to understand that we have multiple speakers in our dataset. If we do not do that, it will treat all files as if they are from a single speaker and probably will be very confused due to inter-speaker variance in speech. Since we have erroneously specified in our PCIbex files to use the <code>subject_id</code> as a suffix rather than a prefix, we have to fix that. If in the future we fix that in our PCIbex script, we do not have to go over this part.</p>
 <section id="one-file-example" class="level2" data-number="4.1"><h2 data-number="4.1" class="anchored" data-anchor-id="one-file-example">
 <span class="header-section-number">4.1</span> One-file example</h2>
-<p>My files after unzipping, converting to <code>.wav</code>, and filtering according to gold list looks like the following. There are some important things to keep in mind here. First of all, now that everything is in our <em>gold directory</em>, we have to use the <code>gold_dir</code> variable to list our files. Secondly, we again need to use pattern argument to make sure we only select relevant files. Last thing to beware of in the next code is that I am using indexing using square brackets to refer to the first elements in the list. I will use this element to make sure first what I am doing is correct.</p>
+<p>My files, after unzipping, converting to <code>.wav</code>, and filtering according to the gold list, look like the following. There are some important things to keep in mind here. First of all, now that everything is in our <em>gold directory</em>, we have to use the <code>gold_dir</code> variable to list our files. Secondly, we again need to use the pattern argument to make sure we only select relevant files. The last thing to be aware of in the next code is that I am using indexing with square brackets to refer to the first elements in the list. I will use this element to first ensure that what I am doing is correct.</p>
 <div class="cell">
 <div class="sourceCode" id="cb11"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">gold_dir</span> <span class="op">&lt;-</span> <span class="st">&quot;~/data/gold&quot;</span></span>
 <span><span class="va">files</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/list.files.html">list.files</a></span><span class="op">(</span><span class="va">gold_dir</span>, pattern <span class="op">=</span> <span class="st">&quot;\\.wav$|\\.TextGrid$&quot;</span><span class="op">)</span></span>
@@ -3389,7 +3390,7 @@ vertical-align: -.125em;
 </div>
 <section id="get-the-extension-and-the-name" class="level3" data-number="4.1.1"><h3 data-number="4.1.1" class="anchored" data-anchor-id="get-the-extension-and-the-name">
 <span class="header-section-number">4.1.1</span> Get the extension and the name</h3>
-<p>Now that we have our name of an example file, we can start cutting it into smaller pieces to work. Let’s first get its extension. We will use the function <code>file_ext</code> from the package called <code>tools</code>. Sometimes, we do not want to load an entire package, but we want to access to a single function. In those times, we use the operator <code>::</code>. In addition to this function, we use <code>paste0</code> to prefix the extension with a dot, so that we can use it later while we rename our files.</p>
+<p>Now that we have the name of an example file, we can start by extracting its extension. We will use the function <code>file_ext</code> from the package called <code>tools</code>. Sometimes, we do not want to load an entire package, but we want to access a single function. In those cases, we use the operator <code>::</code>. Additionally, we will use <code>paste0</code> to prefix the extension with a dot, so that we can use it later when we rename our files.</p>
 <div class="cell">
 <div class="sourceCode" id="cb13"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">extension</span> <span class="op">&lt;-</span> <span class="fu">tools</span><span class="fu">::</span><span class="fu"><a href="https://rdrr.io/r/tools/fileutils.html">file_ext</a></span><span class="op">(</span><span class="va">example_file</span><span class="op">)</span></span>
 <span><span class="va">extension</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/paste.html">paste0</a></span><span class="op">(</span><span class="st">&quot;.&quot;</span>, <span class="va">extension</span><span class="op">)</span></span>
@@ -3398,7 +3399,7 @@ vertical-align: -.125em;
 <pre><code>[1] &quot;.TextGrid&quot;</code></pre>
 </div>
 </div>
-<p>As for the rest of the name, we will use <code>file_path_sans_ext()</code> function that we used earlier.</p>
+<p>As for the rest of the name, we will use the <code>file_path_sans_ext()</code> function that we used earlier.</p>
 <div class="cell">
 <div class="sourceCode" id="cb15"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">rest</span> <span class="op">&lt;-</span> <span class="fu">tools</span><span class="fu">::</span><span class="fu"><a href="https://rdrr.io/r/tools/fileutils.html">file_path_sans_ext</a></span><span class="op">(</span><span class="va">example_file</span><span class="op">)</span></span>
 <span><span class="va">rest</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -3408,10 +3409,10 @@ vertical-align: -.125em;
 </div>
 </section><section id="get-the-subject-id" class="level3" data-number="4.1.2"><h3 data-number="4.1.2" class="anchored" data-anchor-id="get-the-subject-id">
 <span class="header-section-number">4.1.2</span> Get the subject id</h3>
-<p>Now the most important part is getting the subject name. If you look at what my <code>rest</code> variable returned, you can see that it is the last 4 characters. It is also the last set of characters after the last underscore. So, there are multiple ways to get to the subject id. I will show you both so that you can tweak any of those and use with your own data. For the underscore version, we will use the function <code><a href="https://stringr.tidyverse.org/reference/str_split.html">str_split()</a></code>, and for the character counting, we will use <code><a href="https://stringr.tidyverse.org/reference/str_sub.html">str_sub()</a></code>.</p>
+<p>Now, the most important part is getting the subject name. If you look at what my <code>rest</code> variable returned, you can see that it consists of the last 4 characters, which are also the last set of characters after the last underscore. There are multiple ways to extract the subject id. I will show you both methods so that you can choose and adapt them for your own data. For the underscore version, we will use the function <code><a href="https://stringr.tidyverse.org/reference/str_split.html">str_split()</a></code>, and for the character counting, we will use <code><a href="https://stringr.tidyverse.org/reference/str_sub.html">str_sub()</a></code>.</p>
 <section id="underscore-approach" class="level4" data-number="4.1.2.1"><h4 data-number="4.1.2.1" class="anchored" data-anchor-id="underscore-approach">
 <span class="header-section-number">4.1.2.1</span> Underscore approach</h4>
-<p><code><a href="https://stringr.tidyverse.org/reference/str_split.html">str_split()</a></code> takes a string and splits it according to the separator you are providing. In our case, the separator is the underscore. We are also using an additional argument called simplify to make the resulting element more user-friendly. Our function now returns a small tabular with 1 row and 5 columns. In order to select the values in the 5th column, we are using the square brackets again, this time with a comma. When you use this approach for your own data, remember that you may end up with less or more than 5 columns, depending on your own naming convention. Do not forget to change the column number. It might be also the case that you do not have the subject id stored last or maybe your separators are not underscore but a simple “-”. Change the code according to your own needs.</p>
+<p><code><a href="https://stringr.tidyverse.org/reference/str_split.html">str_split()</a></code> takes a string and splits it according to the separator you provide. In our case, the separator is the underscore. We are also using an additional argument called <code>simplify</code> to make the resulting elements more user-friendly. Our function now returns a small table with 1 row and 5 columns. To select the values in the 5th column, we use square brackets again, this time with a comma. When you apply this approach to your own data, remember that you may end up with fewer or more than 5 columns depending on your naming convention. Be sure to adjust the column number accordingly. It might also be the case that your subject id is not stored last or that your separators are not underscores but simple “-”. Modify the code according to your specific needs.</p>
 <div class="cell">
 <div class="sourceCode" id="cb17"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co"># Using the underscore information</span></span>
 <span><span class="va">subj</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://stringr.tidyverse.org/reference/str_split.html">str_split</a></span><span class="op">(</span><span class="va">rest</span>, <span class="st">&quot;_&quot;</span>, simplify <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span></span>
@@ -3426,7 +3427,7 @@ vertical-align: -.125em;
 <pre><code>[1] &quot;dltc&quot;</code></pre>
 </div>
 </div>
-<p>Lastly, we have to modify the <code>rest</code> variable, so that we do not mark the subject id twice. I will again use the same approach. After having the tabular, I will use <code><a href="https://rdrr.io/r/base/paste.html">paste()</a></code> function to put the columns back together with the separator underscore. Again change how many columns to be used in this function and the separator according to your own needs.</p>
+<p>Lastly, we have to modify the <code>rest</code> variable so that we do not include the subject id twice. I will use the same approach again. After obtaining the table, I will use the <code><a href="https://rdrr.io/r/base/paste.html">paste()</a></code> function to concatenate the columns back together with the underscore separator. Adjust the number of columns used in this function and the separator according to your own data needs.</p>
 <div class="cell">
 <div class="sourceCode" id="cb21"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">nosubj</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://stringr.tidyverse.org/reference/str_split.html">str_split</a></span><span class="op">(</span><span class="va">rest</span>, <span class="st">&quot;_&quot;</span>, simplify <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span></span>
 <span><span class="va">nosubj</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/paste.html">paste</a></span><span class="op">(</span><span class="va">nosubj</span><span class="op">[</span>,<span class="fl">1</span><span class="op">]</span>, <span class="va">nosubj</span><span class="op">[</span>,<span class="fl">2</span><span class="op">]</span>, <span class="va">nosubj</span><span class="op">[</span>,<span class="fl">3</span><span class="op">]</span>, <span class="va">nosubj</span><span class="op">[</span>,<span class="fl">4</span><span class="op">]</span>, sep <span class="op">=</span> <span class="st">&quot;_&quot;</span><span class="op">)</span></span>
@@ -3437,7 +3438,7 @@ vertical-align: -.125em;
 </div>
 </section><section id="character-approach" class="level4" data-number="4.1.2.2"><h4 data-number="4.1.2.2" class="anchored" data-anchor-id="character-approach">
 <span class="header-section-number">4.1.2.2</span> Character approach</h4>
-<p><code><a href="https://stringr.tidyverse.org/reference/str_sub.html">str_sub()</a></code> allows you to subset a part of the string using indices. In my case, the subject is the last four character. To be able to refer to the characters from the end, you can use the minus symbol <code>-</code>. I specify <code>-4</code> in the start argument, meaning I want extracted string to start from the fourth character counting back from the end.</p>
+<p><code><a href="https://stringr.tidyverse.org/reference/str_sub.html">str_sub()</a></code> allows you to extract a substring using indices. In my case, the subject id is the last four characters. To refer to characters from the end, you can use the minus symbol <code>-</code>. I specify <code>-4</code> in the <code>start</code> argument, which means I want to extract the string starting from the fourth character counting back from the end.</p>
 <div class="cell">
 <div class="sourceCode" id="cb23"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">subj</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://stringr.tidyverse.org/reference/str_sub.html">str_sub</a></span><span class="op">(</span><span class="va">rest</span>, start <span class="op">=</span> <span class="op">-</span><span class="fl">4</span><span class="op">)</span></span>
 <span><span class="va">subj</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -3445,7 +3446,7 @@ vertical-align: -.125em;
 <pre><code>[1] &quot;dltc&quot;</code></pre>
 </div>
 </div>
-<p>To get the rest of the filename, I specify starting point as the <code>1</code> and the endpoint to be <code>-6</code>. <code>-5</code> would give us the underscore as well.</p>
+<p>To get the rest of the filename, I specify the starting point as <code>1</code> and the endpoint as <code>-6</code>. Using <code>-5</code> would include the underscore as well.</p>
 <div class="cell">
 <div class="sourceCode" id="cb25"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">nosubj</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://stringr.tidyverse.org/reference/str_sub.html">str_sub</a></span><span class="op">(</span><span class="va">rest</span>, start <span class="op">=</span> <span class="fl">1</span>, end <span class="op">=</span> <span class="op">-</span><span class="fl">6</span><span class="op">)</span></span>
 <span><span class="va">nosubj</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -3455,7 +3456,7 @@ vertical-align: -.125em;
 </div>
 </section></section><section id="put-the-new-name-and-the-path-together" class="level3" data-number="4.1.3"><h3 data-number="4.1.3" class="anchored" data-anchor-id="put-the-new-name-and-the-path-together">
 <span class="header-section-number">4.1.3</span> Put the new name and the path together</h3>
-<p>At this point, we have everything we need: (i) the subject id prefix, (ii) rest of our file name, and (iii) extension. Now, we need to put all of this together. We are going to use <code><a href="https://rdrr.io/r/base/paste.html">paste0()</a></code> function. Remember this is different from <code><a href="https://rdrr.io/r/base/paste.html">paste()</a></code> function. The main difference is that with <code><a href="https://rdrr.io/r/base/paste.html">paste0()</a></code>, we cannot specify the separators, and we have to provide everything. It seems like a disadvantage at first, but it helps with non-pattern cases like this.</p>
+<p>At this point, we have everything we need: (i) the subject id prefix, (ii) the rest of our file name, and (iii) the extension. Now, we need to combine all of this together. We are going to use the <code><a href="https://rdrr.io/r/base/paste.html">paste0()</a></code> function. Remember, this function is different from <code><a href="https://rdrr.io/r/base/paste.html">paste()</a></code>. The main difference is that with <code><a href="https://rdrr.io/r/base/paste.html">paste0()</a></code>, we cannot specify separators; we have to provide everything. This might seem like a disadvantage at first, but it is beneficial for non-pattern cases like this.</p>
 <div class="cell">
 <div class="sourceCode" id="cb27"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">new_name</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/paste.html">paste0</a></span><span class="op">(</span><span class="va">subj</span>, <span class="st">&quot;_&quot;</span>, <span class="va">nosubj</span>, <span class="va">extension</span><span class="op">)</span></span>
 <span><span class="va">new_name</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -3463,7 +3464,7 @@ vertical-align: -.125em;
 <pre><code>[1] &quot;dltc_shota-rep-trial_ballerinaUnacc_sgsg_related.TextGrid&quot;</code></pre>
 </div>
 </div>
-<p>We also create a new path to rename our file.</p>
+<p>We also need to create a new path to rename our file.</p>
 <div class="cell">
 <div class="sourceCode" id="cb29"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">new_path</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/file.path.html">file.path</a></span><span class="op">(</span><span class="va">gold_dir</span>, <span class="va">new_name</span><span class="op">)</span></span>
 <span><span class="va">new_path</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -3473,7 +3474,7 @@ vertical-align: -.125em;
 </div>
 </section><section id="rename-the-file" class="level3" data-number="4.1.4"><h3 data-number="4.1.4" class="anchored" data-anchor-id="rename-the-file">
 <span class="header-section-number">4.1.4</span> Rename the file</h3>
-<p>We are again going to use the <code><a href="https://rdrr.io/r/base/files.html">file.rename()</a></code> function. This time, we are only changing the file name and not the path, so the file will not be moved. We also need to have the full path of our <code>example_file</code> as well. We can easily do that using the <code>file.path</code> function again.</p>
+<p>We will once again use the <code><a href="https://rdrr.io/r/base/files.html">file.rename()</a></code> function. This time, we are only changing the file name and not the path, so the file will remain in its current location. We also need to obtain the full path of our <code>example_file</code>. We can achieve this easily using the <code>file.path</code> function again.</p>
 <div class="cell">
 <div class="sourceCode" id="cb31"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">example_file_path</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/file.path.html">file.path</a></span><span class="op">(</span><span class="va">gold_dir</span>, <span class="va">example_file</span><span class="op">)</span></span>
 <span><span class="va">example_file_path</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -3484,14 +3485,14 @@ vertical-align: -.125em;
 <div class="cell">
 <div class="sourceCode" id="cb33"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/base/files.html">file.rename</a></span><span class="op">(</span><span class="va">example_file_path</span>, <span class="va">new_path</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<p>After running this, make sure it is the naming convention we want. Go check your folder, find the trial by searching. It should be something like <code>subj_rest.wav</code> or <code>subj_rest.TextGrid</code>. In my case it is <code>dltc_shota-rep-trial_ballerinaUnacc_sgsg_related.TextGrid</code>, Where the <code>dltc</code> is my subject id or subj.</p>
+<p>After running this, make sure the naming convention is as we want. Check your folder by searching for the trial. It should look something like <code>subj_rest.wav</code> or <code>subj_rest.TextGrid</code>. In my case, it is <code>dltc_shota-rep-trial_ballerinaUnacc_sgsg_related.TextGrid</code>, where <code>dltc</code> is my subject id or subj.</p>
 </section></section><section id="little-treat-for-you" class="level2" data-number="4.2"><h2 data-number="4.2" class="anchored" data-anchor-id="little-treat-for-you">
 <span class="header-section-number">4.2</span> Little treat for you</h2>
-<p>I know that some of your files looks like the following: <code>squid_S_jtfr.wav</code>. Here, I will give you to code to rename this. Again, please check this code before using. First, let’s arbitrarily put this name as a variable. Remember, in your case, you will have this from your <code>files</code> list.</p>
+<p>I know that some of your files look like the following: <code>squid_S_jtfr.wav</code>. Here, I will provide you with the code to rename this. Please check this code before using it. First, let’s arbitrarily assign this name to a variable. Remember, in your case, you will obtain this from your <code>files</code> list.</p>
 <div class="cell">
 <div class="sourceCode" id="cb34"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">example_file</span> <span class="op">&lt;-</span> <span class="st">&quot;squid_S_jtfr.wav&quot;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<p>Now, I am going to put all the code together in one chunk, except for moving. Also, beware that I am using my own <code>gold_dir</code>, please specify according to your own. And, be careful if you are using Windows or Mac. If you are using Windows your <code>gold_dir</code> variable should look like the second line. I have commented that part with a hashtag/pound symbol. Uncomment it by deleting the first pound symbol.</p>
+<p>Now, I am going to put all the code together in one chunk, except for moving. Also, be aware that I am using my own <code>gold_dir</code>; please specify yours according to your needs. Additionally, be mindful of your operating system (Windows or Mac). If you are using Windows, your <code>gold_dir</code> variable should look like the second line. I have commented out that part with a hashtag/pound symbol. Uncomment it by deleting the first pound symbol.</p>
 <div class="cell">
 <div class="sourceCode" id="cb35"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">gold_dir</span> <span class="op">&lt;-</span> <span class="st">&quot;~/data/gold&quot;</span></span>
 <span><span class="co"># gold_dir &lt;- &quot;C:/Users/utkuturk/data/gold&quot; # for windows</span></span>
@@ -3515,13 +3516,13 @@ vertical-align: -.125em;
 <pre><code>[1] &quot;~/data/gold/squid_S_jtfr.wav&quot;</code></pre>
 </div>
 </div>
-<p>And this line would handle the renaming from old <code>example_file_path</code> to the <code>new_path</code>, thus the new name.</p>
+<p>And this line would handle the renaming from the old <code>example_file_path</code> to the <code>new_path</code>, thereby assigning the new name.</p>
 <div class="cell">
 <div class="sourceCode" id="cb39"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/base/files.html">file.rename</a></span><span class="op">(</span><span class="va">example_file_path</span>, <span class="va">new_path</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section><section id="for-loop" class="level2" data-number="4.3"><h2 data-number="4.3" class="anchored" data-anchor-id="for-loop">
 <span class="header-section-number">4.3</span> For loop</h2>
-<p>If you made sure that codes above works for you, now you are ready to do the for loop. We just have to define a variable within the for loop, something like <code>f</code>, and use it instead of <code>example_file</code>. This way, we will iterate over every file in our list. To check whether it is working properly, I also added a line to print a message every time a file is renamed.</p>
+<p>If you have ensured that the code above works correctly for you, you are now ready to implement the for loop. Within the loop, define a variable like <code>f</code> and use it instead of <code>example_file</code>. This way, you will iterate over every file in your list. To verify that it is functioning correctly, I also added a line to print a message each time a file is renamed.</p>
 <div class="cell">
 <div class="sourceCode" id="cb40"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">gold_dir</span> <span class="op">&lt;-</span> <span class="st">&quot;~/data/gold&quot;</span></span>
 <span><span class="co"># gold_dir &lt;- &quot;C:/Users/utkuturk/data/gold&quot; # for windows</span></span>
@@ -3572,12 +3573,12 @@ vertical-align: -.125em;
 <li>Create a dataset</li>
 </ul></section></section><section id="running-the-montreal-forced-aligner" class="level1" data-number="5"><h1 data-number="5">
 <span class="header-section-number">5</span> Running the Montreal Forced Aligner</h1>
-<p>Now that we have our files in the format we want, we can put all of our files in the MFA folder and start running the aligner. We can either move our files using the Explorer App and usual copy-paste or we can use again <code><a href="https://rdrr.io/r/base/files.html">file.rename()</a></code> function. Due to the limitations of the aligner, the second option is far better. The main limitation is that MFA starts creating problems when we give the aligner more than 2000 files at once. I have a lot of data, so I will use the following function to divide my files and move them into little subfolders. But before that I will show you how to move files without dividing them into subfolders.</p>
+<p>Now that we have our files in the format we want, we can place all of our files in the MFA folder and start running the aligner. We can either move our files using the Explorer app and usual copy-paste or we can use the <code><a href="https://rdrr.io/r/base/files.html">file.rename()</a></code> function again. Due to the aligner’s limitations, the second option is far better. The main constraint is that MFA starts encountering problems when we feed it more than 2000 files at once. Since I have a lot of data, I will use the following function to divide my files and move them into smaller subfolders. But before that, I will show you how to move files without dividing them into subfolders.</p>
 <section id="moving-the-files-to-mfa-directory" class="level2" data-number="5.1"><h2 data-number="5.1" class="anchored" data-anchor-id="moving-the-files-to-mfa-directory">
 <span class="header-section-number">5.1</span> Moving the Files to MFA Directory</h2>
 <section id="without-dividing" class="level3" data-number="5.1.1"><h3 data-number="5.1.1" class="anchored" data-anchor-id="without-dividing">
 <span class="header-section-number">5.1.1</span> Without Dividing</h3>
-<p>Again, we are going to use <code><a href="https://rdrr.io/r/base/files.html">file.rename()</a></code> and <code><a href="https://rdrr.io/r/base/files2.html">dir.create()</a></code> functions to create the directory we are moving files to and of course to move files.</p>
+<p>Again, we are going to use the <code><a href="https://rdrr.io/r/base/files.html">file.rename()</a></code> and <code><a href="https://rdrr.io/r/base/files2.html">dir.create()</a></code> functions to create the directory we are moving files to, and of course, to move files.</p>
 <div class="cell">
 <div class="sourceCode" id="cb41"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co"># gold directory, where all of our files are</span></span>
 <span><span class="va">gold_dir</span> <span class="op">&lt;-</span> <span class="st">&quot;~/data/gold&quot;</span></span>
@@ -3596,12 +3597,12 @@ vertical-align: -.125em;
 </div>
 </section><section id="with-dividing-them-into-subfolders" class="level3" data-number="5.1.2"><h3 data-number="5.1.2" class="anchored" data-anchor-id="with-dividing-them-into-subfolders">
 <span class="header-section-number">5.1.2</span> With Dividing them into subfolders</h3>
-<p>I will introduce the following function that I use, here I will not go into details. But it basically does the following steps:</p>
+<p>I will introduce the following function that I use. Here, I will not go into details, but it basically performs the following steps:</p>
 <ul>
-<li>Creating a subfolder called <code>s1</code> and moving files into it</li>
-<li>Counting up to 2000</li>
-<li>When it passes 2000, creating another subfolder by increasing the number from <code>s1</code> to <code>s2</code>.</li>
-<li>Continues to do so until there are no more files.</li>
+<li>Creates a subfolder called <code>s1</code> and moves files into it.</li>
+<li>Counts up to 2000.</li>
+<li>When it surpasses 2000, it creates another subfolder by incrementing the number from <code>s1</code> to <code>s2</code>.</li>
+<li>Continues this process until there are no more files.</li>
 </ul>
 <div class="cell">
 <div class="sourceCode" id="cb42"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">divide_and_move</span> <span class="op">&lt;-</span> <span class="kw">function</span><span class="op">(</span><span class="va">source</span>, <span class="va">target</span>, <span class="va">limit</span><span class="op">=</span><span class="fl">2000</span><span class="op">)</span> <span class="op">{</span></span>
@@ -3629,7 +3630,7 @@ vertical-align: -.125em;
 <span>  <span class="op">}</span></span>
 <span><span class="op">}</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<p>You can use this function by just giving the source and the target folders.</p>
+<p>You can use this function by simply providing the source and target folders.</p>
 <div class="cell">
 <div class="sourceCode" id="cb43"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co"># gold directory, where all of our files are</span></span>
 <span><span class="va">gold_dir</span> <span class="op">&lt;-</span> <span class="st">&quot;~/data/gold&quot;</span></span>
@@ -3640,7 +3641,7 @@ vertical-align: -.125em;
 </div>
 </section></section><section id="terminal-codes" class="level2" data-number="5.2"><h2 data-number="5.2" class="anchored" data-anchor-id="terminal-codes">
 <span class="header-section-number">5.2</span> Terminal Codes</h2>
-<p>After moving the files with either code or by hand to a specific MFA folder, <code>~/Documents/MFA</code>, we can start running the terminal codes. At this point, I assume you have went over either <a href="https://montreal-forced-aligner.readthedocs.io/en/latest/installation.html">MFA docs</a> to install it. I am also assuming that you have used a <code>conda</code> environment. If you haven’t here’s the 3 lines to install MFA.</p>
+<p>After moving the files either with code or by hand to a specific MFA folder, <code>~/Documents/MFA</code>, we can start running the terminal commands. At this point, I assume you have gone through the <a href="https://montreal-forced-aligner.readthedocs.io/en/latest/installation.html">MFA documentation</a> for installation instructions. I am also assuming that you have used a <code>conda</code> environment. If you haven’t, here are the 3 lines to install MFA.</p>
 <div class="cell">
 <div class="code-with-filename">
 <div class="code-with-filename-file">
@@ -3651,53 +3652,53 @@ vertical-align: -.125em;
 <span id="cb44-3"><a href="#cb44-3" aria-hidden="true" tabindex="-1"></a><span class="ex">mamba</span> create <span class="at">-n</span> aligner <span class="at">-c</span> conda-forge montreal-forced-aligner</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </div>
-<p>There are again two ways to do this. One way is to either open your Terminal App or use the Terminal tab in R console below. The other way, which I like more, is to execute commands using R function <code><a href="https://rdrr.io/r/base/system.html">system()</a></code>. I will first go over the easier one, which is using the Terminal App or the Terminal Tab in R. But the reason I prefer <code><a href="https://rdrr.io/r/base/system.html">system()</a></code> function is that I can loop over multiple folders easier that way and I do not have to run my commands again and again.</p>
+<p>There are again two ways to do this. One way is to open your Terminal app or use the Terminal tab in the R console below. The other way, which I prefer more, is to execute commands using the R function <code><a href="https://rdrr.io/r/base/system.html">system()</a></code>. I will first go over the easier one, which is using the Terminal app or the Terminal tab in R. But the reason I prefer the <code><a href="https://rdrr.io/r/base/system.html">system()</a></code> function is that I can loop over multiple folders more easily that way, and I do not have to run my commands again and again.</p>
 <section id="using-terminal" class="level3" data-number="5.2.1"><h3 data-number="5.2.1" class="anchored" data-anchor-id="using-terminal">
 <span class="header-section-number">5.2.1</span> Using Terminal</h3>
-<p>The first code we want to run is conda environment code. I have followed the MFA docs and like them I renamed my environment <code>aligner</code>. So, I start activating that environment.</p>
+<p>The first command we want to run is the conda environment code. Following the MFA documentation, I renamed my environment to <code>aligner</code>. So, I start by activating that environment.</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb45"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb45-1"><a href="#cb45-1" aria-hidden="true" tabindex="-1"></a><span class="ex">conda</span> activate aligner</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<p>After environment activation, I need to download three models: (i) an acoustic model to recognize the phonemes given the previous and the following acoustic features (ii) a dictionary to access pretrained phone-word mappings, and (iii) a g2p model to generate sequence of phones based on orthography. For all of these models, we are going to use <code>english_us_arpa</code> one. You can look at <a href="https://mfa-models.readthedocs.io/en/latest/acoustic/index.html">this website</a> to check out various languages and various models.</p>
+<p>After activating the environment, I need to download three models: (i) an acoustic model to recognize phonemes given previous and following acoustic features, (ii) a dictionary to access pretrained phone-word mappings, and (iii) a g2p model to generate sequences of phones based on orthography. For all of these models, we are going to use the <code>english_us_arpa</code> model. You can visit <a href="https://mfa-models.readthedocs.io/en/latest/acoustic/index.html">this website</a> to explore various languages and models.</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb46"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb46-1"><a href="#cb46-1" aria-hidden="true" tabindex="-1"></a><span class="ex">mfa</span> model download acoustic english_us_arpa</span>
 <span id="cb46-2"><a href="#cb46-2" aria-hidden="true" tabindex="-1"></a><span class="ex">mfa</span> model download dictionary english_us_arpa</span>
 <span id="cb46-3"><a href="#cb46-3" aria-hidden="true" tabindex="-1"></a><span class="ex">mfa</span> model download g2p english_us_arpa</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<p>After downloading these models, we are going to validate our corpus. There are a lot of customizable parameters for this step. You can check them <a href="https://montreal-forced-aligner.readthedocs.io/en/latest/user_guide/data_validation.html">here</a>. I am going to use my favorite ones here. You can read the following code like this: <em>Dear Montreal forced aligner (<code>mfa</code>), can you please look at my files in this <code>~/Documents/MFA/mycorpus</code> and <code>validate</code> them using <code>english_us_arpa</code> acoustic model and <code>english_us_arpa</code> dictionary. Can you also take into consideration that I have multiple speakers and I have specified them in the first 4 characters (<code>-s 4</code>). It would be awesome to use multiprocessing (<code>--use_mp</code>) so it is executed faster. Lastly, can you clean previous and new temporary files (<code>--clean --final_clean</code>).</em></p>
+<p>After downloading these models, we are going to validate our corpus. There are many customizable parameters for this step. You can check them <a href="https://montreal-forced-aligner.readthedocs.io/en/latest/user_guide/data_validation.html">here</a>. I am going to use my favorite settings here. You can interpret the following command like this: <em>Dear Montreal Forced Aligner (<code>mfa</code>), can you please analyze my files located in <code>~/Documents/MFA/mycorpus</code> and <code>validate</code> them using the <code>english_us_arpa</code> acoustic model and <code>english_us_arpa</code> dictionary? Please also consider that I have multiple speakers, indicated by the first 4 characters (<code>-s 4</code>). It would be great to use multiprocessing (<code>--use_mp</code>) for faster execution. Lastly, please clean up previous and new temporary files (<code>--clean --final_clean</code>).</em></p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb47"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb47-1"><a href="#cb47-1" aria-hidden="true" tabindex="-1"></a><span class="ex">mfa</span> validate <span class="at">-s</span> 4 <span class="at">--use_mp</span> <span class="at">--clean</span> <span class="at">--final_clean</span> ~/Documents/MFA/mycorpus english_us_arpa english_us_arpa</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<p>This process will take some time. After this, you will have some <em>out of vocabulary</em> words found in your textgrids. You can easily create new pronounciation for them and add to your model.</p>
-<p>The <code>mfa g2p</code> command can take many arguments, here I am using only three. First the path for the text file that has <em>out of vocabulary</em> words. This is automatically created in your folder where your files are. The path may change depending on your system and your naming of the folders, but the name of the <code>.txt</code> file will be same. In my case it is <code>~/Documents/MFA/mycorpus/oovs_found_english_us_arpa.txt</code>. The second argument is the g2p model name. As you may remember, we have downloaded it above, and its name was <code>english_us_arpa</code>. And finally, the third argument is a target <code>.txt</code> file to store new pronunciations. I would like to store them in the same place. So, I am using the following path: <code>~/Documents/MFA/mycorpus/g2pped_oovs.txt</code>.</p>
+<p>This process will take some time. Afterward, you will have some <em>out of vocabulary</em> words found in your TextGrids. You can easily create new pronunciations for them and add them to your model.</p>
+<p>The <code>mfa g2p</code> command can take many arguments; here I am using only three. First, the path to the text file that has <em>out of vocabulary</em> words. This file is automatically created in your folder where your files are located. The path may vary depending on your system and folder naming, but the name of the <code>.txt</code> file will be the same. In my case, it is <code>~/Documents/MFA/mycorpus/oovs_found_english_us_arpa.txt</code>. The second argument is the name of the g2p model. As you may recall, we downloaded it earlier, and its name is <code>english_us_arpa</code>. Finally, the third argument is the path to a target <code>.txt</code> file to store new pronunciations. I would like to store them in the same place, so I am using the following path: <code>~/Documents/MFA/mycorpus/g2pped_oovs.txt</code>.</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb48"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb48-1"><a href="#cb48-1" aria-hidden="true" tabindex="-1"></a><span class="ex">mfa</span> g2p ~/Documents/MFA/mycorpus/oovs_found_english_us_arpa.txt english_us_arpa ~/Documents/MFA/mycorpus/g2pped_oovs.txt</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<p>After creating the pronounciations you can add them to your model with <code>mfa model add_words</code>. It takes the name of the dictionary as an argument <code>english_us_arpa</code> and the output of the <code>mfa g2p</code> command, which was a <code>.txt</code> file to store pronunciations: <code>~/Documents/MFA/mycorpus/g2pped_oovs.txt</code></p>
+<p>After creating the pronunciations, you can add them to your model with <code>mfa model add_words</code>. This command takes the name of the dictionary as an argument (<code>english_us_arpa</code>) and the output of the <code>mfa g2p</code> command, which was a <code>.txt</code> file storing pronunciations: <code>~/Documents/MFA/mycorpus/g2pped_oovs.txt</code>.</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb49"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb49-1"><a href="#cb49-1" aria-hidden="true" tabindex="-1"></a><span class="ex">mfa</span> model add_words english_us_arpa ~/Documents/MFA/mycorpus/g2pped_oovs.txt</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<p>The last step is to aligning step. It will align (<code>mfa align</code>) the words and the phones inside our textgrids stored in <code>~/Documents/MFA/mycorpus</code> using our previously downloaded dictionary (<code>english_us_arpa</code>) and model (<code>english_us_arpa</code>), and store new aligned textgrids in a new folder called <code>~/Documents/MFA/output</code>.</p>
+<p>The last step is the alignment process. It will align (<code>mfa align</code>) the words and the phones inside our TextGrids stored in <code>~/Documents/MFA/mycorpus</code> using our previously downloaded dictionary (<code>english_us_arpa</code>) and model (<code>english_us_arpa</code>), and store the newly aligned TextGrids in a new folder called <code>~/Documents/MFA/output</code>.</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb50"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb50-1"><a href="#cb50-1" aria-hidden="true" tabindex="-1"></a><span class="ex">mfa</span> align ~/Documents/MFA/mycorpus english_us_arpa english_us_arpa ~/Documents/MFA/output</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section><section id="using-r" class="level3" data-number="5.2.2"><h3 data-number="5.2.2" class="anchored" data-anchor-id="using-r">
 <span class="header-section-number">5.2.2</span> Using R</h3>
-<p>We can do all of this in R as well. The main plus of this approach is that it allows us to iterate over multiple subfolders if we have more than 2000 files easier. We will use four components:</p>
+<p>We can also accomplish all of this in R. One advantage of this approach is that it allows us to iterate over multiple subfolders more easily, which can be useful if we have more than 2000 files. We will use four components:</p>
 <ol type="i">
 <li>
-<code><a href="https://rdrr.io/r/base/system.html">system()</a></code> function to run the terminal commands,</li>
+<code><a href="https://rdrr.io/r/base/system.html">system()</a></code> function to execute terminal commands,</li>
 <li>
 <code><a href="https://rdrr.io/r/base/paste.html">paste()</a></code> function to create multiline templates,</li>
 <li>
-<code>%s</code> string placehold to create template codes,</li>
+<code>%s</code> string placeholder to create template codes,</li>
 <li>
 <code><a href="https://rdrr.io/r/base/sprintf.html">sprintf()</a></code> function to format our templates.</li>
 </ol>
-<section id="intro-to-sprintf-and-s" class="level4" data-number="5.2.2.1"><h4 data-number="5.2.2.1" class="anchored" data-anchor-id="intro-to-sprintf-and-s">
-<span class="header-section-number">5.2.2.1</span> Intro to <code>sprintf()</code> and <code>%s</code>
+<section id="introduction-to-sprintf-and-s" class="level4" data-number="5.2.2.1"><h4 data-number="5.2.2.1" class="anchored" data-anchor-id="introduction-to-sprintf-and-s">
+<span class="header-section-number">5.2.2.1</span> Introduction to <code>sprintf()</code> and <code>%s</code>
 </h4>
-<p>Before going deep into mfa codes, let me show you an example. Let’s say we have a list of foldernames, and we want to create a <code>.txt</code> file in all of these folders. You can use <code><a href="https://rdrr.io/r/base/system.html">system()</a></code> function to do this action. Below, I first specify my folder_list, then I create paths for my <code>.txt</code> file in every folder, i.e. <code>~/data1/mydocument.txt</code>. Later, I create a list of commands to create these files, i.e. <code>touch ~/data1/mydocument.txt</code>. <code>touch</code> does the magic here. You can create documents in terminal using <code>touch</code>. Then, I ran this list using the <code><a href="https://rdrr.io/r/base/system.html">system()</a></code> function.</p>
+<p>Before going further with MFA codes, let me illustrate with an example. Suppose we have a list of folder names, and we want to create a <code>.txt</code> file in each of these folders. We can use the <code><a href="https://rdrr.io/r/base/system.html">system()</a></code> function to perform this action. Below, I define my <code>folder_list</code>, then create paths for my <code>.txt</code> files in each folder, such as <code>~/data1/mydocument.txt</code>. Afterwards, I generate a list of commands to create these files using <code>touch</code>, which is a command-line tool for creating files. Finally, I execute these commands using the <code><a href="https://rdrr.io/r/base/system.html">system()</a></code> function.</p>
 <div class="cell">
 <div class="sourceCode" id="cb51"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">folder_list</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="st">&quot;~/data1&quot;</span>, <span class="st">&quot;~/data2&quot;</span>, <span class="st">&quot;~/data3&quot;</span><span class="op">)</span></span>
 <span></span>
@@ -3717,7 +3718,7 @@ vertical-align: -.125em;
 <span>  <span class="fu"><a href="https://rdrr.io/r/base/system.html">system</a></span><span class="op">(</span><span class="va">command</span><span class="op">)</span></span>
 <span><span class="op">}</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<p>Technically, we did not have to the a for loop, and instead we could have concatenated all of these commands with <code>;</code> and run a single system command. Bash can take multiple commands in a single line when they are separated by <code>;</code>.</p>
+<p>Technically, we didn’t need to use a for loop; instead, we could have concatenated all these commands with <code>;</code> and run a single system command. Bash can execute multiple commands in a single line when separated by <code>;</code>.</p>
 <div class="cell">
 <div class="sourceCode" id="cb56"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">concatenated_commands</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/paste.html">paste</a></span><span class="op">(</span><span class="va">command_list</span><span class="op">[</span><span class="fl">1</span><span class="op">]</span>, </span>
 <span>                               <span class="va">command_list</span><span class="op">[</span><span class="fl">2</span><span class="op">]</span>, </span>
@@ -3726,7 +3727,7 @@ vertical-align: -.125em;
 <span></span>
 <span><span class="fu"><a href="https://rdrr.io/r/base/system.html">system</a></span><span class="op">(</span><span class="va">concatenated_commands</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<p>We could also do this thing without having a folder list using the <code>%s</code> placeholder and the <code><a href="https://rdrr.io/r/base/sprintf.html">sprintf()</a></code> function.</p>
+<p>We could achieve the same without needing a folder list by utilizing the <code>%s</code> placeholder and the <code><a href="https://rdrr.io/r/base/sprintf.html">sprintf()</a></code> function.</p>
 <div class="cell">
 <div class="sourceCode" id="cb57"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">command_template</span> <span class="op">&lt;-</span> <span class="st">&quot;touch %s/mydocument.txt&quot;</span></span>
 <span><span class="va">concatenated_commands</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/paste.html">paste</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/sprintf.html">sprintf</a></span><span class="op">(</span><span class="va">command_template</span>, <span class="st">&quot;~/data1&quot;</span><span class="op">)</span>, </span>
@@ -3736,7 +3737,7 @@ vertical-align: -.125em;
 <span></span>
 <span><span class="fu"><a href="https://rdrr.io/r/base/system.html">system</a></span><span class="op">(</span><span class="va">concatenated_commands</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<p>This version is even more useful when you have multiple placeholders in the same command. The following command, will replace the first <code>%s</code> in the command template with the first argument, let’s say <code>~/data1</code> and the second placeholder with the second <code><a href="https://rdrr.io/r/base/sprintf.html">sprintf()</a></code> argument, for example <code>mydoc1</code>.</p>
+<p>This approach becomes particularly useful when dealing with multiple placeholders within the same command. For instance, the command template will replace the first <code>%s</code> with the first argument, such as <code>~/data1</code>, and the second <code>%s</code> with the second argument, like <code>mydoc1</code>, when formatted using <code><a href="https://rdrr.io/r/base/sprintf.html">sprintf()</a></code>.</p>
 <div class="cell">
 <div class="sourceCode" id="cb58"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">command_template</span> <span class="op">&lt;-</span> <span class="st">&quot;touch %s/%s.txt&quot;</span></span>
 <span><span class="va">concatenated_commands</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/paste.html">paste</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/sprintf.html">sprintf</a></span><span class="op">(</span><span class="va">command_template</span>, <span class="st">&quot;~/data1&quot;</span>, <span class="st">&quot;mydoc1&quot;</span><span class="op">)</span>, </span>
@@ -3748,7 +3749,7 @@ vertical-align: -.125em;
 </div>
 </section><section id="running-mfa-in-r" class="level4" data-number="5.2.2.2"><h4 data-number="5.2.2.2" class="anchored" data-anchor-id="running-mfa-in-r">
 <span class="header-section-number">5.2.2.2</span> Running MFA in R</h4>
-<p>What we are going to do now is just have the same code before but concatenate it using <code><a href="https://rdrr.io/r/base/paste.html">paste()</a></code> and <code>;</code>. When necessary, we will add placeholders. First, I am assigning every line to a new variable, then I paste them together separated with <code>;</code>. Finally, I ran the code using <code><a href="https://rdrr.io/r/base/system.html">system()</a></code>. This time, I have the argument <code>intern = TRUE</code>, which helps me save output of the code to an R variable. I mainly do this to check it later.</p>
+<p>Next, we’ll consolidate the previous code by concatenating it using <code><a href="https://rdrr.io/r/base/paste.html">paste()</a></code> and separating commands with <code>;</code>. If needed, we’ll incorporate placeholders. Each line will be assigned to a new variable, and then they’ll be combined into a single command string using <code><a href="https://rdrr.io/r/base/paste.html">paste()</a></code>. Finally, we’ll execute the command string using <code><a href="https://rdrr.io/r/base/system.html">system()</a></code> with the argument <code>intern = TRUE</code> to capture the output into an R variable, which allows for later inspection.</p>
 <div class="cell">
 <div class="sourceCode" id="cb59"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">conda_start</span> <span class="op">&lt;-</span> <span class="st">&quot;conda activate aligner&quot;</span></span>
 <span><span class="va">get_ac</span> <span class="op">&lt;-</span> <span class="st">&quot;mfa model download acoustic english_us_arpa&quot;</span></span>
@@ -3759,7 +3760,7 @@ vertical-align: -.125em;
 <span></span>
 <span><span class="va">mfa_init_output</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/system.html">system</a></span><span class="op">(</span><span class="va">mfa_init</span>, intern <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<p>After initiating the model, I need to validate. Again, I will use the same code and paste them together. But remember, sometimes we can have too many files and we need to use subfolders. For this reason, I am going to use placeholder <code>%s</code> here. Our validation has one placeholder, for different subfolders to fill in. Our g2p pronunciation creation have two placeholders, but they are going to be the same. Lastly, we are going to use single placeholder in our <code>add_words</code> variable. Luckily for us, all of these folders are the same. We can just use the same variable over and over again.</p>
+<p>After initializing the model, the next step involves validation. Again, I’ll use the same approach and concatenate the commands together. However, sometimes we may have too many files and need to use subfolders. To accommodate this, I’ll use <code>%s</code> placeholders. The validation command has one placeholder for different subfolders. Similarly, our pronunciation creation for g2p has two placeholders, though they’ll be filled with the same value. Lastly, the <code>add_words</code> command will use a single placeholder. Fortunately, all these folders are the same, so we can reuse the same variable repeatedly.</p>
 <div class="cell">
 <div class="sourceCode" id="cb60"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">conda_start</span> <span class="op">&lt;-</span> <span class="st">&quot;conda activate aligner&quot;</span></span>
 <span></span>
@@ -3769,7 +3770,7 @@ vertical-align: -.125em;
 <span></span>
 <span><span class="va">mfa_val</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/paste.html">paste</a></span><span class="op">(</span><span class="va">conda_start</span>, <span class="va">validate</span>, <span class="va">g2p_words</span>, <span class="va">add_words</span>, sep <span class="op">=</span> <span class="st">&quot;;&quot;</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<p>Since this part takes longer and a lot more stuff can go wrong, I would like to save all of my outputs in a list. I want to find which folders there are in my MFA folder. Since my <code>divide_and_move</code> function starts every subfolder with <code>s</code> I am using <code>^s</code>, meaning starting with character <code>s</code>, to detect relevant folders.</p>
+<p>Since this step takes longer and there’s more room for errors, I want to save all my outputs in a list. First, I need to identify which folders exist in my MFA directory. Because my <code>divide_and_move</code> function prefixes every subfolder with <code>s</code>, I’ll use <code>^s</code> to filter for relevant folders.</p>
 <div class="cell">
 <div class="sourceCode" id="cb61"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">output_val</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/list.html">list</a></span><span class="op">(</span><span class="op">)</span></span>
 <span></span>
@@ -3783,7 +3784,7 @@ vertical-align: -.125em;
 <pre><code>[1] &quot;s1&quot; &quot;s2&quot; &quot;s3&quot;</code></pre>
 </div>
 </div>
-<p>Now, we can iterate over this list of folder using a for loop. We first create a temporary script, with <code><a href="https://rdrr.io/r/base/sprintf.html">sprintf()</a></code>. Since we have four placeholders, we need to give the variable for four times. Then, we ran that current script, and save the output to a <code>temp_output</code> variable to later assign it to specific <code>output_name</code> for each folder. We do this second step with <code><a href="https://rdrr.io/r/base/paste.html">paste0()</a></code> and <code><a href="https://rdrr.io/r/base/assign.html">assign()</a></code> functions.</p>
+<p>Now, we can iterate over this list of folders using a for loop. First, we create a temporary script using <code><a href="https://rdrr.io/r/base/sprintf.html">sprintf()</a></code> with four placeholders. Next, we execute the current script and save the output in a <code>temp_output</code> variable. Later, we assign this output to specific <code>output_name</code> variables for each folder using <code><a href="https://rdrr.io/r/base/paste.html">paste0()</a></code> and <code><a href="https://rdrr.io/r/base/assign.html">assign()</a></code> functions.</p>
 <div class="cell">
 <div class="sourceCode" id="cb63"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="kw">for</span> <span class="op">(</span><span class="va">f</span> <span class="kw">in</span> <span class="va">folders</span><span class="op">)</span> <span class="op">{</span></span>
 <span>  <span class="va">cur_mfa_val</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/sprintf.html">sprintf</a></span><span class="op">(</span><span class="va">mfa_val</span>, <span class="va">f</span>, <span class="va">f</span>, <span class="va">f</span>, <span class="va">f</span><span class="op">)</span></span>
@@ -3795,7 +3796,7 @@ vertical-align: -.125em;
 <span>  <span class="fu"><a href="https://rdrr.io/r/base/assign.html">assign</a></span><span class="op">(</span><span class="va">output_name</span>, <span class="va">temp_output</span>, envir <span class="op">=</span> <span class="va">.GlobalEnv</span><span class="op">)</span></span>
 <span><span class="op">}</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<p>Now you can go ahead and check the outputs by calling specific variables like <code>output_val_s1</code> or <code>output_val_s2</code>. After this step, the only thing left is to run the aligner. We will again create a template, iterate over folders, and assign outputs to their name to check. In the meantime, the bash code will run in the background. Differently from the last time, now our placeholders will refer to different things an input folder and a output folder. Luckily, we can use the same output folder for every subfolder. So, instead of using two placeholders, we are just going to use a single <code>%s</code> placeholder.</p>
+<p>Now you can check the outputs by calling specific variables like <code>output_val_s1</code> or <code>output_val_s2</code>. After this step, the only task remaining is to run the aligner. We will create a template again, iterate over folders, and assign outputs to their respective names for verification. Meanwhile, the bash code will execute in the background. This time, our placeholders will refer to different inputs and an output folder. Fortunately, we can use the same output folder for every subfolder, so instead of using two placeholders, we’ll use a single <code>%s</code> placeholder.</p>
 <div class="cell">
 <div class="sourceCode" id="cb64"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">conda_start</span> <span class="op">&lt;-</span> <span class="st">&quot;conda activate aligner&quot;</span></span>
 <span></span>
@@ -3810,7 +3811,7 @@ vertical-align: -.125em;
 <span>  <span class="fu"><a href="https://rdrr.io/r/base/assign.html">assign</a></span><span class="op">(</span><span class="va">output_name</span>, <span class="va">temp_output</span>, envir <span class="op">=</span> <span class="va">.GlobalEnv</span><span class="op">)</span></span>
 <span><span class="op">}</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<p>This for loop completes the MFA aligning. There is only one thing left to do: creating a dataframe to later work on our data.</p>
+<p>This for loop completes the MFA alignment. There is one final task remaining: creating a dataframe for further data analysis.</p>
 </section></section></section><section id="our-task-list-3" class="level2" data-number="5.3"><h2 data-number="5.3" class="anchored" data-anchor-id="our-task-list-3">
 <span class="header-section-number">5.3</span> Our Task List</h2>
 <ul>
@@ -3822,7 +3823,7 @@ vertical-align: -.125em;
 <li>Create a dataframe</li>
 </ul></section></section><section id="dataframe-creation" class="level1" data-number="6"><h1 data-number="6">
 <span class="header-section-number">6</span> Dataframe Creation</h1>
-<p>Now that we have all of our <code>.TextGrid</code> files aligned, we can create a dataframe to later employ statistical analyses on. We are going to use the <code>readtextgrid</code> package. Again, I want to show the process for a single file first. Later, I will show how to scale this to the entire directory. Let’s start with our directory specification and list of files. You can see the the first couple of elements of a list or a dataframe using the function <code><a href="https://rdrr.io/r/utils/head.html">head()</a></code>.</p>
+<p>Now that we have all our <code>.TextGrid</code> files aligned, we can create a dataframe for subsequent statistical analyses using the <code>readtextgrid</code> package. First, I’ll demonstrate the process for a single file. Later, I’ll explain how to extend this to an entire directory. Let’s begin by specifying our directory and listing the files. You can view the first few elements of a list or dataframe using the <code><a href="https://rdrr.io/r/utils/head.html">head()</a></code> function.</p>
 <div class="cell">
 <div class="sourceCode" id="cb65"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co"># Define the directory and list files</span></span>
 <span><span class="va">tg_dir</span> <span class="op">&lt;-</span> <span class="st">&quot;~/Documents/MFA/output&quot;</span></span>
@@ -3838,7 +3839,7 @@ vertical-align: -.125em;
 </div>
 <section id="one-file-example-1" class="level2" data-number="6.1"><h2 data-number="6.1" class="anchored" data-anchor-id="one-file-example-1">
 <span class="header-section-number">6.1</span> One-file example</h2>
-<p>Again, let’s have an example file and work on it. I will chose the first file with <code>[1]</code> to work on. First, we will get its full file path. Then, we are going to use <code><a href="https://rdrr.io/pkg/readtextgrid/man/read_textgrid.html">read_textgrid()</a></code> function to have our dataframe for a single file. I am printing the structure of the dataframe here for you to see more clearly what we have.</p>
+<p>Again, let’s work with an example file from our list, starting with the first file <code>[1]</code>. First, we’ll retrieve its full file path. Then, we’ll use the <code><a href="https://rdrr.io/pkg/readtextgrid/man/read_textgrid.html">read_textgrid()</a></code> function to create a dataframe for this single file. I’ll print the structure of the dataframe to give you a clearer view of its contents.</p>
 <div class="cell">
 <div class="sourceCode" id="cb67"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">example_file</span> <span class="op">&lt;-</span> <span class="va">file_list</span><span class="op">[</span><span class="fl">1</span><span class="op">]</span></span>
 <span><span class="va">file_path</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/file.path.html">file.path</a></span><span class="op">(</span><span class="va">tg_dir</span>, <span class="va">example_file</span><span class="op">)</span></span>
@@ -3858,7 +3859,7 @@ vertical-align: -.125em;
  $ annotation_num: int [1:40] 1 2 3 4 5 6 7 8 9 10 ...</code></pre>
 </div>
 </div>
-<p>In this project, which is aligning words, we are interested in only couple of these columns. We are interested in, of course, the file identifier (<code>file</code>) to identify from which trial the data is coming, the tier name (<code>tier_name</code>) to differentiate between words and phones tier, the start (<code>xmin</code>) and the end (<code>xmax</code>)of the interval, and finally the <code>text</code>. I am also not interested in having the file extension in the <code>file</code> identifier. So, first we are going to filter so that we only have annotated words, then select important columns with <code><a href="https://dplyr.tidyverse.org/reference/select.html">select()</a></code>, delete <code>.Textgrid</code> extension, and put the words together so that we see what the full response is for every trial.</p>
+<p>In this project, which involves aligning words, we are interested in only a couple of these columns. Specifically, we focus on the file identifier (<code>file</code>) to determine the trial from which the data originates, the tier name (<code>tier_name</code>) to differentiate between word and phone tiers, the start (<code>xmin</code>) and end (<code>xmax</code>) of each interval, and finally, the <code>text</code>. Additionally, I am not interested in retaining the file extension in the <code>file</code> identifier. Therefore, we will first filter to include only annotated words, then select the important columns using <code><a href="https://dplyr.tidyverse.org/reference/select.html">select()</a></code>, remove the <code>.TextGrid</code> extension, and concatenate the words so that we can see the full response for each trial.</p>
 <div class="cell">
 <div class="sourceCode" id="cb69"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">example_df</span> <span class="op">&lt;-</span> <span class="va">example_df</span> <span class="op">|&gt;</span> </span>
 <span>  <span class="co"># Filter annotated &quot;words&quot; tier</span></span>
@@ -3951,7 +3952,13 @@ vertical-align: -.125em;
 </table>
 </div>
 </div>
-<p>We also need some information about the trial. Luckily, all of our information is provided in our file name. So, I am going to parse that name to create a dataframe with more information. I am using a set of function that all start with <code>separate_wider_</code>. The <code>delim</code> version uses a deliminator to split a row of a dataframe. The <code>regex</code> version uses regular expressions to split the data. Finally, the <code>position</code> version uses the number of characters to split the data. I am doing all of this because of how I initially coded my experiment output in my PCIbex script. You may need to change this code to process your own data.</p>
+<p>We also need some information about the trial. Luckily, all of our information is provided in our file name. So, I am going to parse that name to create a dataframe with more information. I am using a set of function that all start with <code>separate_wider_</code>.</p>
+<ul>
+<li>The <code>delim</code> version uses a deliminator to split a row of a dataframe.</li>
+<li>The <code>regex</code> version uses regular expressions to split the data.</li>
+<li>Finally, the <code>position</code> version uses the number of characters to split the data.</li>
+</ul>
+<p>I am doing all of this because of how I initially coded my experiment output in my PCIbex script. You may need to change this code to process your own data.</p>
 <div class="cell">
 <div class="sourceCode" id="cb70"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">example_df</span> <span class="op">&lt;-</span> <span class="va">example_df</span> <span class="op">|&gt;</span></span>
 <span>  <span class="co"># split the `file` column into 5 different columns.</span></span>
@@ -4110,7 +4117,7 @@ vertical-align: -.125em;
 </div>
 </section><section id="another-treat-for-you" class="level2" data-number="6.2"><h2 data-number="6.2" class="anchored" data-anchor-id="another-treat-for-you">
 <span class="header-section-number">6.2</span> Another Treat for you</h2>
-<p>Let’s see what you will need to do. You will your file in <code>MFA/output</code> folder as well and your file will look like <code>jtfr_squid_S.TextGrid</code>. Let’s arbitrarily put them here. Remember, you will have to use <code>file.list()</code> function as well. You will not need to change anything in the first part where we work on the textgrid. The necessary changes will need to be done in parsing procedure. Instead of doing the entire <code>regex</code> or <code>position</code> things, you will just need the <code>delim</code> version of the function.</p>
+<p>Let’s see what you will need to do. You will find your file in the <code>MFA/output</code> folder as well, and your file will look like <code>jtfr_squid_S.TextGrid</code>. Let’s arbitrarily put them here. Remember, you will have to use the <code>file.list()</code> function as well. You will not need to change anything in the first part where we work on the TextGrid. The necessary changes will need to be done in the parsing procedure. Instead of using the entire <code>regex</code> or <code>position</code> methods, you will just need to use the <code>delim</code> version of the function.</p>
 <div class="cell">
 <div class="sourceCode" id="cb71"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co"># Define the directory and list files</span></span>
 <span><span class="va">tg_dir</span> <span class="op">&lt;-</span> <span class="st">&quot;~/Documents/MFA/output&quot;</span></span>
@@ -4221,7 +4228,7 @@ vertical-align: -.125em;
 </div>
 </section><section id="for-loop-1" class="level2" data-number="6.3"><h2 data-number="6.3" class="anchored" data-anchor-id="for-loop-1">
 <span class="header-section-number">6.3</span> For-loop</h2>
-<p>Now, we have to do this for all of our files in our output directory. To do this easier, I want to first create a function for the single-file process, and apply it to all files. My function takes a file name and the directory of the file, and returns a dataframe. Before every dataframe creation, it prints out “Reading the file.” line.</p>
+<p>Now, we need to apply this process to all files in our output directory. To simplify this, I’ll start by creating a function for processing each file individually and then apply it to all files. The function takes a file name and its directory as inputs and returns a dataframe. Before creating each dataframe, it prints “Reading the file.” to indicate progress.</p>
 <div class="cell">
 <div class="sourceCode" id="cb72"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">process_textgrid</span> <span class="op">&lt;-</span> <span class="kw">function</span><span class="op">(</span><span class="va">file</span>, <span class="va">directory</span><span class="op">)</span> <span class="op">{</span></span>
 <span>  <span class="fu"><a href="https://rdrr.io/r/base/cat.html">cat</a></span><span class="op">(</span><span class="st">&quot;Reading&quot;</span>, <span class="va">file</span>, <span class="st">&quot;\n&quot;</span><span class="op">)</span></span>
@@ -4241,7 +4248,7 @@ vertical-align: -.125em;
 <span>  <span class="kw"><a href="https://rdrr.io/r/base/function.html">return</a></span><span class="op">(</span><span class="va">df</span><span class="op">)</span></span>
 <span><span class="op">}</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<p>It is exactly the same thing we did above, but in a function version. Now I can do the same thing easier, for example see the code below. I am redefining my directory and my file list again, just in case.</p>
+<p>This is essentially the same process as before, but encapsulated within a function for easier application. Here’s an example of how I’m redefining my directory and file list:</p>
 <div class="cell">
 <div class="sourceCode" id="cb73"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co"># Define the directory and list files</span></span>
 <span><span class="va">tg_dir</span> <span class="op">&lt;-</span> <span class="st">&quot;~/Documents/MFA/output&quot;</span></span>
@@ -4504,7 +4511,7 @@ vertical-align: -.125em;
 </table>
 </div>
 </div>
-<p>Now, we have to integrate this function in our for-loop. Instead of using a single file like <code>file_list[1]</code>, we will need to use an entire directory. Differently from previous for loops, we are going to use the function <code>map</code> from the package <code>purrr</code>. It is faster and in cases like this easier to use. It will return all of our dataframes embedded in a list. After <code><a href="https://purrr.tidyverse.org/reference/map.html">map()</a></code>, we have to bind all of these smaller dataframes into a bigger one using <code>bind_rows</code>.</p>
+<p>Now, we need to integrate this function into our for-loop. Instead of using a single file like <code>file_list[1]</code>, we will apply it to an entire directory. Unlike previous for loops, we will use the <code>map</code> function from the <code>purrr</code> package. It is faster and easier to use in cases like this. <code><a href="https://purrr.tidyverse.org/reference/map.html">map()</a></code> will return all of our dataframes embedded in a list. After using <code><a href="https://purrr.tidyverse.org/reference/map.html">map()</a></code>, we need to combine all these smaller dataframes into a larger one using <code>bind_rows</code>.</p>
 <div class="cell">
 <div class="sourceCode" id="cb77"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co"># Define the directory and list files</span></span>
 <span><span class="va">tg_dir</span> <span class="op">&lt;-</span> <span class="st">&quot;~/Documents/MFA/output&quot;</span></span>
@@ -4532,7 +4539,7 @@ vertical-align: -.125em;
 <span></span>
 <span><span class="va">final_df</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://dplyr.tidyverse.org/reference/bind_rows.html">bind_rows</a></span><span class="op">(</span><span class="va">dfs</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<p>This completes our MFA Aligning work. We succesfully went over every task in our list, aligned our data, and created a dataframe to work on. You can check our final dataframe’s structure, its number of rows, the number of unique trials.</p>
+<p>This completes our MFA Aligning work. We have successfully completed every task on our list, aligned our data, and created a dataframe for analysis. You can check the structure of our final dataframe, the number of rows, and the count of unique trials.</p>
 <div class="cell">
 <div class="sourceCode" id="cb78"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/utils/str.html">str</a></span><span class="op">(</span><span class="va">final_df</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
@@ -4562,11 +4569,11 @@ vertical-align: -.125em;
 </div>
 </section></section><section id="an-example-descriptive-summary" class="level1" data-number="7"><h1 data-number="7">
 <span class="header-section-number">7</span> An Example Descriptive Summary</h1>
-<p>Let me also show a small example descriptive stats using basic functions. One thing that we might want to do is to check whether there is a difference between conditions and people’s time to start uttering the sentence. And, let’s assume people are still thinking about the sentence when they utter the first determiner <em>the</em>, since it is kind of automatic in English and all of our sentences starts with this determiner anyway. I am going to filter my dataframe using the <code>text</code> column. I also want to make sure that it is the first <em>the</em>, and not the any other <em>the</em> in the sentences. So, I will use the <code>annotation_num</code> column as well in my filtering.</p>
+<p>Let me also show a small example of descriptive statistics using basic functions. One thing we might want to do is check whether there is a difference between conditions in people’s time to start uttering the sentence. Let’s assume people are still thinking about the sentence when they utter the first determiner “<em>the</em>,” since it is kind of automatic in English and all of our sentences start with this determiner anyway. I am going to filter my dataframe using the <code>text</code> column. Additionally, I want to ensure it is the first occurrence of “<em>the</em>” and not any other “<em>the</em>” in the sentences, so I will use the <code>annotation_num</code> column in my filtering.</p>
 <div class="cell">
 <div class="sourceCode" id="cb84"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">first_thes</span> <span class="op">&lt;-</span> <span class="va">final_df</span> <span class="op">|&gt;</span> <span class="fu"><a href="https://dplyr.tidyverse.org/reference/filter.html">filter</a></span><span class="op">(</span><span class="va">text</span> <span class="op">==</span> <span class="st">&quot;the&quot;</span> <span class="op">&amp;</span> <span class="va">annotation_num</span> <span class="op">&lt;</span> <span class="fl">3</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<p>Then, what I am going to do is to summarize my dataframe. I will group my dataframe by <code>verb_type</code> and <code>sem_type</code> columns since my experiment had 2 different verb types (unergatives, unaccusatives) and 2 different type of semantic distractors (related, unrelated). Then, I am going to use the <code><a href="https://dplyr.tidyverse.org/reference/summarise.html">summarize()</a></code> function to get the mean and standard error for each condition. Since we are assuming people are still planning sentences while they utter the first determiner, I am going to summarize my data using the offset of the <em>the</em> (<code>xmax</code>). Before doing this, I am going to convert <code>xmax</code> from seconds to milliseconds.</p>
+<p>Then, what I am going to do is summarize my dataframe. I will group my dataframe by columns <code>verb_type</code> and <code>sem_type</code> since my experiment had 2 different verb types (unergative, unaccusative) and 2 different types of semantic distractors (related, unrelated). Then, I am going to use the <code><a href="https://dplyr.tidyverse.org/reference/summarise.html">summarize()</a></code> function to get the mean and standard error for each condition. Since we are assuming people are still planning sentences while they utter the first determiner, I am going to summarize my data using the offset of the <em>the</em> (<code>xmax</code>). Before doing this, I am going to convert <code>xmax</code> from seconds to milliseconds.</p>
 <div class="cell">
 <div class="sourceCode" id="cb85"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">first_thes</span> <span class="op">|&gt;</span></span>
 <span>  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/mutate.html">mutate</a></span><span class="op">(</span>xmax <span class="op">=</span> <span class="va">xmax</span><span class="op">*</span><span class="fl">1000</span><span class="op">)</span> <span class="op">|&gt;</span></span>
@@ -4618,7 +4625,7 @@ vertical-align: -.125em;
 </table>
 </div>
 </div>
-<p>From this point, I am leaving the modeling and the plotting of the data for another guide.</p>
+<p>From this point on, I leave the modeling and plotting of the data for another guide.</p>
 </section><div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
 <ol>
 <li id="fn1"><p>On principle, I am against for loops in R, but it is better to use here instead of confusing you more.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>

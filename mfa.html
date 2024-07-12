@@ -3147,8 +3147,10 @@ vertical-align: -.125em;
 <div class="cell">
 <div class="sourceCode" id="cb3"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">ibex</span> <span class="op">&lt;-</span> <span class="fu">read.pcibex</span><span class="op">(</span><span class="st">&quot;~/octo-recall-ibex.csv&quot;</span><span class="op">)</span></span>
 <span><span class="fu"><a href="https://rdrr.io/r/utils/str.html">str</a></span><span class="op">(</span><span class="va">ibex</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell">
 <div class="cell-output cell-output-stdout">
-<pre><code>&#39;data.frame&#39;:   15265 obs. of  24 variables:
+<pre><code>&#39;data.frame&#39;:   15265 obs. of  23 variables:
  $ Results.reception.time              : int  1716599254 1716599254 1716599254 1716599254 1716599254 1716599254 1716599254 1716599254 1716599254 1716599254 ...
  $ MD5.hash.of.participant.s.IP.address: chr  &quot;eb9865e3e6ad96f9ff9db3a12b5565ae&quot; &quot;eb9865e3e6ad96f9ff9db3a12b5565ae&quot; &quot;eb9865e3e6ad96f9ff9db3a12b5565ae&quot; &quot;eb9865e3e6ad96f9ff9db3a12b5565ae&quot; ...
  $ Controller.name                     : chr  &quot;PennController&quot; &quot;PennController&quot; &quot;PennController&quot; &quot;PennController&quot; ...
@@ -3171,7 +3173,6 @@ vertical-align: -.125em;
  $ trigger                             : chr  &quot;undefined&quot; &quot;undefined&quot; &quot;undefined&quot; &quot;undefined&quot; ...
  $ verb_type                           : chr  &quot;undefined&quot; &quot;undefined&quot; &quot;undefined&quot; &quot;undefined&quot; ...
  $ head                                : chr  &quot;undefined&quot; &quot;undefined&quot; &quot;undefined&quot; &quot;undefined&quot; ...
- $ PROLIFIC_ID                         : chr  &quot;66481a6d648519a547aebd68&quot; &quot;66481a6d648519a547aebd68&quot; &quot;66481a6d648519a547aebd68&quot; &quot;66481a6d648519a547aebd68&quot; ...
  $ Comments                            : chr  &quot;NULL&quot; &quot;NULL&quot; &quot;NULL&quot; &quot;text input&quot; ...</code></pre>
 </div>
 </div>
@@ -3252,9 +3253,9 @@ vertical-align: -.125em;
 <span><span class="va">ibex_files</span> <span class="op">&lt;-</span> <span class="va">ibex</span><span class="op">$</span><span class="va">Value</span> <span class="op">|&gt;</span> <span class="fu"><a href="https://rdrr.io/r/base/unique.html">unique</a></span><span class="op">(</span><span class="op">)</span></span>
 <span><span class="fu"><a href="https://rdrr.io/r/base/sample.html">sample</a></span><span class="op">(</span><span class="va">ibex_files</span>, <span class="fl">3</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>[1] &quot;chef_Unergative_related_nnjw.webm&quot;    
-[2] &quot;snail_Unergative_related_tvbh.webm&quot;   
-[3] &quot;rabbit_Unergative_unrelated_fmjr.webm&quot;</code></pre>
+<pre><code>[1] &quot;octopus_Unergative_related_fzsh.webm&quot;
+[2] &quot;dog_Unaccusative_related_infx.webm&quot;  
+[3] &quot;chef_Unergative_related_qghz.webm&quot;   </code></pre>
 </div>
 </div>
 </section><section id="operators-used-in-this-section" class="level2" data-number="2.3"><h2 data-number="2.3" class="anchored" data-anchor-id="operators-used-in-this-section">
@@ -4573,14 +4574,12 @@ vertical-align: -.125em;
 <div class="cell">
 <div class="sourceCode" id="cb84"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">first_thes</span> <span class="op">&lt;-</span> <span class="va">final_df</span> <span class="op">|&gt;</span> <span class="fu"><a href="https://dplyr.tidyverse.org/reference/filter.html">filter</a></span><span class="op">(</span><span class="va">text</span> <span class="op">==</span> <span class="st">&quot;the&quot;</span> <span class="op">&amp;</span> <span class="va">annotation_num</span> <span class="op">&lt;</span> <span class="fl">3</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<p>Then, what I am going to do is summarize my dataframe. I will group my dataframe by columns <code>verb_type</code> and <code>sem_type</code> since my experiment had 2 different verb types (unergative, unaccusative) and 2 different types of semantic distractors (related, unrelated). Then, I am going to use the <code><a href="https://dplyr.tidyverse.org/reference/summarise.html">summarize()</a></code> function to get the mean and standard error for each condition. Since we are assuming people are still planning sentences while they utter the first determiner, I am going to summarize my data using the offset of the <em>the</em> (<code>xmax</code>). Before doing this, I am going to convert <code>xmax</code> from seconds to milliseconds.</p>
+<p>Then, what I am going to do is summarize my dataframe. I will group my dataframe by columns <code>verb_type</code> and <code>sem_type</code> since my experiment had 2 different verb types (unergative, unaccusative) and 2 different types of semantic distractors (related, unrelated). Then, I am going to use the <code><a href="https://dplyr.tidyverse.org/reference/summarise.html">summarize()</a></code> function to get the mean, standard error, and credible interval for each condition. Since we are assuming people are still planning sentences while they utter the first determiner, I am going to summarize my data using the offset of the <em>the</em> (<code>xmax</code>). Before doing this, I am going to convert <code>xmax</code> from seconds to milliseconds.</p>
 <div class="cell">
 <div class="sourceCode" id="cb85"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">first_thes</span> <span class="op">|&gt;</span></span>
 <span>  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/mutate.html">mutate</a></span><span class="op">(</span>xmax <span class="op">=</span> <span class="va">xmax</span><span class="op">*</span><span class="fl">1000</span><span class="op">)</span> <span class="op">|&gt;</span></span>
 <span>  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/group_by.html">group_by</a></span><span class="op">(</span><span class="va">verb_type</span>, <span class="va">sem_type</span><span class="op">)</span> <span class="op">|&gt;</span></span>
-<span>  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/summarise.html">summarize</a></span><span class="op">(</span>mean <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/mean.html">mean</a></span><span class="op">(</span><span class="va">xmax</span><span class="op">)</span>,</span>
-<span>            n <span class="op">=</span> <span class="fu"><a href="https://dplyr.tidyverse.org/reference/context.html">n</a></span><span class="op">(</span><span class="op">)</span>,</span>
-<span>            stderror <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/stats/sd.html">sd</a></span><span class="op">(</span><span class="va">xmax</span><span class="op">)</span><span class="op">/</span><span class="va">n</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span>  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/summarise_each.html">summarise_each</a></span><span class="op">(</span><span class="fu"><a href="https://dplyr.tidyverse.org/reference/funs.html">funs</a></span><span class="op">(</span><span class="va">mean</span>, se<span class="op">=</span><span class="fu"><a href="https://rdrr.io/r/stats/sd.html">sd</a></span><span class="op">(</span><span class="va">.</span><span class="op">)</span><span class="op">/</span><span class="fu"><a href="https://rdrr.io/r/base/MathFun.html">sqrt</a></span><span class="op">(</span><span class="fu"><a href="https://dplyr.tidyverse.org/reference/context.html">n</a></span><span class="op">(</span><span class="op">)</span><span class="op">)</span>, ci<span class="op">=</span><span class="va">se</span><span class="op">*</span><span class="fl">1.96</span><span class="op">)</span>, <span class="va">xmax</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div class="cell">
 <div class="cell-output-display">
@@ -4589,37 +4588,37 @@ vertical-align: -.125em;
 <th style="text-align: left;">verb_type</th>
 <th style="text-align: left;">sem_type</th>
 <th style="text-align: right;">mean</th>
-<th style="text-align: right;">n</th>
-<th style="text-align: right;">sterror</th>
+<th style="text-align: right;">se</th>
+<th style="text-align: right;">ci</th>
 </tr></thead>
 <tbody>
 <tr class="odd">
 <td style="text-align: left;">Unacc</td>
 <td style="text-align: left;">related</td>
 <td style="text-align: right;">1239.664</td>
-<td style="text-align: right;">244</td>
-<td style="text-align: right;">1.832545</td>
+<td style="text-align: right;">28.62526</td>
+<td style="text-align: right;">56.10551</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Unacc</td>
 <td style="text-align: left;">unrelated</td>
 <td style="text-align: right;">1177.799</td>
-<td style="text-align: right;">241</td>
-<td style="text-align: right;">1.660041</td>
+<td style="text-align: right;">25.77076</td>
+<td style="text-align: right;">50.51069</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Unerg</td>
 <td style="text-align: left;">related</td>
 <td style="text-align: right;">1211.286</td>
-<td style="text-align: right;">252</td>
-<td style="text-align: right;">1.708245</td>
+<td style="text-align: right;">27.11755</td>
+<td style="text-align: right;">53.15040</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Unerg</td>
 <td style="text-align: left;">unrelated</td>
 <td style="text-align: right;">1199.120</td>
-<td style="text-align: right;">263</td>
-<td style="text-align: right;">1.469094</td>
+<td style="text-align: right;">23.82470</td>
+<td style="text-align: right;">46.69641</td>
 </tr>
 </tbody>
 </table>

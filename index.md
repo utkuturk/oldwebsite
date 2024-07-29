@@ -30,11 +30,11 @@ I am a second year Ph.D. student in <a href='https://linguistics.umd.edu/'>lingu
 
 <br><br><br><br>
 
-- **August 2024**: book chapter on suppletin and suspended affixation in press at OUP! [[lingbuzz]](https://lingbuzz.net/lingbuzz/008295) & [[local pdf]](files/pdfs/Turk2024.pdf)
+- **August 2024**: book chapter on suppletin and suspended affixation in press at OUP! [[lingbuzz]](https://lingbuzz.net/lingbuzz/008295) & [[local pdf]](files/papers/Turk2024.pdf)
 - **July 2024**: designed and taught a workshop on production experiments in Oxford University  (w/Allison Dods and Eun-Kyoung Rosa Lee). [[some notes]](https://utkuturk.com/mfa.html)
 - **May 2024**: poster on [agreement planning](files/abstracts/hsp-2024-agree.pdf) and [task effects in production](files/abstracts/hsp-2024-task.pdf) in [HSP2024](https://hsp2024.github.io/)
 - **March 2024**: case syncretism and agreement attraction paper (w/ Pavel Logačev) published on *Language, Cognition, and Neuroscience*! [[link]](https://doi.org/10.1080/23273798.2024.2324766)
-- **April 2024**: book chapter on the phonemic status of Turkish glide [j] published! [[pdf]](files/pdfs/CanalisEtAl2023.pdf)
+- **April 2024**: book chapter on the phonemic status of Turkish glide [j] published! [[pdf]](files/pdfs/CanalisEtAl2024.pdf)
 - **March 2023**: talk on response bias and agreement attraction in [HSP2023](https://lrdc.pitt.edu/HSP2023/). [[slides]](files/slides/hsp2023.pdf)
 
 {% include image.html url="images/bosphorous.jpg" caption="view of bosphrous and kennedy lodge, photo by me, aug 18" width="800px" align="middle" %}

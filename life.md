@@ -4,7 +4,7 @@ permalink: /life/
 title:
 ---
 
-[Sadira Hanim](https://linguistics.umd.edu/directory/sadira-lewis)
+[Sadira Lewis](https://sadiralewis.github.io/)
 
 Go to
 [calligraphy][ca],

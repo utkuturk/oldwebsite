@@ -31,7 +31,7 @@ I am a second year Ph.D. student in <a href='https://linguistics.umd.edu/'>lingu
 <br><br><br><br>
 
 - **August 2024**: book chapter on suppletion and suspended affixation in press at OUP! [[lingbuzz]](https://lingbuzz.net/lingbuzz/008295) & [[local pdf]](files/papers/Turk2024.pdf)
-- **July 2024**: designed and taught a workshop on production experiments in Oxford University  (w/Allison Dods and Eun-Kyoung Rosa Lee). [[some notes]](https://utkuturk.com/mfa.html)
+- **July 2024**: designed and taught a workshop on production experiments in Oxford University  (w/Colin Phillips, Allison Dods and Eun-Kyoung Rosa Lee). [[some notes on implementing production experiments]](https://utkuturk.com/mfa.html)
 - **May 2024**: poster on [agreement planning](files/abstracts/hsp-2024-agree.pdf) and [task effects](files/abstracts/hsp-2024-task.pdf) in production in [HSP2024](https://hsp2024.github.io/)
 - **March 2024**: case syncretism and agreement attraction paper (w/ Pavel Logačev) published on *Language, Cognition, and Neuroscience*! [[link]](https://doi.org/10.1080/23273798.2024.2324766)
 - **April 2024**: book chapter on the phonemic status of Turkish glide [j] published! [[pdf]](files/pdfs/CanalisEtAl2024.pdf)

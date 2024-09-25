@@ -22,13 +22,13 @@ permalink: /
 
 <br><br><br>
 
-<center>
-<font size="+1">
-I am a second year Ph.D. student in <a href='https://linguistics.umd.edu/'>linguistics</a> at <a href='https://umd.edu/'>University of Maryland</a>, working  with <a href='https://www.colinphillips.net/'>Colin Phillips</a> and <a href='https://ellenlau.net/'>Ellen Lau</a>. My main <a href='https://www.utkuturk.com/research/'>research interests</a> are in morphology and psycholinguistics. Before UMD, I completed my masters at <a href='https://linguistics.boun.edu.tr'>Bogazici University Linguistics</a>, where I worked with <a href='https://scholar.google.com/citations?user=fhbdTJIAAAAJ&hl=en'>Pavel Logačev</a> and write my thesis titled <a href='https://www.utkuturk.com/ma/'>Agreement Attraction in Turkish</a>.
-</font>
-</center>
+I am a third year Ph.D. student in <a href='https://linguistics.umd.edu/'>linguistics</a> at <a href='https://umd.edu/'>University of Maryland</a>, working  with <a href='https://www.colinphillips.net/'>Colin Phillips</a> and <a href='https://ellenlau.net/'>Ellen Lau</a>. My main <a href='https://www.utkuturk.com/research/'>research interests</a> are in morphology and psycholinguistics, both comprehension and production.
 
-<br><br><br><br>
+Before UMD, I completed my masters at <a href='https://linguistics.boun.edu.tr'>Bogazici University Linguistics</a>, where I worked with <a href='https://scholar.google.com/citations?user=fhbdTJIAAAAJ&hl=en'>Pavel Logačev</a> and write my thesis titled <a href='https://www.utkuturk.com/ma/'>Agreement Attraction in Turkish</a>.
+
+I also visited <a href = 'https://www.muni.cz/en'>Masaryk University</a> where I worked with <a href = 'https://scholar.google.cz/citations?user=-T030GMAAAAJ&hl=no'>Pavel Caha</a> on Turkish case morphology and adjectival decomposition.
+
+<br><br><br>
 
 - **August 2024**: book chapter on suppletion and suspended affixation in press at OUP! [[lingbuzz]](https://lingbuzz.net/lingbuzz/008295) & [[local pdf]](files/papers/Turk2024.pdf)
 - **July 2024**: designed and taught a workshop on production experiments in Oxford University  (w/Colin Phillips, Allison Dods and Eun-Kyoung Rosa Lee). [[some notes on implementing production experiments]](https://utkuturk.com/mfa.html)

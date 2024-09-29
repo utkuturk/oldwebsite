@@ -25,7 +25,7 @@ This thesis tries to explore how the attraction phenomenon interacts with issues
 <details>
   <summary>thesis</summary>
   <a href="http://seyhan.library.boun.edu.tr/record=b2776878~S5">Bogazici Page</a> |
-  <a href="../files/ma_defense/thesis_singlespace.pdf">local pdf</a> |
+  <a href="../files/ma_defense/thesis.pdf">local pdf</a> |
   <a href="https://www.overleaf.com/read/vdstcpwwvdpp">overleaf</a>
 
   <!-- <iframe src="https://github.com/utkuturk/ma-thesis/raw/main/thesis_singlespace.pdf" width="100%" height="800px"></iframe> -->

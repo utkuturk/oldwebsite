@@ -30,7 +30,7 @@ I also visited <a href = 'https://www.muni.cz/en'>Masaryk University</a> where I
 
 <br><br><br>
 
-- **October 2025**: talk on [relative timing of agreement and verb planning](files/abstracts/TurkEtAl-puzzles.pdf) at [Puzzles of Agreement](https://sites.google.com/view/puzzlesofagreement)
+- **October 2025**: talk on [relative timing of agreement and verb planning](files/abstracts/TurkEtAl-puzzles.pdf) at [Puzzles of Agreement](https://sites.google.com/view/puzzlesofagreement)! [[slides]](/files/slides/Turketal-puzzles.pdf)
 - **October 2025**: we are organizing HSP2025, and I made the website! Submit your work! [[hsp2025]](https://hsp2025.github.io/)
 - **August 2024**: book chapter on suppletion and suspended affixation in press at OUP! [[lingbuzz]](https://lingbuzz.net/lingbuzz/008295) & [[local pdf]](files/papers/Turk2024.pdf)
 - **July 2024**: designed and taught a workshop on production experiments in Oxford University  (w/Colin Phillips, Allison Dods and Eun-Kyoung Rosa Lee). [[some notes on implementing production experiments]](https://utkuturk.com/mfa.html)

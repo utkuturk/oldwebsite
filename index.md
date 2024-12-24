@@ -28,16 +28,27 @@ Before UMD, I completed my masters at <a href='https://linguistics.boun.edu.tr'>
 
 I also visited <a href = 'https://www.muni.cz/en'>Masaryk University</a> where I worked with <a href = 'https://scholar.google.cz/citations?user=-T030GMAAAAJ&hl=no'>Pavel Caha</a> on Turkish case morphology and adjectival decomposition.
 
-<br><br><br>
+<div class="news-container">
+  <ul>
+    <li>**October 2025**: talk on [relative timing of agreement and verb planning](files/abstracts/TurkEtAl-puzzles.pdf) at [Puzzles of Agreement](https://sites.google.com/view/puzzlesofagreement)! [[slides]](/files/slides/Turketal-puzzles.pdf)</li>
+    <li>**October 2025**: we are organizing HSP2025, and I made the website! Submit your work! [[hsp2025]](https://hsp2025.github.io/)</li>
+    <li>**August 2024**: book chapter on suppletion and suspended affixation in press at OUP! [[lingbuzz]](https://lingbuzz.net/lingbuzz/008295) & [[local pdf]](files/papers/Turk2024.pdf)</li>
+    <li>**July 2024**: designed and taught a workshop on production experiments in Oxford University  (w/Colin Phillips, Allison Dods and Eun-Kyoung Rosa Lee). [[some notes on implementing production experiments]](https://utkuturk.com/mfa.html)</li>
+    <li>**May 2024**: poster on [agreement planning](files/abstracts/hsp-2024-agree.pdf) and [task effects](files/abstracts/hsp-2024-task.pdf) in production in [HSP2024](https://hsp2024.github.io/)</li>
+    <li>**March 2024**: case syncretism and agreement attraction paper (w/ Pavel Logačev) published on *Language, Cognition, and Neuroscience*! [[link]](https://doi.org/10.1080/23273798.2024.2324766)</li>
+    <li>**April 2024**: book chapter on the phonemic status of Turkish glide [j] published! [[pdf]](files/pdfs/CanalisEtAl2024.pdf)</li>
+    <li>**March 2023**: talk on response bias and agreement attraction in [HSP2023](https://lrdc.pitt.edu/HSP2023/). [[slides]](files/slides/hsp2023.pdf)</li>
+  </ul>
+</div>
 
-- **October 2025**: talk on [relative timing of agreement and verb planning](files/abstracts/TurkEtAl-puzzles.pdf) at [Puzzles of Agreement](https://sites.google.com/view/puzzlesofagreement)! [[slides]](/files/slides/Turketal-puzzles.pdf)
-- **October 2025**: we are organizing HSP2025, and I made the website! Submit your work! [[hsp2025]](https://hsp2025.github.io/)
-- **August 2024**: book chapter on suppletion and suspended affixation in press at OUP! [[lingbuzz]](https://lingbuzz.net/lingbuzz/008295) & [[local pdf]](files/papers/Turk2024.pdf)
-- **July 2024**: designed and taught a workshop on production experiments in Oxford University  (w/Colin Phillips, Allison Dods and Eun-Kyoung Rosa Lee). [[some notes on implementing production experiments]](https://utkuturk.com/mfa.html)
-- **May 2024**: poster on [agreement planning](files/abstracts/hsp-2024-agree.pdf) and [task effects](files/abstracts/hsp-2024-task.pdf) in production in [HSP2024](https://hsp2024.github.io/)
-- **March 2024**: case syncretism and agreement attraction paper (w/ Pavel Logačev) published on *Language, Cognition, and Neuroscience*! [[link]](https://doi.org/10.1080/23273798.2024.2324766)
-- **April 2024**: book chapter on the phonemic status of Turkish glide [j] published! [[pdf]](files/pdfs/CanalisEtAl2024.pdf)
-- **March 2023**: talk on response bias and agreement attraction in [HSP2023](https://lrdc.pitt.edu/HSP2023/). [[slides]](files/slides/hsp2023.pdf)
+<style>
+  .news-container {
+    width: 500px; /* Adjust width as needed */
+    height: 300px; /* Adjust height as needed */
+    overflow-y: auto; /* Enable vertical scrolling */
+    border: 1px solid #ccc; /* Optional: Add a border */
+  }
+</style>
 
 {% include image.html url="images/bosphorous.jpg" caption="view of bosphrous and kennedy lodge, photo by me, aug 18" width="800px" align="middle" %}
 

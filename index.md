@@ -31,7 +31,6 @@ I also visited <a href = 'https://www.muni.cz/en'>Masaryk University</a> where I
 
 <br><br><br>
 
-
 <div class="news-container">
   <h2>News</h2>
   <ul>
@@ -48,13 +47,13 @@ I also visited <a href = 'https://www.muni.cz/en'>Masaryk University</a> where I
 
 <style>
   .news-container {
-    width: 500px;
-    height: 300px;
+    width: 90%; /* Make the container take up most of the page width */
+    height: 120px;
     overflow-y: auto;
     border: 1px solid #ccc;
     margin: 20px auto;
     padding: 20px;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4); /* More pronounced shadow */
   }
 
   .news-container h2 {
@@ -72,10 +71,11 @@ I also visited <a href = 'https://www.muni.cz/en'>Masaryk University</a> where I
   }
 
   .date {
-    display: inline-block; /* Make the date span behave like a block element */
-    width: 120px;         /* Set a fixed width for the date */
+    display: inline-block;
+    width: 120px;
   }
 </style>
+
 
 {% include image.html url="images/bosphorous.jpg" caption="view of bosphrous and kennedy lodge, photo by me, aug 18" width="800px" align="middle" %}
 

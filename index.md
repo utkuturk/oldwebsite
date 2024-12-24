@@ -35,14 +35,14 @@ I also visited <a href = 'https://www.muni.cz/en'>Masaryk University</a> where I
 <div class="news-container">
   <h2>News</h2>
   <ul>
-    <li><strong>October 2025</strong>: talk on <a href="files/abstracts/TurkEtAl-puzzles.pdf">relative timing of agreement and verb planning</a> at <a href="https://sites.google.com/view/puzzlesofagreement">Puzzles of Agreement</a>! <a href="/files/slides/Turketal-puzzles.pdf">[slides]</a></li>
-    <li><strong>October 2025</strong>: we are organizing HSP2025, and I made the website! Submit your work! <a href="https://hsp2025.github.io/">[hsp2025]</a></li>
-    <li><strong>August 2024</strong>: book chapter on suppletion and suspended affixation in press at OUP! <a href="https://lingbuzz.net/lingbuzz/008295">[lingbuzz]</a> & <a href="files/papers/Turk2024.pdf">[local pdf]</a></li>
-    <li><strong>July 2024</strong>: designed and taught a workshop on production experiments in Oxford University  (w/Colin Phillips, Allison Dods and Eun-Kyoung Rosa Lee). <a href="https://utkuturk.com/mfa.html">[some notes on implementing production experiments]</a></li>
-    <li><strong>May 2024</strong>: poster on <a href="files/abstracts/hsp-2024-agree.pdf">agreement planning</a> and <a href="files/abstracts/hsp-2024-task.pdf">task effects</a> in production in <a href="https://hsp2024.github.io/">HSP2024</a></li>
-    <li><strong>March 2024</strong>: case syncretism and agreement attraction paper (w/ Pavel Logačev) published on <em>Language, Cognition, and Neuroscience</em>! <a href="https://doi.org/10.1080/23273798.2024.2324766">[link]</a></li>
-    <li><strong>April 2024</strong>: book chapter on the phonemic status of Turkish glide [j] published! <a href="files/pdfs/CanalisEtAl2024.pdf">[pdf]</a></li>
-    <li><strong>March 2023</strong>: talk on response bias and agreement attraction in <a href="https://lrdc.pitt.edu/HSP2023/">HSP2023</a>. <a href="files/slides/hsp2023.pdf">[slides]</a></li>
+    <li><span class="date"><strong>October 2025</strong>:</span> talk on <a href="files/abstracts/TurkEtAl-puzzles.pdf">relative timing of agreement and verb planning</a> at <a href="https://sites.google.com/view/puzzlesofagreement">Puzzles of Agreement</a>! <a href="/files/slides/Turketal-puzzles.pdf">[slides]</a></li>
+    <li><span class="date"><strong>October 2025</strong>:</span> we are organizing HSP2025, and I made the website! Submit your work! <a href="https://hsp2025.github.io/">[hsp2025]</a></li>
+    <li><span class="date"><strong>August 2024</strong>:</span> book chapter on suppletion and suspended affixation in press at OUP! <a href="https://lingbuzz.net/lingbuzz/008295">[lingbuzz]</a> & <a href="files/papers/Turk2024.pdf">[local pdf]</a></li>
+    <li><span class="date"><strong>July 2024</strong>:</span> designed and taught a workshop on production experiments in Oxford University  (w/Colin Phillips, Allison Dods and Eun-Kyoung Rosa Lee). <a href="https://utkuturk.com/mfa.html">[some notes on implementing production experiments]</a></li>
+    <li><span class="date"><strong>May 2024</strong>:</span> poster on <a href="files/abstracts/hsp-2024-agree.pdf">agreement planning</a> and <a href="files/abstracts/hsp-2024-task.pdf">task effects</a> in production in <a href="https://hsp2024.github.io/">HSP2024</a></li>
+    <li><span class="date"><strong>March 2024</strong>:</span> case syncretism and agreement attraction paper (w/ Pavel Logačev) published on <em>Language, Cognition, and Neuroscience</em>! <a href="https://doi.org/10.1080/23273798.2024.2324766">[link]</a></li>
+    <li><span class="date"><strong>April 2024</strong>:</span> book chapter on the phonemic status of Turkish glide [j] published! <a href="files/pdfs/CanalisEtAl2024.pdf">[pdf]</a></li>
+    <li><span class="date"><strong>March 2023</strong>:</span> talk on response bias and agreement attraction in <a href="https://lrdc.pitt.edu/HSP2023/">HSP2023</a>. <a href="files/slides/hsp2023.pdf">[slides]</a></li>
   </ul>
 </div>
 
@@ -52,22 +52,28 @@ I also visited <a href = 'https://www.muni.cz/en'>Masaryk University</a> where I
     height: 300px;
     overflow-y: auto;
     border: 1px solid #ccc;
-    margin: 20px auto; /* Center the container */
-    padding: 20px;     /* Add some padding */
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
   }
 
   .news-container h2 {
-    text-align: center;  /* Center the header */
-    margin-bottom: 15px; /* Add space below header */
+    text-align: center;
+    margin-bottom: 15px;
   }
 
   .news-container ul {
-    list-style: none;    /* Remove bullet points */
-    padding: 0;          /* Remove default list padding */
+    list-style-type: square;
+    padding-left: 20px;
   }
 
   .news-container li {
-    margin-bottom: 10px;  /* Add space between list items */
+    margin-bottom: 10px;
+  }
+
+  .date {
+    display: inline-block; /* Make the date span behave like a block element */
+    width: 120px;         /* Set a fixed width for the date */
   }
 </style>
 

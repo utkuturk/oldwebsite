@@ -34,7 +34,7 @@ I also visited <a href = 'https://www.muni.cz/en'>Masaryk University</a> where I
 <div class="news-container">
   <h2>News</h2>
   <ul>
-    <li><span class="date"><strong>January 2025</strong>:</span> talk on Superiority effects in Turkish at LSA2025 (w/<a href="https://sadiralewis.github.io/">Sadira Lewis</a>)! <a href="/files/handouts/LewisTurkSLAB.pdf">[handout]</li>
+    <li><span class="date"><strong>January 2025</strong>:</span> talk on Superiority effects in Turkish at LSA2025 (w/<a href="https://sadiralewis.github.io/">Sadira Lewis</a>)! <a href="/files/handouts/LewisTurkSLAB.pdf">[handout]</a></li>
     <li><span class="date"><strong>October 2024</strong>:</span> talk on <a href="files/abstracts/TurkEtAl-puzzles.pdf">relative timing of agreement and verb planning</a> at <a href="https://sites.google.com/view/puzzlesofagreement">Puzzles of Agreement</a>! <a href="/files/slides/Turketal-puzzles.pdf">[slides]</a></li>
     <li><span class="date"><strong>October 2024</strong>:</span> we are organizing HSP2025, and I made the website! Submit your work! <a href="https://hsp2025.github.io/">[hsp2025]</a></li>
     <li><span class="date"><strong>August 2024</strong>:</span> book chapter on suppletion and suspended affixation in press at OUP! <a href="https://lingbuzz.net/lingbuzz/008295">[lingbuzz]</a> & <a href="files/papers/Turk2024.pdf">[local pdf]</a></li>

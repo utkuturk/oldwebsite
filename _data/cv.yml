@@ -28,11 +28,11 @@ news:
     hlink: 'https://utkuturk.com/mfa.html'
   - date: 'May 2024'
     description: 'poster on agreement planning and task effects in production at HSP2024!'
-    extra: '<a href="files/abstracts/hsp-2024-task.pdf">[task effects]</a> in production in <a href="files/abstracts/hsp-2024-agree.pdf">[agreement]</a>'
+    extra: '<a href="files/abstracts/hsp-2024-task.pdf">[task effects]</a> & <a href="files/abstracts/hsp-2024-agree.pdf">[agreement planning]</a>'
   - date: 'March 2024'
     description: 'case syncretism and agreement attraction paper (w/ Pavel Logačev) published on Language, Cognition, and Neuroscience!'
     pdf: "/files/papers/TurkLogacev2024.pdf"
-    extra: '<a href="https://doi.org/10.1080/23273798.2024.2324766">[CNL]</a>'
+    extra: '<a href="https://doi.org/10.1080/23273798.2024.2324766"> [CNL]</a>'
   - date: 'April 2024'
     description: 'book chapter on the phonemic status of Turkish glide [j] published! '
     pdf: '/files/pdfs/CanalisEtAl2024.pdf'

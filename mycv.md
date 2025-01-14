@@ -15,7 +15,7 @@ Department of Linguistics\
 University of Maryland,\
 College Park, MD 20742
 
-email: `utkuturk@umd.edu`, [full CV](/files/cv.pdf).
+email: `firstnamelastname@umd.edu`, [full CV](/files/cv.pdf).
 
 # Short CV
 

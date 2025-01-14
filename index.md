@@ -16,7 +16,7 @@ permalink: /
   href="https://bsky.app/profile/utkuturk.com"
   href="https://scholar.google.com/citations?hl=tr&user=wa7LG9gAAAAJ"
   href="https://github.com/utkuturk"
-  width="300px"
+  width="350px"
   align="right"
 %}
 

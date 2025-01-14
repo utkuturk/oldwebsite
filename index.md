@@ -31,23 +31,19 @@ I also visited <a href = 'https://www.muni.cz/en'>Masaryk University</a> where I
 
 <br><br><br>
 
+
+
 <div class="news-container">
   <h2>News</h2>
   <ul>
     {% for item in site.data.cv.news %}
       <li>
         <span class="date"><strong>{{ item.date }}:</strong></span>
-        {% if item.link %}
-          <a href="{{ item.link }}">{{ item.title }}</a>
-        {% else %}
-          {{ item.title }}
-        {% endif %}
-        {% if item.description %}
           {{ item.description }}
-        {% endif %}
-        {% if item.extra %}
-          {{ item.extra }}
-        {% endif %}
+          {% if item.hlink %} <a href="{{ item.hlink }}"> [handout] </a> {% endif %}
+          {% if item.slink %} <a href="{{ item.slink }}"> [slides] </a> {% endif %}
+          {% if item.pdf %} <a href="{{ item.pdf }}"> [pdf] </a> {% endif %}
+          {% if item.extra %} {{ item.extra }} {% endif %}
       </li>
     {% endfor %}
   </ul>

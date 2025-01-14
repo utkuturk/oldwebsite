@@ -11,12 +11,12 @@ permalink: /
 {%
   include image.html
   url="images/utkuturkumd.jpeg"
-  caption="e-mail: utkuturk@umd.edu <br><a href='https://twitter.com/UtkuTurkLing'>[twitter]</a> | <a href='https://bsky.app/profile/utkuturk.com'>[bsky]</a> | <a href='https://scholar.google.com/citations?hl=tr&user=wa7LG9gAAAAJ'>[scholar]</a> | <a href='https://github.com/utkuturk'>[github]</a>"
+  caption="<p style="font-size:14px">e-mail: utkuturk@umd.edu <br><a href='https://twitter.com/UtkuTurkLing'>[twitter]</a> | <a href='https://bsky.app/profile/utkuturk.com'>[bsky]</a> | <a href='https://scholar.google.com/citations?hl=tr&user=wa7LG9gAAAAJ'>[scholar]</a> | <a href='https://github.com/utkuturk'>[github]</a></p>"
   href="https://twitter.com/UtkuTurkLing"
   href="https://bsky.app/profile/utkuturk.com"
   href="https://scholar.google.com/citations?hl=tr&user=wa7LG9gAAAAJ"
   href="https://github.com/utkuturk"
-  width="350px"
+  width="330px"
   align="right"
 %}
 
@@ -29,7 +29,7 @@ Before UMD, I completed my masters at <a href='https://linguistics.boun.edu.tr'>
 I also visited <a href = 'https://www.muni.cz/en'>Masaryk University</a> where I worked with <a href = 'https://scholar.google.cz/citations?user=-T030GMAAAAJ&hl=no'>Pavel Caha</a> on Turkish case morphology and adjectival decomposition.
 
 
-<br><br><br>
+<br><br>
 
 
 

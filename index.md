@@ -11,7 +11,7 @@ permalink: /
 {%
   include image.html
   url="images/utkuturkumd.jpeg"
-  caption="<p style='font-size:14px'>e-mail: utkuturk@umd.edu <br><a href='https://twitter.com/UtkuTurkLing'>[twitter]</a> | <a href='https://bsky.app/profile/utkuturk.com'>[bsky]</a> | <a href='https://scholar.google.com/citations?hl=tr&user=wa7LG9gAAAAJ'>[scholar]</a> | <a href='https://github.com/utkuturk'>[github]</a></p>"
+  caption="<font-size = 12px>e-mail: utkuturk@umd.edu <br><a href='https://twitter.com/UtkuTurkLing'>[twitter]</a> | <a href='https://bsky.app/profile/utkuturk.com'>[bsky]</a> | <a href='https://scholar.google.com/citations?hl=tr&user=wa7LG9gAAAAJ'>[scholar]</a> | <a href='https://github.com/utkuturk'>[github]</a></font-size>"
   href="https://twitter.com/UtkuTurkLing"
   href="https://bsky.app/profile/utkuturk.com"
   href="https://scholar.google.com/citations?hl=tr&user=wa7LG9gAAAAJ"

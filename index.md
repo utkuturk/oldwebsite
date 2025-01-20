@@ -8,37 +8,35 @@ permalink: /
 <link rel="stylesheet" href="/css/fontawesome/css/all.css" >
 <link rel="stylesheet" href="css/academicons/css/academicons.min.css"/>
 
-
 <div class="main-content-wrapper">
-  <div class="main-content">
 
-    {%
-      include image.html
-      url="images/utkuturkumd.jpeg"
-      caption="<font size = 2px>e-mail: firstnamelastname@umd.edu <br><a href='/files/cv.pdf'> <i>Full CV as PDF</i> </a><br><a href='https://twitter.com/UtkuTurkLing'>[twitter]</a> | <a href='https://bsky.app/profile/utkuturk.com'>[bsky]</a> | <a href='https://scholar.google.com/citations?hl=tr&user=wa7LG9gAAAAJ'>[scholar]</a> | <a href='https://github.com/utkuturk'>[github]</a></font>"
-      href="/files/cv.pdf"
-      href="https://twitter.com/UtkuTurkLing"
-      href="https://bsky.app/profile/utkuturk.com"
-      href="https://scholar.google.com/citations?hl=tr&user=wa7LG9gAAAAJ"
-      href="https://github.com/utkuturk"
-      width="330px"
-      align="right"
-    %}
+{%
+  include image.html
+  url="images/utkuturkumd.jpeg"
+  caption="<font size = 2px>e-mail: firstnamelastname@umd.edu <br><a href='/files/cv.pdf'> <i>Full CV as PDF</i> </a><br><a href='https://twitter.com/UtkuTurkLing'>[twitter]</a> | <a href='https://bsky.app/profile/utkuturk.com'>[bsky]</a> | <a href='https://scholar.google.com/citations?hl=tr&user=wa7LG9gAAAAJ'>[scholar]</a> | <a href='https://github.com/utkuturk'>[github]</a></font>"
+  href="/files/cv.pdf"
+  href="https://twitter.com/UtkuTurkLing"
+  href="https://bsky.app/profile/utkuturk.com"
+  href="https://scholar.google.com/citations?hl=tr&user=wa7LG9gAAAAJ"
+  href="https://github.com/utkuturk"
+  width="330px"
+  align="right"
+%}
 
-    <br>
+<br>
 
-    I am a third year Ph.D. student in <a href='https://linguistics.umd.edu/'>linguistics</a> at <a href='https://umd.edu/'>University of Maryland</a>, working  with <a href='https://www.colinphillips.net/'>Colin Phillips</a> and <a href='https://ellenlau.net/'>Ellen Lau</a>. My main <a href='https://www.utkuturk.com/research/'>research interests</a> are in morphology and psycholinguistics, both comprehension and production.
+I am a third year Ph.D. student in <a href='https://linguistics.umd.edu/'>linguistics</a> at <a href='https://umd.edu/'>University of Maryland</a>, working  with <a href='https://www.colinphillips.net/'>Colin Phillips</a> and <a href='https://ellenlau.net/'>Ellen Lau</a>. My main <a href='https://www.utkuturk.com/research/'>research interests</a> are in morphology and psycholinguistics, both comprehension and production.
 
-    Before UMD, I completed my masters at <a href='https://linguistics.boun.edu.tr'>Bogazici University Linguistics</a>, where I worked with <a href='https://scholar.google.com/citations?user=fhbdTJIAAAAJ&hl=en'>Pavel Logačev</a> and write my thesis titled <a href='https://www.utkuturk.com/ma/'>Agreement Attraction in Turkish</a>.
+Before UMD, I completed my masters at <a href='https://linguistics.boun.edu.tr'>Bogazici University Linguistics</a>, where I worked with <a href='https://scholar.google.com/citations?user=fhbdTJIAAAAJ&hl=en'>Pavel Logačev</a> and write my thesis titled <a href='https://www.utkuturk.com/ma/'>Agreement Attraction in Turkish</a>.
 
-    I also visited <a href = 'https://www.muni.cz/en'>Masaryk University</a> where I worked with <a href = 'https://scholar.google.cz/citations?user=-T030GMAAAAJ&hl=no'>Pavel Caha</a> on Turkish case morphology and adjectival decomposition.
+I also visited <a href = 'https://www.muni.cz/en'>Masaryk University</a> where I worked with <a href = 'https://scholar.google.cz/citations?user=-T030GMAAAAJ&hl=no'>Pavel Caha</a> on Turkish case morphology and adjectival decomposition.
 
 
-    <br><br>
-  </div>
+<br><br>
 
-  <div class="news-sidebar">
-    <h2 class="news-header">News</h2>
+
+ <div class="news-sidebar">
+ <h2 class="news-header">News</h2>
     <div class="news-container">
       <ul>
         {% for item in site.data.cv.news %}
@@ -55,8 +53,59 @@ permalink: /
     </div>
   </div>
 
-</div>
+<style>
+    .news-sidebar {
+      width: 300px;
+      background-color: #f0f0f0;
+      padding: 20px;
+      float: right;
+      margin-top: -550px; /* Adjust this value to align the sidebar */
+    }
 
+    /* Existing news container styles */
+    .news-container {
+      width: 90%;
+      height: 300px;
+      overflow-y: auto;
+      border: 1px solid #ccc;
+      margin: 20px auto;
+      padding: 20px;
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    }
+
+  .news-header {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  .news-container ul {
+    list-style-type: square;
+    padding-left: 20px;
+  }
+
+  .news-container li {
+    margin-bottom: 10px;
+  }
+
+  .date {
+    display: inline-block;
+    width: 120px;
+  }
+
+  /* Custom scrollbar styles */
+  .news-container::-webkit-scrollbar {
+    width: 4px;
+  }
+
+  .news-container::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+
+  .news-container::-webkit-scrollbar-thumb {
+    background: #888888;
+    border-radius: 4px;
+  }
+</style>
 
 {% include image.html url="images/bosphorous.jpg" caption="view of bosphrous and kennedy lodge, photo by me, aug 18" width="800px" align="middle" %}
 

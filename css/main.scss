@@ -1,62 +1,64 @@
---- # Only the main Sass file needs front matter (the dashes are enough) --- @charset "utf-8";
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
 
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Nunito+Sans:wght@600&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300");
-@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Nunito+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&display=swap');
 
 $font-weight-normal: 300;
-$font-weight-bold: 600;
+$font-weight-bold:   600;
 
 $base-font-family: "Inter";
-$base-font-size: 12pt;
+$base-font-size:   12pt;
 $base-line-height: 1.5;
-$monospace-font: "Fira Code";
+$monospace-font: 'Fira Code';
 
 $heading-font-family: "Nunito Sans";
-$heading-font-size: 12pt;
+$heading-font-size:   12pt;
 $heading-menu-font-size: 12pt;
 $heading-line-height: 1.5;
 
-$small-font-size: 0.875em;
+$small-font-size:  0.875em;
 $vsmall-font-size: 0.66em;
-$spacing-unit: 1.5em;
+$spacing-unit:     1.5em;
 
-$grey-vlight: #fefefe;
+$grey-vlight:#fefefe;
 $grey-light: #ccc;
-$grey: #888;
-$grey-dark: #444;
+$grey:       #888;
+$grey-dark:  #444;
 $grey-vdark: #222;
-$blue: #0091ed;
-$orange: #ca6c18;
-$red: #b6321c;
-$myblack: #192832ea;
-$exe: #2d4555ea;
-$purple: #a759a7;
-$slate: #708090;
+$blue:       #0091ed;
+$orange:     #ca6c18;
+$red:        #b6321c;
+$myblack:    #192832ea;
+$exe:        #2d4555ea;
+$purple:     #a759a7;
+$slate:      #708090;
 
-$background: $grey-vlight;
-$dark-background: darken($background, 5%);
-$text-color: darken($grey-vlight, 50%);
-$text-light-color: $grey;
-$url-color: $purple;
-$url-hover-color: cornflowerblue;
+$background:        $grey-vlight;
+$dark-background:   darken($background, 5%);
+$text-color:        darken($grey-vlight, 50%);
+$text-light-color:  $grey;
+$url-color:         $purple;
+$url-hover-color:   cornflowerblue;
 $header-text-color: $text-light-color;
-$header-hover-color: darken($text-color, 100%);
-$header-hover-url: $url-color;
-$line-color: $grey-light;
+$header-hover-color:darken($text-color, 100%);
+$header-hover-url:  $url-color;
+$line-color:        $grey-light;
 
 // Width of the content area
-$content-width: 55em;
-$content-min-width: 25em;
-$mobile: 32em;
-$desktop: 55em;
+$content-width:    55em;
+$content-min-width:25em;
+$mobile:           32em;
+$desktop:          55em;
 
 @mixin media-query($device) {
     @media screen and (max-width: $device) {
         @content;
     }
 }
-
 .main-content-wrapper {
     display: flex;
 }
@@ -77,50 +79,13 @@ $desktop: 55em;
         // Other mobile adjustments if needed
     }
 }
-
-.news-container {
-    width: 90%;
-    height: 300px;
-    overflow-y: auto;
-    border: 1px solid #ccc;
-    margin: 20px auto;
-    padding: 20px;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
-}
-
-.news-header {
-    text-align: center;
-    margin-bottom: 15px;
-}
-
-.news-container ul {
-    list-style-type: square;
-    padding-left: 20px;
-}
-
-.news-container li {
-    margin-bottom: 10px;
-}
-
-.date {
-    display: inline-block;
-    width: 120px;
-}
-
-/* Custom scrollbar styles */
-.news-container::-webkit-scrollbar {
-    width: 4px;
-}
-
-.news-container::-webkit-scrollbar-track {
-    background: #f1f1f1;
-}
-
-.news-container::-webkit-scrollbar-thumb {
-    background: #888888;
-    border-radius: 4px;
-}
-
 // Import partials from `sass_dir` (defaults to `_sass`)
-@import "header", "mobile-header", "base", "footer", "page",
-"syntax-highlighting", "fancy-image";
+@import
+    "header",
+    "mobile-header",
+    "base",
+    "footer",
+    "page",
+    "syntax-highlighting",
+    "fancy-image"
+;

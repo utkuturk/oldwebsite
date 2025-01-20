@@ -8,7 +8,6 @@ permalink: /
 <link rel="stylesheet" href="/css/fontawesome/css/all.css" >
 <link rel="stylesheet" href="css/academicons/css/academicons.min.css"/>
 
-<div class="main-content">
 
 {%
   include image.html
@@ -34,46 +33,35 @@ I also visited <a href = 'https://www.muni.cz/en'>Masaryk University</a> where I
 
 <br><br>
 
-</div>
+<h2 class="news-header">News</h2>
 
-<div class="sidebar">
-  <h2 class="news-header">News</h2>
-  <div class="news-container">
-    <ul>
-      {% for item in site.data.cv.news %}
-        <li>
-          <span class="date"><strong>{{ item.date }}:</strong></span>
-            {{ item.description }}
-            {% if item.hlink %} <a href="{{ item.hlink }}"> [handout] </a> {% endif %}
-            {% if item.slink %} <a href="{{ item.slink }}"> [slides] </a> {% endif %}
-            {% if item.pdf %} <a href="{{ item.pdf }}"> [pdf] </a> {% endif %}
-            {% if item.extra %} {{ item.extra }} {% endif %}
-        </li>
-      {% endfor %}
-    </ul>
-  </div>
+<div class="news-container">
+  <ul>
+    {% for item in site.data.cv.news %}
+      <li>
+        <span class="date"><strong>{{ item.date }}:</strong></span>
+          {{ item.description }}
+          {% if item.hlink %} <a href="{{ item.hlink }}"> [handout] </a> {% endif %}
+          {% if item.slink %} <a href="{{ item.slink }}"> [slides] </a> {% endif %}
+          {% if item.pdf %} <a href="{{ item.pdf }}"> [pdf] </a> {% endif %}
+          {% if item.extra %} {{ item.extra }} {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
 </div>
 
 <style>
-  .main-content {
-    float: left;
-    width: 70%;
-  }
-
-  .sidebar {
-    float: right;
-    width: 30%;
-  }
-
   .news-container {
+    width: 90%;
     height: 300px;
     overflow-y: auto;
     border: 1px solid #ccc;
+    margin: 20px auto;
     padding: 20px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
   }
 
-  .news-header { /* Style for the news header */
+  .news-header {
     text-align: center;
     margin-bottom: 15px;
   }

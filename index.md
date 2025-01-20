@@ -8,7 +8,6 @@ permalink: /
 <link rel="stylesheet" href="/css/fontawesome/css/all.css" >
 <link rel="stylesheet" href="css/academicons/css/academicons.min.css"/>
 
-<div class="main-content-wrapper">
 
 {%
   include image.html
@@ -34,44 +33,32 @@ I also visited <a href = 'https://www.muni.cz/en'>Masaryk University</a> where I
 
 <br><br>
 
-
- <div class="news-sidebar">
- <h2 class="news-header">News</h2>
-    <div class="news-container">
-      <ul>
-        {% for item in site.data.cv.news %}
-          <li>
-            <span class="date"><strong>{{ item.date }}:</strong></span>
-              {{ item.description }}
-              {% if item.hlink %} <a href="{{ item.hlink }}"> [handout] </a> {% endif %}
-              {% if item.slink %} <a href="{{ item.slink }}"> [slides] </a> {% endif %}
-              {% if item.pdf %} <a href="{{ item.pdf }}"> [pdf] </a> {% endif %}
-              {% if item.extra }} {{ item.extra }} {% endif %}
-          </li>
-        {% endfor %}
-      </ul>
-    </div>
-  </div>
+<h2 class="news-header">News</h2>
+<div class="news-container">
+  <ul>
+    {% for item in site.data.cv.news %}
+      <li>
+        <span class="date"><strong>{{ item.date }}:</strong></span>
+          {{ item.description }}
+          {% if item.hlink %} <a href="{{ item.hlink }}"> [handout] </a> {% endif %}
+          {% if item.slink %} <a href="{{ item.slink }}"> [slides] </a> {% endif %}
+          {% if item.pdf %} <a href="{{ item.pdf }}"> [pdf] </a> {% endif %}
+          {% if item.extra %} {{ item.extra }} {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+</div>
 
 <style>
-    .news-sidebar {
-      width: 300px;
-      background-color: #f0f0f0;
-      padding: 20px;
-      float: right;
-      margin-top: -550px; /* Adjust this value to align the sidebar */
-    }
-
-    /* Existing news container styles */
-    .news-container {
-      width: 90%;
-      height: 300px;
-      overflow-y: auto;
-      border: 1px solid #ccc;
-      margin: 20px auto;
-      padding: 20px;
-      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
-    }
+  .news-container {
+    width: 90%;
+    height: 300px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  }
 
   .news-header {
     text-align: center;

@@ -90,7 +90,7 @@ I also visited <a href = 'https://www.muni.cz/en'>Masaryk University</a> where I
 
   .news-container::-webkit-scrollbar-thumb {
     background: #888888;
-    border-radius: 4px;
+    border-radius: 3px;
   }
 </style>
 

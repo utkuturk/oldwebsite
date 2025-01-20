@@ -73,11 +73,11 @@ I also visited <a href = 'https://www.muni.cz/en'>Masaryk University</a> where I
 
   .news-container li {
     margin-bottom: 10px;
-    display: flex; /* Use flexbox for layout */
   }
 
   .date {
-    flex: 0 0 120px; /* Don't grow or shrink, keep 120px width */
+    display: inline-block;
+    width: 120px;
   }
 
   /* Custom scrollbar styles */

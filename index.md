@@ -8,50 +8,53 @@ permalink: /
 <link rel="stylesheet" href="/css/fontawesome/css/all.css" >
 <link rel="stylesheet" href="css/academicons/css/academicons.min.css"/>
 
+
 <div class="main-content-wrapper">
-<div class="main-content">
+  <div class="main-content">
 
-{%
-  include image.html
-  url="images/utkuturkumd.jpeg"
-  caption="<font size = 2px>e-mail: firstnamelastname@umd.edu <br><a href='/files/cv.pdf'> <i>Full CV as PDF</i> </a><br><a href='https://twitter.com/UtkuTurkLing'>[twitter]</a> | <a href='https://bsky.app/profile/utkuturk.com'>[bsky]</a> | <a href='https://scholar.google.com/citations?hl=tr&user=wa7LG9gAAAAJ'>[scholar]</a> | <a href='https://github.com/utkuturk'>[github]</a></font>"
-  href="/files/cv.pdf"
-  href="https://twitter.com/UtkuTurkLing"
-  href="https://bsky.app/profile/utkuturk.com"
-  href="https://scholar.google.com/citations?hl=tr&user=wa7LG9gAAAAJ"
-  href="https://github.com/utkuturk"
-  width="330px"
-  align="right"
-%}
+    {%
+      include image.html
+      url="images/utkuturkumd.jpeg"
+      caption="<font size = 2px>e-mail: firstnamelastname@umd.edu <br><a href='/files/cv.pdf'> <i>Full CV as PDF</i> </a><br><a href='https://twitter.com/UtkuTurkLing'>[twitter]</a> | <a href='https://bsky.app/profile/utkuturk.com'>[bsky]</a> | <a href='https://scholar.google.com/citations?hl=tr&user=wa7LG9gAAAAJ'>[scholar]</a> | <a href='https://github.com/utkuturk'>[github]</a></font>"
+      href="/files/cv.pdf"
+      href="https://twitter.com/UtkuTurkLing"
+      href="https://bsky.app/profile/utkuturk.com"
+      href="https://scholar.google.com/citations?hl=tr&user=wa7LG9gAAAAJ"
+      href="https://github.com/utkuturk"
+      width="330px"
+      align="right"
+    %}
 
-<br>
+    <br>
 
-I am a third year Ph.D. student in <a href='https://linguistics.umd.edu/'>linguistics</a> at <a href='https://umd.edu/'>University of Maryland</a>, working  with <a href='https://www.colinphillips.net/'>Colin Phillips</a> and <a href='https://ellenlau.net/'>Ellen Lau</a>. My main <a href='https://www.utkuturk.com/research/'>research interests</a> are in morphology and psycholinguistics, both comprehension and production.
+    I am a third year Ph.D. student in <a href='https://linguistics.umd.edu/'>linguistics</a> at <a href='https://umd.edu/'>University of Maryland</a>, working  with <a href='https://www.colinphillips.net/'>Colin Phillips</a> and <a href='https://ellenlau.net/'>Ellen Lau</a>. My main <a href='https://www.utkuturk.com/research/'>research interests</a> are in morphology and psycholinguistics, both comprehension and production.
 
-Before UMD, I completed my masters at <a href='https://linguistics.boun.edu.tr'>Bogazici University Linguistics</a>, where I worked with <a href='https://scholar.google.com/citations?user=fhbdTJIAAAAJ&hl=en'>Pavel Logačev</a> and write my thesis titled <a href='https://www.utkuturk.com/ma/'>Agreement Attraction in Turkish</a>.
+    Before UMD, I completed my masters at <a href='https://linguistics.boun.edu.tr'>Bogazici University Linguistics</a>, where I worked with <a href='https://scholar.google.com/citations?user=fhbdTJIAAAAJ&hl=en'>Pavel Logačev</a> and write my thesis titled <a href='https://www.utkuturk.com/ma/'>Agreement Attraction in Turkish</a>.
 
-I also visited <a href = 'https://www.muni.cz/en'>Masaryk University</a> where I worked with <a href = 'https://scholar.google.cz/citations?user=-T030GMAAAAJ&hl=no'>Pavel Caha</a> on Turkish case morphology and adjectival decomposition.
-</div>
+    I also visited <a href = 'https://www.muni.cz/en'>Masaryk University</a> where I worked with <a href = 'https://scholar.google.cz/citations?user=-T030GMAAAAJ&hl=no'>Pavel Caha</a> on Turkish case morphology and adjectival decomposition.
 
-<br><br>
 
-<div class="news-sidebar">
-  <h2 class="news-header">News</h2>
-  <div class="news-container">
-    <ul>
-      {% for item in site.data.cv.news %}
-        <li>
-          <span class="date"><strong>{{ item.date }}:</strong></span>
-            {{ item.description }}
-            {% if item.hlink %} <a href="{{ item.hlink }}"> [handout] </a> {% endif %}
-            {% if item.slink %} <a href="{{ item.slink }}"> [slides] </a> {% endif %}
-            {% if item.pdf %} <a href="{{ item.pdf }}"> [pdf] </a> {% endif %}
-            {% if item.extra }} {{ item.extra }} {% endif %}
-        </li>
-      {% endfor %}
-    </ul>
+    <br><br>
   </div>
-</div>
+
+  <div class="news-sidebar">
+    <h2 class="news-header">News</h2>
+    <div class="news-container">
+      <ul>
+        {% for item in site.data.cv.news %}
+          <li>
+            <span class="date"><strong>{{ item.date }}:</strong></span>
+              {{ item.description }}
+              {% if item.hlink %} <a href="{{ item.hlink }}"> [handout] </a> {% endif %}
+              {% if item.slink %} <a href="{{ item.slink }}"> [slides] </a> {% endif %}
+              {% if item.pdf %} <a href="{{ item.pdf }}"> [pdf] </a> {% endif %}
+              {% if item.extra }} {{ item.extra }} {% endif %}
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+
 </div>
 
 

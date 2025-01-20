@@ -35,20 +35,18 @@ I also visited <a href = 'https://www.muni.cz/en'>Masaryk University</a> where I
 
 <h2 class="news-header">News</h2>
 <div class="news-container">
-<ul>
-  {% for item in site.data.cv.news %}
-    <li>
-      <div style="display: inline-block;">
+  <ul>
+    {% for item in site.data.cv.news %}
+      <li>
         <span class="date"><strong>{{ item.date }}:</strong></span>
-        {{ item.description }}
-      </div>
-      {% if item.hlink %} <a href="{{ item.hlink }}"> [handout] </a> {% endif %}
-      {% if item.slink %} <a href="{{ item.slink }}"> [slides] </a> {% endif %}
-      {% if item.pdf %} <a href="{{ item.pdf }}"> [pdf] </a> {% endif %}
-      {% if item.extra %} {{ item.extra }} {% endif %}
-    </li>
-  {% endfor %}
-</ul>
+          {{ item.description }}
+          {% if item.hlink %} <a href="{{ item.hlink }}"> [handout] </a> {% endif %}
+          {% if item.slink %} <a href="{{ item.slink }}"> [slides] </a> {% endif %}
+          {% if item.pdf %} <a href="{{ item.pdf }}"> [pdf] </a> {% endif %}
+          {% if item.extra %} {{ item.extra }} {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
 </div>
 
 <style>

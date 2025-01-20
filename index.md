@@ -31,29 +31,28 @@ I am a third year Ph.D. student in <a href='https://linguistics.umd.edu/'>lingui
 Before UMD, I completed my masters at <a href='https://linguistics.boun.edu.tr'>Bogazici University Linguistics</a>, where I worked with <a href='https://scholar.google.com/citations?user=fhbdTJIAAAAJ&hl=en'>Pavel Logačev</a> and write my thesis titled <a href='https://www.utkuturk.com/ma/'>Agreement Attraction in Turkish</a>.
 
 I also visited <a href = 'https://www.muni.cz/en'>Masaryk University</a> where I worked with <a href = 'https://scholar.google.cz/citations?user=-T030GMAAAAJ&hl=no'>Pavel Caha</a> on Turkish case morphology and adjectival decomposition.
-
+</div>
 
 <br><br>
- </div>
 
-  <div class="news-sidebar">
-    <h2 class="news-header">News</h2>
-    <div class="news-container">
-      <ul>
-        {% for item in site.data.cv.news %}
-          <li>
-            <span class="date"><strong>{{ item.date }}:</strong></span>
-              {{ item.description }}
-              {% if item.hlink %} <a href="{{ item.hlink }}"> [handout] </a> {% endif %}
-              {% if item.slink %} <a href="{{ item.slink }}"> [slides] </a> {% endif %}
-              {% if item.pdf %} <a href="{{ item.pdf }}"> [pdf] </a> {% endif %}
-              {% if item.extra }} {{ item.extra }} {% endif %}
-          </li>
-        {% endfor %}
-      </ul>
-    </div>
+<div class="news-sidebar">
+  <h2 class="news-header">News</h2>
+  <div class="news-container">
+    <ul>
+      {% for item in site.data.cv.news %}
+        <li>
+          <span class="date"><strong>{{ item.date }}:</strong></span>
+            {{ item.description }}
+            {% if item.hlink %} <a href="{{ item.hlink }}"> [handout] </a> {% endif %}
+            {% if item.slink %} <a href="{{ item.slink }}"> [slides] </a> {% endif %}
+            {% if item.pdf %} <a href="{{ item.pdf }}"> [pdf] </a> {% endif %}
+            {% if item.extra }} {{ item.extra }} {% endif %}
+        </li>
+      {% endfor %}
+    </ul>
   </div>
-  </div>
+</div>
+</div>
 
 
 {% include image.html url="images/bosphorous.jpg" caption="view of bosphrous and kennedy lodge, photo by me, aug 18" width="800px" align="middle" %}

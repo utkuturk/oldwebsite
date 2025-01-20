@@ -8,6 +8,8 @@ permalink: /
 <link rel="stylesheet" href="/css/fontawesome/css/all.css" >
 <link rel="stylesheet" href="css/academicons/css/academicons.min.css"/>
 
+<div class="main-content-wrapper">
+<div class="main-content">
 
 {%
   include image.html
@@ -32,68 +34,27 @@ I also visited <a href = 'https://www.muni.cz/en'>Masaryk University</a> where I
 
 
 <br><br>
+ </div>
 
-<h2 class="news-header">News</h2>
+    <div class="news-sidebar">
+      <h2 class="news-header">News</h2>
+      <div class="news-container">
+        <ul>
+          {% for item in site.data.cv.news %}
+            <li>
+              <span class="date"><strong>{{ item.date }}:</strong></span>
+                {{ item.description }}
+                {% if item.hlink %} <a href="{{ item.hlink }}"> [handout] </a> {% endif %}
+                {% if item.slink %} <a href="{{ item.slink }}"> [slides] </a> {% endif %}
+                {% if item.pdf %} <a href="{{ item.pdf }}"> [pdf] </a> {% endif %}
+                {% if item.extra }} {{ item.extra }} {% endif %}
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
 
-<div class="news-container">
-  <ul>
-    {% for item in site.data.cv.news %}
-      <li>
-        <span class="date"><strong>{{ item.date }}:</strong></span>
-          {{ item.description }}
-          {% if item.hlink %} <a href="{{ item.hlink }}"> [handout] </a> {% endif %}
-          {% if item.slink %} <a href="{{ item.slink }}"> [slides] </a> {% endif %}
-          {% if item.pdf %} <a href="{{ item.pdf }}"> [pdf] </a> {% endif %}
-          {% if item.extra %} {{ item.extra }} {% endif %}
-      </li>
-    {% endfor %}
-  </ul>
-</div>
-
-<style>
-  .news-container {
-    width: 90%;
-    height: 300px;
-    overflow-y: auto;
-    border: 1px solid #ccc;
-    margin: 20px auto;
-    padding: 20px;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
-  }
-
-  .news-header {
-    text-align: center;
-    margin-bottom: 15px;
-  }
-
-  .news-container ul {
-    list-style-type: square;
-    padding-left: 20px;
-  }
-
-  .news-container li {
-    margin-bottom: 10px;
-  }
-
-  .date {
-    display: inline-block;
-    width: 120px;
-  }
-
-  /* Custom scrollbar styles */
-  .news-container::-webkit-scrollbar {
-    width: 4px;
-  }
-
-  .news-container::-webkit-scrollbar-track {
-    background: #f1f1f1;
-  }
-
-  .news-container::-webkit-scrollbar-thumb {
-    background: #888888;
-    border-radius: 4px;
-  }
-</style>
 
 {% include image.html url="images/bosphorous.jpg" caption="view of bosphrous and kennedy lodge, photo by me, aug 18" width="800px" align="middle" %}
 

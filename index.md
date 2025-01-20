@@ -33,9 +33,8 @@ I also visited <a href = 'https://www.muni.cz/en'>Masaryk University</a> where I
 <br><br>
 
 
-
+<h2>News</h2>
 <div class="news-container">
-  <h2>News</h2>
   <ul>
     {% for item in site.data.cv.news %}
       <li>
@@ -78,6 +77,20 @@ I also visited <a href = 'https://www.muni.cz/en'>Masaryk University</a> where I
   .date {
     display: inline-block;
     width: 120px;
+  }
+
+  /* Custom scrollbar styles */
+  .news-container::-webkit-scrollbar {
+    width: 4px;
+  }
+
+  .news-container::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+
+  .news-container::-webkit-scrollbar-thumb {
+    background: #888888;
+    border-radius: 4px;
   }
 </style>
 

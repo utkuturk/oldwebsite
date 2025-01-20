@@ -34,17 +34,17 @@ I also visited <a href = 'https://www.muni.cz/en'>Masaryk University</a> where I
 <br><br>
 
 <h2 class="news-header">News</h2>
+
 <div class="news-container">
   <ul>
     {% for item in site.data.cv.news %}
       <li>
         <span class="date"><strong>{{ item.date }}:</strong></span>
-          <span class="description">{{ item.description }}
+          {{ item.description }}
           {% if item.hlink %} <a href="{{ item.hlink }}"> [handout] </a> {% endif %}
           {% if item.slink %} <a href="{{ item.slink }}"> [slides] </a> {% endif %}
           {% if item.pdf %} <a href="{{ item.pdf }}"> [pdf] </a> {% endif %}
           {% if item.extra %} {{ item.extra }} {% endif %}
-          </span>
       </li>
     {% endfor %}
   </ul>
@@ -73,17 +73,11 @@ I also visited <a href = 'https://www.muni.cz/en'>Masaryk University</a> where I
 
   .news-container li {
     margin-bottom: 10px;
+    display: flex; /* Use flexbox for layout */
   }
 
   .date {
-    display: inline-block;
-    width: 120px;
-  }
-
-  .description {
-    display: inline-block; /* Make the description span behave like a block element */
-    margin-left: 10px;    /* Add some space between the date and description */
-    width: calc(100% - 130px); /* Calculate the width to avoid overflow */
+    flex: 0 0 120px; /* Set a fixed width for the date */
   }
 
   /* Custom scrollbar styles */

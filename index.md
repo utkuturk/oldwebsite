@@ -40,9 +40,10 @@ I also visited <a href = 'https://www.muni.cz/en'>Masaryk University</a> where I
       <li>
         <span class="date"><strong>{{ item.date }}:</strong></span>
           {{ item.description }}
-          {% if item.hlink %} <a href="{{ item.hlink }}"> [handout] </a> {% endif %}
-          {% if item.slink %} <a href="{{ item.slink }}"> [slides] </a> {% endif %}
-          {% if item.pdf %} <a href="{{ item.pdf }}"> [pdf] </a> {% endif %}
+          {% if item.hlink %}  [<a href="{{ item.hlink }}">handout</a>]  {% endif %}
+          {% if item.alink %}  [<a href="{{ item.alink }}">abstract</a>]  {% endif %}
+          {% if item.slink %}  [<a href="{{ item.slink }}">slides</a>]  {% endif %}
+          {% if item.pdf %}  [<a href="{{ item.pdf }}">pdf</a>]  {% endif %}
           {% if item.extra %} {{ item.extra }} {% endif %}
       </li>
     {% endfor %}

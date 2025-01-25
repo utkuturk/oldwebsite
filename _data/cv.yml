@@ -5,6 +5,9 @@ email: utkuturk@umd.edu
 web: http://github.com/utkuturk/
 
 news:
+  - date: '03/2025'
+    description: 'poster on register effects and response bias in agreement attraction at HSP2025!'
+    alink: '/files/abstracts/TurkHSP2025.pdf'
   - date: '04/2025'
     description: 'talk on syntactic alternatives in Turkish polar questions at PLC! (w/Aron Hirsch)'
     extra: '<a href="files/abstracts/TurkHirschPLC2025.pdf">[abstract]</a>'

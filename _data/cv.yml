@@ -10,7 +10,7 @@ news:
     alink: '/files/abstracts/TurkHSP2025.pdf'
   - date: '04/2025'
     description: 'talk on syntactic alternatives in Turkish polar questions at PLC! (w/Aron Hirsch)'
-    extra: '<a href="files/abstracts/TurkHirschPLC2025.pdf">[abstract]</a>'
+    alink: '/files/abstracts/TurkHirschPLC2025.pdf'
   - date: '03/2025'
     description: 'talk on <a href="files/abstracts/TurkTU2025.pdf">register effects in agreement attraction</a> and a poster on <a href="files/abstracts/TurkHirschTU2025.pdf">scope freezing in Turkish</a> (w/Aron Hirsch) at TU+10 hosted in USC!'
   - date: '01/2025'
@@ -35,7 +35,7 @@ news:
   - date: '03/2024'
     description: 'case syncretism and agreement attraction paper (w/ Pavel Logačev) published on Language, Cognition, and Neuroscience!'
     pdf: "/files/papers/TurkLogacev2024.pdf"
-    extra: '<a href="https://doi.org/10.1080/23273798.2024.2324766"> [CNL]</a>'
+    extra: ' [<a href="https://doi.org/10.1080/23273798.2024.2324766">CNL</a>]'
   - date: '04/2024'
     description: 'book chapter on the phonemic status of Turkish glide [j] published! '
     pdf: '/files/pdfs/CanalisEtAl2024.pdf'

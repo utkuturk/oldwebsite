@@ -381,7 +381,8 @@ conferences:
       abs:     /files/abstracts/TurkHirschTU2025.pdf
     - title: "Superiority Effects with Wh-Adjuncts in Turkish"
       author: "Lewis, S., **Turk, U.**"
-      conf: "LSA 2025"
+      conf: "LSA 2025: Linguistic Society of America"
+      place: "Philadelphia, PA, USA"
       month: January
       year: 2025
       istalk: TRUE

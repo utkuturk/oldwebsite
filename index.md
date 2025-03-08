@@ -79,6 +79,7 @@ I also visited <a href = 'https://www.muni.cz/en'>Masaryk University</a> where I
   .date {
     display: inline-block;
     width: 85px;
+    font-size: 0.8em; /* Reduced font size here */
   }
 
   /* Custom scrollbar styles */

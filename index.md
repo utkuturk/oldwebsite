@@ -53,7 +53,7 @@ I also visited <a href = 'https://www.muni.cz/en'>Masaryk University</a> where I
 <style>
   .news-container {
     width: 90%;
-    height: 300px;
+    height: 150px;
     overflow-y: auto;
     border: 1px solid #ccc;
     margin: 20px auto;
@@ -78,7 +78,7 @@ I also visited <a href = 'https://www.muni.cz/en'>Masaryk University</a> where I
 
   .date {
     display: inline-block;
-    width: 85px;
+    width: 65px;
     font-size: 0.8em; /* Reduced font size here */
   }
 

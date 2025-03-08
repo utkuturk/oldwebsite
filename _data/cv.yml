@@ -94,11 +94,17 @@ invitedlect:
       school: Bogazici University
 
 teachingumd:
+    - date: Spring 2025
+      title: 'LING 200: Introduction to Linguistics'
+      prof: Tonia Bleam
+      role: Teaching assistant
+      popul: 25
+      school: Linguistics Dept, University of Maryland
     - date: Fall 2024
       title: 'LING 440: Cognition and Grammar'
       prof: Ellen Lau
       role: Teaching assistant
-      popul: (unknown)
+      popul: 25
       school: Linguistics Dept, University of Maryland
     - date: Spring 2024
       title: 'ARHU 299: Machine Learning in Language and Art'
@@ -341,6 +347,45 @@ proceedings:
       doi:     http://dx.doi.org/10.18653/v1/W19-8013
 
 conferences:
+    - title: Syntactic alternatives in Turkish polar questions
+      author: "**Turk, U., Aron, H.**"
+      conf: "PLC 49: The Penn Linguistics Conference"
+      year:    2025
+      month: April
+      istalk: TRUE
+      place:   "University of Pennsylvania: Philadelphia, PA, USA"
+      abs:     /files/abstracts/TurkHirschPLC2025.pdf
+    - title: Turkish register manipulation eliminates grammaticality asymmetry in attraction and challenges retrieval based accounts
+      author: "**Turk, U.**"
+      conf: "HSP 2025: Human Sentence Processing"
+      year:    2025
+      month: March
+      istalk: TRUE
+      place:   "UMD, College Park, MD, USA"
+      abs:     /files/abstracts/TurkHSP2025.pdf
+    - title: Register modulates grammaticality asymmetry in Turkish agreement attraction
+      author: "**Turk, U.**"
+      conf: "the 10th Workshop on Turkic and languages in contact with Turkic"
+      year:    2025
+      month: March
+      istalk: TRUE
+      place:   "USC: Los Angeles, CA, USA"
+      abs:     /files/abstracts/TurkTU2025.pdf
+    - title: Turkish allows covert scrambling
+      author: "**Turk, U., Hirsch, A.**"
+      conf: "the 10th Workshop on Turkic and languages in contact with Turkic"
+      year:    2025
+      month: March
+      isposter: TRUE
+      place:   "USC: Los Angeles, CA, USA"
+      abs:     /files/abstracts/TurkHirschTU2025.pdf
+    - title: "Superiority Effects with Wh-Adjuncts in Turkish"
+      author: "Lewis, S., **Turk, U.**"
+      conf: "LSA 2025"
+      month: January
+      year: 2025
+      istalk: TRUE
+      slide: /files/slides/LewisTurkLSA.pdf
     - title: "When do we plan agreement in our speech: Case from agreement attraction in unaccusatives"
       author: "**Turk, U.**, Lau, E., Phillips, C."
       conf: "Puzzles of Agreement:Syntactic, Semantic, and Psycholinguistic Perspectives"

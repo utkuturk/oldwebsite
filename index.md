@@ -59,6 +59,7 @@ I also visited <a href = 'https://www.muni.cz/en'>Masaryk University</a> where I
     margin: 20px auto;
     padding: 20px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    font-size: 0.9em; /* Reduced font size here */
   }
 
   .news-header {

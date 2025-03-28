@@ -11,6 +11,7 @@ news:
   - date: '03/2025'
     description: 'talk on register effects and response bias in agreement attraction at HSP2025!'
     alink: '/files/abstracts/TurkHSP2025.pdf'
+    slink: '/files/slides/hsp2025.pdf'
   - date: '03/2025'
     description: 'talk on <a href="files/abstracts/TurkTU2025.pdf">register effects in agreement attraction</a> and a poster on <a href="files/abstracts/TurkHirschTU2025.pdf">scope freezing in Turkish</a> (w/Aron Hirsch) at TU+10 hosted in USC!'
   - date: '01/2025'
@@ -363,6 +364,7 @@ conferences:
       istalk: TRUE
       place:   "UMD, College Park, MD, USA"
       abs:     /files/abstracts/TurkHSP2025.pdf
+      slide: /files/slides/hsp2025.pdf
     - title: Register modulates grammaticality asymmetry in Turkish agreement attraction
       author: "**Turk, U.**"
       conf: "the 10th Workshop on Turkic and languages in contact with Turkic"

@@ -6,6 +6,9 @@ web: http://github.com/utkuturk/
 
 news:
   - date: '04/2025'
+    description: 'advanced to candidacy at UMD by defending my QP on the timing of aggrement in sentence production'
+    slink: '/files/slides/qpUtku.pdf'
+  - date: '04/2025'
     description: 'talk on syntactic alternatives in Turkish polar questions at PLC! (w/Aron Hirsch)'
     alink: '/files/abstracts/TurkHirschPLC2025.pdf'
   - date: '03/2025'

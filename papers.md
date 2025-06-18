@@ -19,6 +19,9 @@ title:
 
 **Türk, U.**, Atmaca, F., Özateş, Ş.B. et al. (2022). [Resources for Turkish dependency parsing: introducing the BOUN Treebank and the BoAT annotation tool.](https://link.springer.com/article/10.1007/s10579-021-09558-0) Language Resources & Evaluation 56, 259–307. [[pdf]](../files/pdfs/TurkEtAl2022.pdf)
 
+Yu, X., **Türk, U.**, Dods, A., Tian, X., Lau, E. (submitted)
+[Non-visually-derived mental objects tax “visual” pointers](https://www.biorxiv.org/content/10.1101/2025.05.02.651748v1).
+
 ## Book Chapters
 
 **Türk, U.** (revision). ['Controlling morphosyntactic competition through phonology'](https://lingbuzz.net/lingbuzz/008295). In Karen de Clerq, Pavel Caha, and Guido Vanden Wyngaerd (eds), *Exploring Nanosyntax II: The Lexicalisation algorithm*, Oxford Academic Press. [[pdf]](../files/papers/Turk2024.pdf)
@@ -28,12 +31,15 @@ Canalis, S., Özdemir, S., **Türk, U.**, Tunçer, Ü.C. (2024). The phonologica
 
 ## _In Progress_
 
-
 **Türk, U.** (in prep). Response Bias in Turkish Agreement Attraction. [[repo]](https://github.com/utkuturk/attraction_meta) (_available upon a request_)
+
+**Türk, U.** (in prep). The Role of Register in Agreement Attraction.
 
 **Türk, U.** & Ellen Lau (in prep). Kind NPs. [[repo]](https://github.com/utkuturk/kind) (_available upon a request_)
 
 ## Proceedings
+
+Lewis, S., **Türk, U.**. (2025). [Superiority Effects With Wh-Adjuncts in Turkish](https://journals.linguisticsociety.org/proceedings/index.php/PLSA/article/view/5931). Proceedings of the Linguistic Society of America 10 (1): 5931. <font style="font-variant: small-caps">Doi:</font> 10.3765/plsa.v10i1.5931. [[pdf]](../files/papers/LewisTurk2025.pdf)
 
 **Türk, U.**, Demirok, Ö. (2021). [Hypothetical Comparison in Turkish.](https://journals.linguisticsociety.org/proceedings/index.php/tu/article/view/5054) In S. Gundogdu, S. Taghipour, & A. Peters (eds.), Proceedings of the 6th Workshop on Turkic and languages in contact with Turkic, LSA, <font style="font-variant: small-caps">Doi:</font> 10.3765/ptu.v6i1.5054. [[pdf]](../files/papers/TurkDemirok2021.pdf)
 
@@ -48,15 +54,3 @@ Canalis, S., Özdemir, S., **Türk, U.**, Tunçer, Ü.C. (2024). The phonologica
 **Türk, U.**, Atmaca, F., Özateş, S. B., Bedir, S. T., Köksal, A., Öztürk B., Güngör, T., Özgür, A. (2019). [Turkish Treebanking: Unifying and Constructing Efforts.](https://aclanthology.org/W19-4019.pdf) In A. Friedrich, D. Zeyrek & J. Hoek (eds.), Proceedings of the 13th Linguistic Annotation Workshop, 166-177. [[pdf]](../files/papers/TurkEtAl2019b.pdf)
 
 **Türk, U.**, Atmaca, F., Özateş, S. B., Bedir, S. T., Köksal, A., Öztürk B., Güngör, T., Özgür, A. (2019). [Improving the Annotations in the Turkish Universal Dependency Treebank.](https://aclanthology.org/W19-8013.pdf) In A. Rademaker & F. Tyers (eds.), Proceedings of the Third Workshop on Universal Dependencies (UDW, SyntaxFest 2019), 108-117. [[pdf]](../files/papers/TurkEtAl2019a.pdf)
-
-
-
-## Manuscripts
-
-_(manuscripts are available upon request via e-mail)_
-
-**Türk, U.** (2022). Minimalist Approach cannot explain Obviation in Turkish.
-
-**Türk, U.** (2022). Insight from redundant encoding tendency: Broca's Area as a space for (inner-)syntax.
-
-**Türk, U.** (2021). The Role of Register in Agreement Attraction.
